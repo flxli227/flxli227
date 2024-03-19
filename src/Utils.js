@@ -52,7 +52,7 @@ export const projectsData= [
     {
         id: 6,
         name: "Continuum",
-        imageURL:require("./assets/Continuum/_DSC0020.jpg"),
+        imageURL:require("./assets/Continuum/DSC0020.jpg"),
         imageAlt: "A picture of some of the Continuum machinery",
         titleVideoOverride: {
             youTubeId:"yjkR97q-ws8",
