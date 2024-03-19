@@ -1,13 +1,113 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Comfortaa, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(---color-background);
+
+/* CSS Global Styles */
+  /* Colours */
+  ---color-background: #060814;
+  ---color-highlight-1: #6DF4FE;
+  ---color-highlight-2: #D782B1;
+  ---color-text: #D9D9D9;
+  ---color-dark-transparent: rgba(0,0,0,0.8);
+
+  /* Font Size */
+  ---font-size-large-x3: 36px;
+  ---font-size-large-x2: 24px;
+  ---font-size-large-x: 24px;
+  ---font-size-body: 16px;
+  ---font-size-small: 12px;
+
+  /* Spacing */
+  /* TODO: Figure out what size gaps should be when on different screen sizes */
+  ---spacing-from-edge: 20px;
+  ---spacing-tiny: 5px;
+  ---spacing-small: 10px;
+  ---spacing-medium: 20px;
+  ---spacing-large: 40px;
+
+  /* Z index */
+  ---z-index-side-nav: 2;
+  ---z-index-side-nav-blur: 1;
+
+  /* Link */
+  ---link-text-decoration: none;
+  /* ---link-hover-filter-brightness: 0.8; <- Doesn't work... */
+}
+
+/* Undo default styles */
+h1{
+  font-weight: 400;
+  color: var(---color-highlight-1);
+}
+
+p{
+  color: var(---color-text);
+}
+
+a{
+  text-decoration: var(---link-text-decoration);
+  color: var(---color-highlight-1);
+}
+
+a:hover{
+  filter: brightness(0.8);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Breakpoints */
+
+/* Smaller than 481px is mobile */
+
+/* Large Mobile */
+@media(min-width: 481px){
+  
+}
+
+/* iPads, Tablets */
+@media only screen and (min-width: 601px){
+
+  body {
+    ---spacing-from-edge: 40px;
+  }
+
+}
+
+/* Small screens, laptops */
+@media(min-width: 769px){
+  
+}
+
+/* Larger laptops, Small Desktops */
+@media(min-width: 1025px){
+
+  body {
+
+    ---font-size-large-x3: 72px;
+    ---font-size-large-x2: 36px;
+    ---font-size-large-x: 24px;
+    ---font-size-body: 16px;
+    ---font-size-small: 12px;
+
+    ---spacing-from-edge: 5%;
+    ---spacing-tiny: 10px;
+    ---spacing-small: 20px;
+    ---spacing-medium: 40px;
+    ---spacing-large: 80px;
+  }
+
+}
+
+/* Desktops, Large screens */
+@media(min-width: 1201px){
+  
+}
+
+

@@ -1,0 +1,57 @@
+.imageTextContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(---spacing-small);
+}
+
+.imageContainer{
+  width: 100%;
+  max-width: 600px;
+}
+
+.imageContainer div{
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+
+.imageContainer div img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.mainDesciption{
+  font-size: var(---font-size-large-x3);
+  max-width: 600px;
+}
+
+
+@media only screen and (min-width: 1025px){
+  .imageTextContainer{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .imageContainer{
+    width: 37%;
+    max-width: unset;
+  }
+
+  .mainDesciptionContainer{
+    width: 50%;
+    margin-left: var(---spacing-medium);
+  }
+
+  .mainDesciption{
+    font-size: 4.5vw;
+    max-width: unset;
+  }
+}

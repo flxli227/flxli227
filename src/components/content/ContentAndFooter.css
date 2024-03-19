@@ -1,0 +1,34 @@
+.ContentAndFooter {
+  margin-bottom: var(---spacing-tiny);
+  margin-left: var(---spacing-from-edge);
+  margin-right: var(---spacing-from-edge);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.pageTitle {
+  /* background-color: var(---color-background); */
+  color: var(---color-highlight-1);
+  font-size: var(---font-size-large-x3);
+  text-align: center;
+  /* padding: 20px 0; */
+}
+
+.mainImage,
+.mainVideoContainer{
+  width: 100%;
+}
+
+@media(min-width: 1201px){
+  .mainImage,
+  .mainVideoContainer{
+    width: 70vw;
+  }
+  
+}

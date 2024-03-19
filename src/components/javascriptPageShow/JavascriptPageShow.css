@@ -1,0 +1,76 @@
+.markdownShowFlexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.markdownContainer{
+  font-size: var(---font-size-body);
+  width: 80ch;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.markdownContainer h2{
+  width: 100%;
+  font-size: var(---font-size-large-x);
+  color: var(---color-highlight-1);
+  margin-top: var(---spacing-large);
+}
+
+.markdownContainer p{
+  width: 100%;
+  font-size: var(---font-size-body);
+  color: var(---color-text);
+  margin-bottom: var(---spacing-small);
+}
+
+.markdownContainer img{
+  max-width: 100%;
+  width: max-content;
+  margin-bottom: var(---spacing-small);
+}
+
+.markdownContainer .contentImage{
+  margin-bottom: var(---spacing-small);
+}
+
+.markdownContainer video{
+  max-width: 100%;
+  margin-bottom: var(---spacing-small);
+}
+
+.markdownContainer ul{
+  width: 100%;
+  font-size: var(---font-size-body);
+  color: var(---color-text);
+  margin-bottom: var(---spacing-small);
+}
+
+/* Gallery Styles */
+
+/* To make the gallery less wide than the mobile viewport */
+.image-gallery-thumbnails,
+.image-gallery{
+  max-width: calc(100vw - var(---spacing-medium) * 2);
+}
+
+.fullscreen .image-gallery-thumbnails{
+  max-width: unset;
+}
+
+/* For Fullscreen, centering the gallery to the middle instead of appearing at the top */
+.image-gallery{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Overides */
+.markdownContainer .image-gallery-content img{
+  margin-bottom: 0;
+}

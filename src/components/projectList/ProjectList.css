@@ -1,0 +1,21 @@
+.projectList {
+  display: grid;
+  row-gap: var(---spacing-large);
+}
+
+@media only screen and (min-width: 601px){
+
+  .projectList {
+    column-gap: var(---spacing-medium);
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media only screen and (min-width: 1025px){
+
+  .projectList {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}

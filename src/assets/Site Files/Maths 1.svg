@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-bbox="-580 347 82 82" viewBox="-589 338 100 125" xmlns="http://www.w3.org/2000/svg" data-type="color">
+    <g>
+        <path d="M-503 347h-72c-2.8 0-5 2.2-5 5v72c0 2.8 2.2 5 5 5h72c2.8 0 5-2.2 5-5v-72c0-2.8-2.2-5-5-5zm3 5v35h-38v-38h35c1.7 0 3 1.3 3 3zm-75-3h35v38h-38v-35c0-1.7 1.3-3 3-3zm-3 75v-35h38v38h-35c-1.7 0-3-1.3-3-3zm75 3h-35v-38h38v35c0 1.7-1.3 3-3 3z" fill="#ffffff" data-color="1"/>
+        <path fill="#ffffff" d="M-549.3 405h-9v-9h-2v9h-9v2h9v9h2v-9h9v-2z" data-color="1"/>
+        <path fill="#ffffff" d="M-549.3 367.7v2h-20v-2h20z" data-color="1"/>
+        <path fill="#ffffff" d="M-509.6 412v2h-20v-2h20z" data-color="1"/>
+        <path fill="#ffffff" d="M-509.6 401v2h-20v-2h20z" data-color="1"/>
+        <path fill="#ffffff" d="M-527.4 375l1.4 1.4 6.4-6.3 6.3 6.3 1.4-1.4-6.3-6.3 6.3-6.4-1.4-1.4-6.3 6.4-6.4-6.4-1.4 1.4 6.3 6.4-6.3 6.3z" data-color="1"/>
+    </g>
+</svg>
