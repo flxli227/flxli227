@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.402b7aea.css",
-    "main.js": "/Portfolio/static/js/main.64ea3223.js",
+    "main.js": "/Portfolio/static/js/main.65eb31c4.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/01 - VIDEO0069.mp4": "/Portfolio/static/media/01 - VIDEO0069.a673e4a78ca4ae26e02e.mp4",
     "static/media/Promo Video.mp4": "/Portfolio/static/media/Promo Video.65812f8d0b1c9890da2c.mp4",
@@ -75,14 +75,14 @@
     "static/media/New Hero Shot Photoshop Replacement-02-01.jpg": "/Portfolio/static/media/New Hero Shot Photoshop Replacement-02-01.d324046d2a53ce3262a3.jpg",
     "static/media/IMAG0730.jpg": "/Portfolio/static/media/IMAG0730.8350d0c29ed46050eedd.jpg",
     "static/media/IMAG0731.jpg": "/Portfolio/static/media/IMAG0731.746b90fb59a6034fbf78.jpg",
-    "static/media/_DSC0021.jpg": "/Portfolio/static/media/_DSC0021.a9997039c4aa052929ff.jpg",
+    "static/media/DSC0021.jpg": "/Portfolio/static/media/DSC0021.a9997039c4aa052929ff.jpg",
     "static/media/IMAG0732.jpg": "/Portfolio/static/media/IMAG0732.13c94b8de802e9e665d6.jpg",
     "static/media/IMAG0729.jpg": "/Portfolio/static/media/IMAG0729.8711a63649af18ad23bf.jpg",
     "static/media/Love Parade.png": "/Portfolio/static/media/Love Parade.a470674da00d421de2c1.png",
     "static/media/Challenge.png": "/Portfolio/static/media/Challenge.3a15943fae463eded402.png",
     "static/media/Jonathan like a Mech.png": "/Portfolio/static/media/Jonathan like a Mech.b9927470a1ac0ba09c40.png",
     "static/media/Tree.png": "/Portfolio/static/media/Tree.37be97a92fa462851841.png",
-    "static/media/_DSC0020.jpg": "/Portfolio/static/media/_DSC0020.d9ceb65ac624bb5c271c.jpg",
+    "static/media/DSC0020.jpg": "/Portfolio/static/media/DSC0020.d9ceb65ac624bb5c271c.jpg",
     "static/media/Security.JPG.jpg": "/Portfolio/static/media/Security.JPG.da8e4b53c173b33aecdb.jpg",
     "static/media/03 - Time Animation.mp4": "/Portfolio/static/media/03 - Time Animation.ac8f21d9e14eccd6a98e.mp4",
     "static/media/Timie EXP Pictures-04.png": "/Portfolio/static/media/Timie EXP Pictures-04.d44ed510648c93e5b978.png",
@@ -120,7 +120,7 @@
     "static/media/EXP Pictures-13.png": "/Portfolio/static/media/EXP Pictures-13.e7447ff6ef1aeda23d7d.png",
     "static/media/EXP Pictures-12.png": "/Portfolio/static/media/EXP Pictures-12.25aec28ee4cda1676cf8.png",
     "static/media/EXP Pictures-11.png": "/Portfolio/static/media/EXP Pictures-11.4a495c70846c166ea70e.png",
-    "static/media/_DSC0028.jpg": "/Portfolio/static/media/_DSC0028.7358bfc7ceaf5ef8efd6.jpg",
+    "static/media/DSC0028.jpg": "/Portfolio/static/media/DSC0028.7358bfc7ceaf5ef8efd6.jpg",
     "static/media/20180826_211027.jpg": "/Portfolio/static/media/20180826_211027.5c1ada133bbb490341b4.jpg",
     "static/media/EXP Pictures-07.png": "/Portfolio/static/media/EXP Pictures-07.3045f378ccb408ac4584.png",
     "static/media/Chess 2.png": "/Portfolio/static/media/Chess 2.9c63596e928699a924f6.png",
@@ -243,11 +243,11 @@
     "static/media/Hamburger.svg": "/Portfolio/static/media/Hamburger.7ab380941805ef19c9a1.svg",
     "static/media/Close.svg": "/Portfolio/static/media/Close.be8946c25ad550399dad.svg",
     "main.402b7aea.css.map": "/Portfolio/static/css/main.402b7aea.css.map",
-    "main.64ea3223.js.map": "/Portfolio/static/js/main.64ea3223.js.map",
+    "main.65eb31c4.js.map": "/Portfolio/static/js/main.65eb31c4.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.402b7aea.css",
-    "static/js/main.64ea3223.js"
+    "static/js/main.65eb31c4.js"
   ]
 }
