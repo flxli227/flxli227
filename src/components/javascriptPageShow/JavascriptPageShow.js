@@ -4,6 +4,7 @@ import AwesomePerSecond from '../../projectPages/Awesome Per Second';
 import BarbourGinInfusers from '../../projectPages/Barbour Gin Infusers';
 import Coinbox from '../../projectPages/Coinbox';
 import Continuum from '../../projectPages/Continuum';
+import Customizer from '../../projectPages/Customizer';
 import Firefly from '../../projectPages/Firefly';
 import GorillaSuit from '../../projectPages/Gorilla Suit';
 import ME2ScooterProject from '../../projectPages/ME2 Scooter Project';
@@ -24,6 +25,8 @@ class JavascriptPageShow extends Component {
       return <Coinbox/>  
     } else if(projectName === "Continuum"){
       return <Continuum/>  
+    } else if(projectName === "Customizer"){
+      return <Customizer/>  
     } else if(projectName === "Firefly"){
       return <Firefly/>  
     } else if(projectName === "Gorilla Suit"){

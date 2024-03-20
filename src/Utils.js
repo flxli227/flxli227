@@ -6,6 +6,16 @@ export const sluggify = (string) => {
 //Projects data
 export const projectsData= [
     {
+        id: 12,
+        name: "Customizer",
+        imageURL: require("./assets/Customizer/HeroImage.jpg"),
+        imageAlt: "An image of a character created from the MyMiniFactory Customizer",
+        body: "A tool where a 3D designer can make money by selling customisable 3D designs",
+        titleVideoOverride:{
+            localFileLocation: require("./assets/Customizer/Customizer.mp4"),
+        }
+    },
+    {
         id: 11,
         name: "Awesome Per Second",
         imageURL: require("./assets/Awesome per Second/AwesomePerSecond.jpg"),
