@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import TopBar from './components/topBar/TopBar';
 import ContentAndFooter from './components/content/ContentAndFooter';
 import NoPage from './components/noPage/NoPage';
@@ -49,7 +49,7 @@ function App() {
     )
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route 
           path="/" 
@@ -69,12 +69,12 @@ function App() {
           </Route>
           <Route
               path=""
-              element={ <Navigate to="/projects"/> }
+              element={ <Navigate to="/Projects"/> }
           />
         </Route>
-        <Route path="*" element={<Navigate to="/projects"/>} /> *
+        <Route path="*" element={<Navigate to="/#/Projects"/>} /> *
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
