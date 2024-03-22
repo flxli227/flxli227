@@ -29,8 +29,13 @@ class TopBar extends React.Component {
     // Show each menu item
     let menuItems = this.props.menuItemsData.map((menuItem) => {
 
-      // Get the URL of the page minus the domain name and "/"
-      let slug = sluggify(window.location.pathname).slice(1);
+      // Take the current URL and get what is after /#/
+      let currentURL = window.location.href;
+      let searchTerm = "/#/";
+      let UrlAfterSearchTerm = currentURL.indexOf(searchTerm) + searchTerm.length;
+
+      // Removes spaces/ captial letters etc
+      let slug = sluggify(currentURL.substring(UrlAfterSearchTerm));
 
       // Make the className default as "menuItem"
       let className = "menuItem";
