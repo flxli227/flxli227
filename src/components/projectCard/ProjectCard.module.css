@@ -28,9 +28,16 @@
   
 .title {
     color: var(---color-highlight-1);
-    margin: var(---spacing-small) 0;
+    margin: var(---spacing-small) 0 var(---spacing-micro);
 }
 
-.body {
+.year{
+    margin: 0;
+    margin-bottom: var(---spacing-micro);
+    font-style: italic;
+    color: var(---color-text-2);
+}
+
+.body{
     margin: 0;
 }

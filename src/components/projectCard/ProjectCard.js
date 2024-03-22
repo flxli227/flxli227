@@ -17,6 +17,7 @@ function ProjectCard(props) {
             </div>
           </div>
           <h2 className={styles.title}>{props.name}</h2>
+          <p className={styles.year}>{props.year}</p>
         </Link>
         <p  className={styles.body}>{props.body}</p>
     </div>

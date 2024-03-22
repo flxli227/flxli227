@@ -9,6 +9,7 @@ function Content(props) {
         name = {project.name}
         imageURL = {project.imageURL}
         imageAlt = {project.imageAlt}
+        year = {project.year}
         body = {project.body}
     />
   )
