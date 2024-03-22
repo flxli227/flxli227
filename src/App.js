@@ -2,7 +2,7 @@ import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import TopBar from './components/topBar/TopBar';
 import ContentAndFooter from './components/content/ContentAndFooter';
 import NoPage from './components/noPage/NoPage';
-import {sluggify, projectsData} from './Utils.js'
+import {sluggify, projectsData} from './Utils.js';
 
 function App() {
   // Generate route for each project
@@ -42,7 +42,7 @@ function App() {
       element={
         <ContentAndFooter 
           pageContent = {menuItem.name}
-          projectsData = {menuItem.name === "Projects" ? projectsData : null}
+          projectsData = {menuItem.name === "Projects" ? projectsData : null} //<- If the page is Projects pass the projectsData prop through
         />
       } 
     />
