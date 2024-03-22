@@ -26,6 +26,11 @@
   width: 36px;
 }
 
+.hamburger:hover{
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+
 .sideNav{
   position: fixed;
   top:0;
@@ -62,6 +67,11 @@
   background-image:url("./../../assets/Misc/Close.svg");  
   height: 24px;
   width: 24px;
+}
+
+.closeButton:hover{
+  cursor: pointer;
+  filter: brightness(0.8);
 }
 
 .backgroundDarker{

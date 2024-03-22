@@ -21,6 +21,11 @@
     padding: 0;
 }
 
+.filterButton:hover{
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+
 .filterButton.selected{
     text-decoration: underline;
 }
