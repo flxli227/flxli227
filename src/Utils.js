@@ -9,7 +9,7 @@ export const projectsData= [
         id: 12,
         name: "Customizer",
         imageURL: require("./assets/Customizer/HeroImage.jpg"),
-        imageAlt: "An image of a character created from the MyMiniFactory Customizer",
+        imageAlt: "A character created from the MyMiniFactory Customizer",
         year: "2018",
         body: "A tool where a 3D designer can make money by selling customisable 3D designs",
         titleVideoOverride:{
@@ -20,7 +20,7 @@ export const projectsData= [
         id: 11,
         name: "Awesome Per Second",
         imageURL: require("./assets/Awesome per Second/AwesomePerSecond.jpg"),
-        imageAlt: "An image of the screenshot of Awsome per Second the game",
+        imageAlt: "A screenshot of Awsome per Second the game",
         year: 2018,
         titleVideoOverride: {
             localFileLocation: require("./assets/Awesome per Second/01 - 8 Second.mp4"),
@@ -31,7 +31,7 @@ export const projectsData= [
         id: 10,
         name: "Coinbox",
         imageURL: require("./assets/Coinbox/Hero Shot.png"),
-        imageAlt: "A photo of Felix with his coinbox",
+        imageAlt: "Felix with his coinbox",
         year: 2018,
         titleVideoOverride: {
             localFileLocation: require("./assets/Coinbox/02 - Final Montage.mp4"),
@@ -50,7 +50,7 @@ export const projectsData= [
         id: 8,
         name: "Firefly",
         imageURL: require("./assets/Firefly/Awesome Photo.png"),
-        imageAlt: "",
+        imageAlt: "Firefly directing crowds by projecting arrows",
         year: 2017,
         body: "A dynamic crowd control system for evacuation of outdoor venues"
     },
@@ -58,7 +58,7 @@ export const projectsData= [
         id: 7,
         name: "Surreal Dream",
         imageURL:require("./assets/Escape Room/Hat Mirror.png"),
-        imageAlt: "A photo of a player solving the hat puzzle",
+        imageAlt: "A player solving the hat puzzle",
         year: 2017,
         titleVideoOverride: {
             localFileLocation: require("./assets/Escape Room/Promo Video.mp4"), //<- TODO (Low priority) Change for YouTube when you have the version with audio
@@ -69,7 +69,7 @@ export const projectsData= [
         id: 6,
         name: "Continuum",
         imageURL:require("./assets/Continuum/DSC0020.jpg"),
-        imageAlt: "A picture of some of the Continuum machinery",
+        imageAlt: "Continuum machinery",
         year: 2017,
         titleVideoOverride: {
             youTubeId:"yjkR97q-ws8",
@@ -91,7 +91,7 @@ export const projectsData= [
         id: 4,
         name: "Timie",
         imageURL:require("./assets/Timie/Timie EXP Pictures-05 2-05-05.png"),
-        imageAlt: "A photo of the prototype smart watch and app",
+        imageAlt: "A prototype smart watch and app to help you be on time",
         year: 2017,
         body: "Your Personal Time Companion"
     },
@@ -99,7 +99,7 @@ export const projectsData= [
         id: 3,
         name: "Barbour Gin Infuser",
         imageURL:require("./assets/Gin Infuser/Nice Photos-01.png"),
-        imageAlt: "A photo of Barbour Gin Infusers, for the I'll Take 9 project",
+        imageAlt: "The 9 Barbour Gin Infusers, for the I'll Take 9 project",
         year: 2017,
         body: "Manufacturing of 9 Barbour Inspired Gin Infusers"
     },
@@ -107,7 +107,7 @@ export const projectsData= [
         id: 2,
         name: "Superform",
         imageURL:require("./assets/Superform/DSCF1740.JPG.jpg"),
-        imageAlt: "A photo of the cardboard foldable chair made in the Superform module",
+        imageAlt: "A cardboard foldable chair made in the Superform module",
         year: 2017,
         titleVideoOverride: {
             localFileLocation: require("./assets/Superform/Superform Cut.mp4")
@@ -118,7 +118,7 @@ export const projectsData= [
         id: 1,
         name: "Gorilla Suit",
         imageURL:require("./assets/Elastic Octopus/Jonathan like a Mech.png"),
-        imageAlt: "A photo of a person trying out the Powersiut in the IDE studio of RCA",
+        imageAlt: "A person trying out the Powersiut in the IDE studio of RCA",
         year: 2016,
         titleVideoOverride: {
             youTubeId:"or4l3PVNhJ8",
@@ -129,7 +129,7 @@ export const projectsData= [
         id: 0,
         name: "ME2 Scooter Project",
         imageURL:require("./assets/Scooter/IMG-20150203-WA0006.jpg"),
-        imageAlt: "A photo of the inner workings of our ME2 electric scooter as a part of Mechanical Engineering at Imperial College",
+        imageAlt: "The inner workings of our ME2 electric scooter as a part of Mechanical Engineering at Imperial College",
         year: 2015,
         body: "Transformation of a push scooter to an electric scooter"
     },

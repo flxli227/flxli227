@@ -70,7 +70,7 @@ function BarbourGinInfusers() {
                     {
                         image: {
                             url: require("./../assets/Gin Infuser/Tea Strainer.png"),
-                            alt: "An image of a tea strainer",
+                            alt: "A tea strainer",
                         },
                         body:"Tea Strainer"
                     },
@@ -84,21 +84,21 @@ function BarbourGinInfusers() {
                     {
                         image: {
                             url: require("./../assets/Gin Infuser/20 Pack.jpg"),
-                            alt: "An image of a 20 pack of Bic pens",
+                            alt: "A 20 pack of Bic pens",
                         },
                         body:"Large packs"
                     },
                     {
                         image: {
                             url: require("./../assets/Gin Infuser/Products.jpg"),
-                            alt: "An image of a few Bic Products",
+                            alt: "A few Bic Products",
                         },
                         body:"Cheap"
                     },
                     {
                         image: {
                             url: require("./../assets/Gin Infuser/Broken.jpg"),
-                            alt: "An image of a broken pen on the ground",
+                            alt: "A broken pen on the ground",
                         },
                         body:"Disposable"
                     },
@@ -150,7 +150,7 @@ function BarbourGinInfusers() {
             <p>Now that the concept is tested, we made three prototypes of the Pasta Server:</p>
             <img 
                 src={require("./../assets/Gin Infuser/IMG_6552.jpg")} 
-                alt="A photo of 3 pasta server prototypes, plastic, metal and clay"
+                alt="3 pasta server prototypes, plastic, metal and clay"
             />
             <p>We felt the most realistic prototype is the one made out of ceramics (right) because ceramics is food-safe and can withstand heat.</p>
             <p>The proposed manufacturing method is press moulding, biscuit firing and then glazing.</p>
@@ -171,7 +171,7 @@ function BarbourGinInfusers() {
             <p>The Gin Infuser is primarily made of untreated wood so some of the Gin soaks in and is present in future drinks.</p>
             <img 
                 src={require("./../assets/Gin Infuser/Handover stuff.png")} 
-                alt="Images of the prototype Gin infuser the other group handed over to us"
+                alt="The prototype Gin infuser the other group handed over to us"
             />
             <p>The design received some changes. To create 9 identical products engineering drawings were produced and manufacturing commenced.</p>
             <Gallery

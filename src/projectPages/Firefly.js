@@ -20,7 +20,7 @@ function Firefly() {
             <p>Many Firefly devices are set up in a venue.</p>
             <img 
                 src={require("./../assets/Firefly/Awesome Photo.png")}
-                alt="Rendered picture of the Firefly device"
+                alt="The Firefly device"
             />
             <p>Each Firefly device is installed with a camera which allows security personnel to monitor events.</p>
             <img 

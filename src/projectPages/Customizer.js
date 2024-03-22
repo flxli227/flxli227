@@ -13,7 +13,7 @@ class Customizer extends React.Component {
                     <br/><br/>
                     I managed the project, designed the user experience for both the 3D designer and customer and also coded some of the UI. I worked with Adrian Delgado, the lead developer for this project.
                     <br/><br/>
-                    Try it out <a href="https://www.myminifactory.com/customizer/name-tag-91" target="_blank">here</a>!
+                    Try it out <a href="https://www.myminifactory.com/customizer/name-tag-91" target="_blank" rel="noreferrer">here</a>!
                 </p>
                 <h2>How does it work</h2>
                 <p>
@@ -77,9 +77,12 @@ class Customizer extends React.Component {
                 />
                 <h2>Designing the user experience</h2>
                 <p>
-                    The user interface for the customer to customise their file is simple. I looked at our competitor, <a href="https://www.heroforge.com/">Hero Forge</a> and video games character creators for inspiration.
+                    The user interface for the customer to customise their file is simple. I looked at our competitor, <a href="https://www.heroforge.com/" target="_blank" rel="noreferrer">Hero Forge</a> and video games character creators for inspiration.
                 </p>
-                <img src={require("./../assets/Customizer/HeroForge.png")}/>
+                <img 
+                    src={require("./../assets/Customizer/HeroForge.png")}
+                    alt="UI of HeroForge"
+                />
                 <p>
                     But the main challenge of the project was how to design an intuitive system for the 3D designer to upload their designs. 
                     <br/><br/>
@@ -169,6 +172,7 @@ class Customizer extends React.Component {
                 {/* TODO Add Images */}
                 <img 
                     src={require("./../assets/Customizer/HeroImage.jpg")}
+                    alt="A character made from the Customizer"
                 />
             </>
         )

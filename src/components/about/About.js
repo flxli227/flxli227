@@ -11,7 +11,7 @@ function About() {
               <div>
                   <img
                     src={require("./../../assets/ProfilePic.png")}
-                    alt="A photo of Felix punching his coinbox"
+                    alt="Felix punching his coinbox"
                   />
               </div>
           </div>
