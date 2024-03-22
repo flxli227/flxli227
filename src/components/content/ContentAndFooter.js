@@ -1,5 +1,5 @@
 import './ContentAndFooter.css';
-import ProjectList from './../projectList/ProjectList';
+import ProjectListPage from './../projectListPage/ProjectListPage';
 import About from './../about/About';
 import JavascriptPageShow from './../javascriptPageShow/JavascriptPageShow';
 import Footer from './../footer/Footer';
@@ -12,8 +12,7 @@ function ContentAndFooter(props) {
   if(props.pageContent === "Projects"){
     content = (
       <>
-        <h1 className="pageTitle">Projects</h1>
-        <ProjectList
+        <ProjectListPage
           projectsData = {props.projectsData}
         />
       </>

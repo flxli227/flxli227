@@ -3,6 +3,57 @@ export const sluggify = (string) => {
     return (string.trim().replaceAll(" ","-").toLowerCase())
 }
 
+export const tags=[
+    {
+        id:0,
+        name: "Web Development",
+    },
+    {
+        id:1,
+        name: "Project Management",
+    },
+    {
+        id:2,
+        name: "UX/UI",
+    },
+    {
+        id:3,
+        name: "Games",
+    },
+    {
+        id:4,
+        name: "Mechanical Engineering",
+    },
+    {
+        id:5,
+        name: "Manufacturing",
+    },
+    {
+        id:6,
+        name: "Product Design",
+    },
+    {
+        id:7,
+        name: "Art",
+    },
+    {
+        id:8,
+        name: "Film",
+    },
+    {
+        id:9,
+        name: "Experimentation",
+    },
+    {
+        id:10,
+        name: "Coding",
+    },
+    {
+        id:11,
+        name: "Artistic Fabrication",
+    }
+]
+
 //Projects data
 export const projectsData= [
     {
@@ -11,6 +62,7 @@ export const projectsData= [
         imageURL: require("./assets/Customizer/HeroImage.jpg"),
         imageAlt: "A character created from the MyMiniFactory Customizer",
         year: "2018",
+        tags: ["UX/UI", "Project Management", "Web Development", "Coding"],
         body: "A tool where a 3D designer can make money by selling customisable 3D designs",
         titleVideoOverride:{
             localFileLocation: require("./assets/Customizer/Customizer.mp4"),
@@ -22,6 +74,7 @@ export const projectsData= [
         imageURL: require("./assets/Awesome per Second/AwesomePerSecond.jpg"),
         imageAlt: "A screenshot of Awsome per Second the game",
         year: 2018,
+        tags: ["Games", "Coding"],
         titleVideoOverride: {
             localFileLocation: require("./assets/Awesome per Second/01 - 8 Second.mp4"),
         },
@@ -33,6 +86,7 @@ export const projectsData= [
         imageURL: require("./assets/Coinbox/Hero Shot.png"),
         imageAlt: "Felix with his coinbox",
         year: 2018,
+        tags: ["Artistic Fabrication", "Manufacturing", "Mechanical Engineering"],
         titleVideoOverride: {
             localFileLocation: require("./assets/Coinbox/02 - Final Montage.mp4"),
         },
@@ -44,6 +98,7 @@ export const projectsData= [
         imageURL: require("./assets/Not-Book/New Hero Shot Photoshop Replacement-02-01.jpg"),
         imageAlt: "A screenshot of Not-Book, the interactive learning platform",
         year: 2018,
+        tags: ["UX/UI", "Games", "Product Design", "Coding"],
         body: "An interactive learning platform where you learn by playing"
     },
     {
@@ -52,6 +107,7 @@ export const projectsData= [
         imageURL: require("./assets/Firefly/Awesome Photo.png"),
         imageAlt: "Firefly directing crowds by projecting arrows",
         year: 2017,
+        tags: ["Product Design"],
         body: "A dynamic crowd control system for evacuation of outdoor venues"
     },
     {
@@ -60,6 +116,7 @@ export const projectsData= [
         imageURL:require("./assets/Escape Room/Hat Mirror.png"),
         imageAlt: "A player solving the hat puzzle",
         year: 2017,
+        tags: ["Games"],
         titleVideoOverride: {
             localFileLocation: require("./assets/Escape Room/Promo Video.mp4"), //<- TODO (Low priority) Change for YouTube when you have the version with audio
         },
@@ -71,6 +128,7 @@ export const projectsData= [
         imageURL:require("./assets/Continuum/DSC0020.jpg"),
         imageAlt: "Continuum machinery",
         year: 2017,
+        tags: ["Art", "Artistic Fabrication"],
         titleVideoOverride: {
             youTubeId:"yjkR97q-ws8",
         },
@@ -82,6 +140,7 @@ export const projectsData= [
         imageURL:require("./assets/Newspawn Baby/Movie Thumbnail.png"),
         imageAlt: "A screenshot of the shot film New Spawn Baby",
         year: 2017,
+        tags: ["Film"],
         titleVideoOverride: {
             youTubeId:"3DOJrhLx4xs",
         },
@@ -93,6 +152,7 @@ export const projectsData= [
         imageURL:require("./assets/Timie/Timie EXP Pictures-05 2-05-05.png"),
         imageAlt: "A prototype smart watch and app to help you be on time",
         year: 2017,
+        tags: ["Product Design", "Coding"],
         body: "Your Personal Time Companion"
     },
     {
@@ -101,6 +161,7 @@ export const projectsData= [
         imageURL:require("./assets/Gin Infuser/Nice Photos-01.png"),
         imageAlt: "The 9 Barbour Gin Infusers, for the I'll Take 9 project",
         year: 2017,
+        tags: ["Manufacturing"],
         body: "Manufacturing of 9 Barbour Inspired Gin Infusers"
     },
     {
@@ -109,6 +170,7 @@ export const projectsData= [
         imageURL:require("./assets/Superform/DSCF1740.JPG.jpg"),
         imageAlt: "A cardboard foldable chair made in the Superform module",
         year: 2017,
+        tags: ["Art", "Artistic Fabrication"],
         titleVideoOverride: {
             localFileLocation: require("./assets/Superform/Superform Cut.mp4")
         },
@@ -120,6 +182,7 @@ export const projectsData= [
         imageURL:require("./assets/Elastic Octopus/Jonathan like a Mech.png"),
         imageAlt: "A person trying out the Powersiut in the IDE studio of RCA",
         year: 2016,
+        tags: ["Experimentation"],
         titleVideoOverride: {
             youTubeId:"or4l3PVNhJ8",
         },
@@ -131,6 +194,7 @@ export const projectsData= [
         imageURL:require("./assets/Scooter/IMG-20150203-WA0006.jpg"),
         imageAlt: "The inner workings of our ME2 electric scooter as a part of Mechanical Engineering at Imperial College",
         year: 2015,
+        tags: ["Manufacturing", "Mechanical Engineering"],
         body: "Transformation of a push scooter to an electric scooter"
     },
 ];

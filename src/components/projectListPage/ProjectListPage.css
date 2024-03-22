@@ -1,0 +1,56 @@
+.filtersDiv{
+    margin-bottom: var(---spacing-medium);
+}
+
+
+/* Button Filter */
+.tagbuttonFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.filterButton{
+    color: var(---color-highlight-2);
+    background-color: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    font-size: var(---font-size-large-x);
+    font-family: inherit;
+    margin: var(---spacing-micro) var(---spacing-small);
+    padding: 0;
+}
+
+.filterButton.selected{
+    text-decoration: underline;
+}
+
+/* Dropdown Filter */
+.dropdownFilterFlex{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.dropdownFilterFlex > p,
+.dropdownFilter{
+    color: var(---color-highlight-2);
+    font-family: inherit;
+    font-size: var(---font-size-body);
+}
+
+.dropdownFilter{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: var(---color-highlight-2);
+    margin: 0 var(---spacing-small);
+}
+
+.dropdownFilterFlex > p{
+    display: none;
+}
+
+@media(min-width: 481px){
+    .dropdownFilterFlex > p{
+        display: block;
+    }
+}
