@@ -67,6 +67,13 @@ code {
 /* Breakpoints */
 
 /* Smaller than 481px is mobile */
+.hideWhenDesktopViewportSize{
+  display: block;
+}
+
+.hideWhenMobileSize{
+  display: none;
+}
 
 /* Large Mobile */
 @media(min-width: 481px){
@@ -89,6 +96,13 @@ code {
 
 /* Larger laptops, Small Desktops */
 @media(min-width: 1025px){
+  .hideWhenDesktopViewportSize{
+    display: none;
+  }
+
+  .hideWhenMobileSize{
+    display: block;
+  }
 
   body {
 
