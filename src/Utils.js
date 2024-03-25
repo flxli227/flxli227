@@ -57,6 +57,30 @@ export const tags=[
 //Projects data
 export const projectsData= [
     {
+        id: 14,
+        name: "Pool 2",
+        imageURL: require("./assets/Pool2/Heroshot.png"),
+        imageAlt: "A screenshot of the Pool 2 game",
+        year: "2023",
+        tags: ["Games", "Coding"],
+        body: "A game of pool, but each player has their own cue ball and shots happen in real time",
+        titleVideoOverride:{
+            youTubeId: "76at1mBOylI",
+        }
+    },
+    // {
+    //     id: 13,
+    //     name: "FronTiers",
+    //     imageURL: require(""),
+    //     imageAlt: "",
+    //     year: "2020",
+    //     tags: ["UX/UI", "Project Management", "Web Development", "Coding"],
+    //     body: "A tool where a 3D designer can make money by selling customisable 3D designs",
+    //     titleVideoOverride:{
+    //         localFileLocation: require("./assets/Customizer/Customizer.mp4"),
+    //     }
+    // },
+    {
         id: 12,
         name: "Customizer",
         imageURL: require("./assets/Customizer/HeroImage.jpg"),

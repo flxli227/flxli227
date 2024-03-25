@@ -10,6 +10,7 @@ import GorillaSuit from '../../projectPages/Gorilla Suit';
 import ME2ScooterProject from '../../projectPages/ME2 Scooter Project';
 import NewSpawnBaby from '../../projectPages/New Spawn Baby';
 import Notbook from '../../projectPages/NotBook';
+import Pool2 from '../../projectPages/Pool 2';
 import Superform from '../../projectPages/Superform';
 import SurrealDream from '../../projectPages/Surreal Dream';
 import Timie from '../../projectPages/Timie';
@@ -37,6 +38,8 @@ class JavascriptPageShow extends Component {
       return <NewSpawnBaby/>  
     } else if(projectName === "Notbook"){
       return <Notbook/>  
+    } else if(projectName === "Pool 2"){
+      return <Pool2/>  
     } else if(projectName === "Superform"){
       return <Superform/>  
     } else if(projectName === "Surreal Dream"){
