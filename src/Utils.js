@@ -61,7 +61,7 @@ export const projectsData= [
         name: "Customizer",
         imageURL: require("./assets/Customizer/HeroImage.jpg"),
         imageAlt: "A character created from the MyMiniFactory Customizer",
-        year: "2018",
+        year: "2019",
         tags: ["UX/UI", "Project Management", "Web Development", "Coding"],
         body: "A tool where a 3D designer can make money by selling customisable 3D designs",
         titleVideoOverride:{
