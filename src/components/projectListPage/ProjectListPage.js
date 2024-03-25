@@ -19,7 +19,7 @@ function ProjectListPage(props) {
     let tagButtons =  tags.map((tag) =>{
 
         let buttonClassName = "filterButton";
-        if(tag.name == selectedOption){
+        if(tag.name === selectedOption){
             buttonClassName = buttonClassName + " selected"
         }
         return(
@@ -50,7 +50,7 @@ function ProjectListPage(props) {
 
     //Filter project
     let filtedProjects = [];
-    if(selectedOption == "All"){
+    if(selectedOption === "All"){
         filtedProjects = props.projectsData;
     }else{
         props.projectsData.forEach((project) => {
@@ -68,7 +68,7 @@ function ProjectListPage(props) {
                 <div className="hideWhenMobileSize">
                     <div className="tagbuttonFlex">
                         <button 
-                            className={selectedOption == "All" ? "filterButton selected" : "filterButton"}
+                            className={selectedOption === "All" ? "filterButton selected" : "filterButton"}
                             type="button"
                             value="All"
                             onClick={handleButtonClick}
