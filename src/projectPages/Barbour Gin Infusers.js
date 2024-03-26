@@ -16,8 +16,8 @@ function BarbourGinInfusers() {
                 lazyLoad={true}
                 items={[
                     {
-                        original: require("./../assets/Gin Infuser/_DSF4134 2-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/_DSF4134 2-thumbnail.png"),
+                        original: require("./../assets/Gin Infuser/DSF4134 2-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/DSF4134 2-thumbnail.png"),
                     },
                     { 
                         original: require("./../assets/Gin Infuser/Nice Photos-01-resized-min.jpg"),
