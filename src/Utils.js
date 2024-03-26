@@ -68,18 +68,15 @@ export const projectsData= [
             youTubeId: "76at1mBOylI",
         }
     },
-    // {
-    //     id: 13,
-    //     name: "FronTiers",
-    //     imageURL: require(""),
-    //     imageAlt: "",
-    //     year: "2020",
-    //     tags: ["UX/UI", "Project Management", "Web Development", "Coding"],
-    //     body: "A tool where a 3D designer can make money by selling customisable 3D designs",
-    //     titleVideoOverride:{
-    //         localFileLocation: require("./assets/Customizer/Customizer.mp4"),
-    //     }
-    // },
+    {
+        id: 13,
+        name: "FronTiers",
+        imageURL: require("./assets/FronTiers/FronTiersHero.png"),
+        imageAlt: "The FronTiers Logo overlayed on a FronTiers page",
+        year: "2020",
+        tags: ["UX/UI", "Project Management", "Web Development", "Coding"],
+        body: "A product launch tool for 3D designers",
+    },
     {
         id: 12,
         name: "Customizer",
