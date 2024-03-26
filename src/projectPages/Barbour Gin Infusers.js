@@ -1,6 +1,7 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
 import Gallery from './../components/gallery/Gallery'
 import Video from './../components/video/Video'
+import ImageGallery from 'react-image-gallery';
 
 function BarbourGinInfusers() {
     return (
@@ -11,11 +12,21 @@ function BarbourGinInfusers() {
                 <br/><br/>
                 The Barbour Gin Infusers were made by Coco Wu, Faci Jiang, Felix Li (me) and Jed Farquharson.
             </p>
-            <Gallery
-                images={[
-                    require("./../assets/Gin Infuser/_DSF4134 2.jpg"),
-                    require("./../assets/Gin Infuser/Nice Photos-01.png"),
-                    require("./../assets/Gin Infuser/Nice Photos-02.png"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Gin Infuser/_DSF4134 2-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/_DSF4134 2-thumbnail.png"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/Nice Photos-01-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/Nice Photos-01-thumbnail.png"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/Nice Photos-02-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/Nice Photos-02-thumbnail.png"),
+                    },
                 ]}
             />
             <h2>Giving and Receiving Ideas</h2>            
@@ -65,14 +76,14 @@ function BarbourGinInfusers() {
                             url: require("./../assets/Gin Infuser/logo-bic.png"),
                             alt: "Bic Logo",
                         },
-                        body:"Bic"
+                        title:"Bic"
                     },
                     {
                         image: {
                             url: require("./../assets/Gin Infuser/Tea Strainer.png"),
                             alt: "A tea strainer",
                         },
-                        body:"Tea Strainer"
+                        title:"Tea Strainer"
                     },
                 ]}
             />
@@ -106,7 +117,7 @@ function BarbourGinInfusers() {
             />
             <p>Our concept was the BIC Tea capsules filled with loose tea leaves and BIC Tea stirrers. The user attaches the Tea Capsule onto the Stirrer and leaves it in hot water to steep. When the infusion is complete, they can eject the Capsule from the Stirrer and the Stirrer can be reused. Large refill packs of capsules and stirrers can be purchased.</p>
             <img 
-                src={require("./../assets/Gin Infuser/Stirrer Narative.jpg")} 
+                src={require("./../assets/Gin Infuser/Stirrer Narative-resized-min.jpg")} 
                 alt="A comic on how to use the Bic tea strainer / stirrer"
             />
             <h2>Prototype Phase</h2>
@@ -115,12 +126,19 @@ function BarbourGinInfusers() {
                 <br/><br/>
                 The idea was to put the pasta in the Pasta Server and then put the Pasta Server into Boiling water. When the pasta is done, drain it with the Pasta Server and add the sauce into it. Shake the Pasta Server to mix the pasta and sauce. To serve, pour out the contents of the Pasta Server.
             </p>
-            <Gallery
-                images={[
-                    require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-7.jpg"),
-                    require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-8.jpg"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-7-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-7-thumbnail.png"),
+                    },
+                    {
+                        original: require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-8-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-8-thumbnail.png"),
+                    },
                 ]}
-            /> 
+            />
             <p>Before we started to prototype the Pasta Server, we wanted to test a few things:</p>
             <ul>
                 <li>
@@ -133,9 +151,9 @@ function BarbourGinInfusers() {
                     Can pasta be served reliably by pouring out of a teapot like structure?
                 </li>
             </ul>
-            <Video path={require("./../assets/Gin Infuser/01 - Mixing.mp4")}/>
-            <Video path={require("./../assets/Gin Infuser/02 - Pouring.mp4")}/>
-            <Video path={require("./../assets/Gin Infuser/03 - Sauce Dripping.mp4")}/>
+            <Video path={require("./../assets/Gin Infuser/01 - Mixing-resized.mp4")}/>
+            <Video path={require("./../assets/Gin Infuser/02 - Pouring-resized.mp4")}/>
+            <Video path={require("./../assets/Gin Infuser/03 - Sauce Dripping-resized.mp4")}/>
             <ul>
                 <li>
                     The sauce was thick enough to not spill out.
@@ -149,20 +167,42 @@ function BarbourGinInfusers() {
             </ul>
             <p>Now that the concept is tested, we made three prototypes of the Pasta Server:</p>
             <img 
-                src={require("./../assets/Gin Infuser/IMG_6552.jpg")} 
+                src={require("./../assets/Gin Infuser/IMG_6552-resized-min.jpg")} 
                 alt="3 pasta server prototypes, plastic, metal and clay"
             />
             <p>We felt the most realistic prototype is the one made out of ceramics (right) because ceramics is food-safe and can withstand heat.</p>
             <p>The proposed manufacturing method is press moulding, biscuit firing and then glazing.</p>
-            <Gallery
-                images={[
-                    require("./../assets/Gin Infuser/IMAG0925.jpg"),
-                    require("./../assets/Gin Infuser/IMG_6507.JPG.jpg"),
-                    require("./../assets/Gin Infuser/IMG_6546.jpg"),
-                    require("./../assets/Gin Infuser/IMG_20170317_161209.jpg"),
-                    require("./../assets/Gin Infuser/IMG_20170319_111435.jpg"),
-                    require("./../assets/Gin Infuser/IMG_20170319_212352.jpg"),
-                    require("./../assets/Gin Infuser/IMG_20170319_212401.jpg"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Gin Infuser/IMAG0925-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/IMAG0925-thumbnail.png"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/IMG_6507-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_6507-thumbnail.png"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/IMG_6546-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_6546-thumbnail.png"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/IMG_20170317_161209-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_20170317_161209-thumbnail.png"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/IMG_20170319_111435-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_20170319_111435-thumbnail.png"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/IMG_20170319_212352-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_20170319_212352-thumbnail.png"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/IMG_20170319_212401-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_20170319_212401-thumbnail.png"),
+                    },
                 ]}
             /> 
             <h2>Manufacturing Phase</h2>
@@ -176,11 +216,11 @@ function BarbourGinInfusers() {
             <p>The design received some changes. To create 9 identical products engineering drawings were produced and manufacturing commenced.</p>
             <Gallery
                 images={[
-                    require("./../assets/Gin Infuser/Bottom-01.png"),
-                    require("./../assets/Gin Infuser/Final Assembly.png"),
-                    require("./../assets/Gin Infuser/Edgy Designer Photo-01.png"),
-                    require("./../assets/Gin Infuser/IMAG0947.jpg"),
-                    require("./../assets/Gin Infuser/IMAG0949.jpg"),
+                    require("./../assets/Gin Infuser/Bottom-01-resized-min.png"),
+                    require("./../assets/Gin Infuser/Final Assembly-resized-min.png"),
+                    require("./../assets/Gin Infuser/Edgy Designer Photo-01-resized-min.jpg"),
+                    require("./../assets/Gin Infuser/IMAG0947-resized-min.jpg"),
+                    require("./../assets/Gin Infuser/IMAG0949-resized-min.jpg"),
                 ]}
             /> 
         </>

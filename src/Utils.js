@@ -59,7 +59,7 @@ export const projectsData= [
     {
         id: 14,
         name: "Pool 2",
-        imageURL: require("./assets/Pool2/Heroshot.png"),
+        imageURL: require("./assets/Pool2/Heroshot-min.png"),
         imageAlt: "A screenshot of the Pool 2 game",
         year: "2023",
         tags: ["Games", "Coding"],
@@ -71,7 +71,7 @@ export const projectsData= [
     {
         id: 13,
         name: "FronTiers",
-        imageURL: require("./assets/FronTiers/FronTiersHero.png"),
+        imageURL: require("./assets/FronTiers/FronTiersHero-min.png"),
         imageAlt: "The FronTiers Logo overlayed on a FronTiers page",
         year: "2020",
         tags: ["UX/UI", "Project Management", "Web Development", "Coding"],
@@ -146,7 +146,7 @@ export const projectsData= [
     {
         id: 6,
         name: "Continuum",
-        imageURL:require("./assets/Continuum/DSC0020.jpg"),
+        imageURL:require("./assets/Continuum/DSC0020-resized-min.jpg"),
         imageAlt: "Continuum machinery",
         year: 2017,
         tags: ["Art", "Artistic Fabrication"],
@@ -170,7 +170,7 @@ export const projectsData= [
     {
         id: 4,
         name: "Timie",
-        imageURL:require("./assets/Timie/Timie EXP Pictures-05 2-05-05.png"),
+        imageURL:require("./assets/Timie/Timie EXP Pictures-05 2-05-05 1 Resized-min.png"),
         imageAlt: "A prototype smart watch and app to help you be on time",
         year: 2017,
         tags: ["Product Design", "Coding"],
@@ -179,7 +179,7 @@ export const projectsData= [
     {
         id: 3,
         name: "Barbour Gin Infuser",
-        imageURL:require("./assets/Gin Infuser/Nice Photos-01.png"),
+        imageURL:require("./assets/Gin Infuser/Nice Photos-01-resized-min.jpg"),
         imageAlt: "The 9 Barbour Gin Infusers, for the I'll Take 9 project",
         year: 2017,
         tags: ["Manufacturing"],
