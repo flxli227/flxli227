@@ -1,8 +1,6 @@
 import React from 'react';
 import Gallery from './../components/gallery/Gallery'
 import MultiColumn from './../components/multiColumn/MultiColumn'
-import Video from './../components/video/Video'
-// import YouTube from '../components/youTube/YouTube';
 
 class Customizer extends React.Component {
     render(){
@@ -80,7 +78,7 @@ class Customizer extends React.Component {
                     The user interface for the customer to customise their file is simple. I looked at our competitor, <a href="https://www.heroforge.com/" target="_blank" rel="noreferrer">Hero Forge</a> and video games character creators for inspiration.
                 </p>
                 <img 
-                    src={require("./../assets/Customizer/HeroForge.png")}
+                    src={require("./../assets/Customizer/HeroForge-resized-min.jpg")}
                     alt="UI of HeroForge"
                 />
                 <p>
@@ -142,7 +140,7 @@ class Customizer extends React.Component {
                 </p>
                 <Gallery
                     images={[
-                        require("./../assets/Customizer/Flowchart.png"),
+                        require("./../assets/Customizer/Flowchart-min.png"),
                         require("./../assets/Customizer/ScreenshotOfCustomizer.png"),
                         require("./../assets/Customizer/CreatorSideUI.png"),
                         require("./../assets/Customizer/CreatorSideUI2.png"),
@@ -154,9 +152,9 @@ class Customizer extends React.Component {
                 </p>
                 <Gallery
                     images={[
-                        require("./../assets/Customizer/CustomizerSearch.png"),
-                        require("./../assets/Customizer/CustomizerWorld.png"),
-                        require("./../assets/Customizer/CustomizerFAQ.png"),
+                        require("./../assets/Customizer/CustomizerSearch-min.jpg"),
+                        require("./../assets/Customizer/CustomizerWorld-min.jpg"),
+                        require("./../assets/Customizer/CustomizerFAQ-min.jpg"),
                     ]}
                 />
                 <h2>Managing the project</h2>
