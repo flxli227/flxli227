@@ -125,7 +125,7 @@ export const projectsData= [
     {
         id: 8,
         name: "Firefly",
-        imageURL: require("./assets/Firefly/Awesome Photo.png"),
+        imageURL: require("./assets/Firefly/Awesome Photo-resized-min.jpg"),
         imageAlt: "Firefly directing crowds by projecting arrows",
         year: 2017,
         tags: ["Product Design"],

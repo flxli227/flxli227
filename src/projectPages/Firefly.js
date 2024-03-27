@@ -1,6 +1,6 @@
 import YouTube from './../components/youTube/YouTube.js'
 import MultiColumn from './../components/multiColumn/MultiColumn'
-import Gallery from './../components/gallery/Gallery'
+import ImageGallery from 'react-image-gallery';
 
 function Firefly() {
     const invertStyle = {
@@ -19,12 +19,12 @@ function Firefly() {
             <h2>How does it work?</h2>
             <p>Many Firefly devices are set up in a venue.</p>
             <img 
-                src={require("./../assets/Firefly/Awesome Photo.png")}
+                src={require("./../assets/Firefly/Awesome Photo-resized-min.jpg")}
                 alt="The Firefly device"
             />
             <p>Each Firefly device is installed with a camera which allows security personnel to monitor events.</p>
             <img 
-                src={require("./../assets/Firefly/Monitoring.jpg")}
+                src={require("./../assets/Firefly/Monitoring-resized-min.jpg")}
                 alt="A security guard using the Firefly system"
             />
             <p>If an emergency happens, a security personnel enters into the system where the danger is. The system calculates the best route for evacuation for everyone.</p>
@@ -33,7 +33,7 @@ function Firefly() {
             {/* Video */}
             <p>The cameras in the device can see if anyone is left behind, aiding the security guard's final checking of the venue.</p>
             <img 
-                src={require("./../assets/Firefly/Final Check UI.png")}
+                src={require("./../assets/Firefly/Final Check UI-min.jpg")}
                 alt="A prototype UI for the final checks of a venue using Firefly"
             />
             <h2>What is the need for it?</h2>
@@ -71,7 +71,7 @@ function Firefly() {
                 columns = {[
                     {
                         image: {
-                            url: require("./../assets/Firefly/Love Parade.png"),
+                            url: require("./../assets/Firefly/Love Parade-resized-min.jpg"),
                             alt: "An Image of Love Parade in Germany 2010",
                         },
                         title: "Love Parade",
@@ -79,7 +79,7 @@ function Firefly() {
                     },
                     {
                         image: {
-                            url: require("./../assets/Firefly/Shanghai NYE.png"),
+                            url: require("./../assets/Firefly/Shanghai NYE-resized-min.jpg"),
                             alt: "An Image of New Year's Eve Shanghai China (2014)",
                         },
                         title: "New Year's Eve",
@@ -92,7 +92,7 @@ function Firefly() {
                 columns = {[
                     {
                         image: {
-                            url: require("./../assets/Firefly/Security.JPG.jpg"),
+                            url: require("./../assets/Firefly/Security-resized-min.jpg"),
                             alt: "An Image of security guards in an outdoor venue",
                         },
                         title: "Security Guards",
@@ -100,7 +100,7 @@ function Firefly() {
                     },
                     {
                         image: {
-                            url: require("./../assets/Firefly/Exit Sign.jpg"),
+                            url: require("./../assets/Firefly/Exit Sign-resized-min.jpg"),
                             alt: "An Image of an exit sign in an outdoor venue",
                         },
                         title: "Signs",
@@ -214,26 +214,67 @@ function Firefly() {
                     How to prevent crowd crushing and bottlenecks
                 </li>
             </ul>
-            {/* <div style={width:'100%'}> TODO */}
-                <Gallery
-                    images={[
-                        require("./../assets/Firefly/EXP Pictures-01.png"),
-                        require("./../assets/Firefly/EXP Pictures-02.png"),
-                        require("./../assets/Firefly/EXP Pictures-03.png"),
-                        require("./../assets/Firefly/EXP Pictures-04.png"),
-                        require("./../assets/Firefly/EXP Pictures-05.png"),
-                        require("./../assets/Firefly/EXP Pictures-06.png"),
-                        require("./../assets/Firefly/EXP Pictures-07.png"),
-                        require("./../assets/Firefly/EXP Pictures-08.png"),
-                        require("./../assets/Firefly/EXP Pictures-09.png"),
-                        require("./../assets/Firefly/EXP Pictures-10.png"),
-                        require("./../assets/Firefly/EXP Pictures-11.png"),
-                        require("./../assets/Firefly/EXP Pictures-12.png"),
-                        require("./../assets/Firefly/EXP Pictures-13.png"),
-                        require("./../assets/Firefly/EXP Pictures-14.png"),
-                    ]}
-                />
-            {/* </div> */}
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Firefly/EXP Pictures-01-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-01-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Firefly/EXP Pictures-02-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-02-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Firefly/EXP Pictures-03-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-03-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Firefly/EXP Pictures-04-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-04-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Firefly/EXP Pictures-05-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-05-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Firefly/EXP Pictures-06-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-06-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Firefly/EXP Pictures-07-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-07-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Firefly/EXP Pictures-08-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-08-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Firefly/EXP Pictures-09-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-09-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Firefly/EXP Pictures-10-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-10-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Firefly/EXP Pictures-11-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-11-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Firefly/EXP Pictures-12-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-12-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Firefly/EXP Pictures-13-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-13-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Firefly/EXP Pictures-14-min.jpg"),
+                        thumbnail: require("./../assets/Firefly/EXP Pictures-14-thumbnail-min.jpg"),
+                    },
+                ]}
+            />
         </>
     )
 }
