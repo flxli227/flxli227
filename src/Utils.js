@@ -200,7 +200,7 @@ export const projectsData= [
     {
         id: 1,
         name: "Gorilla Suit",
-        imageURL:require("./assets/Elastic Octopus/Jonathan like a Mech.png"),
+        imageURL:require("./assets/Elastic Octopus/Jonathan like a Mech-min.jpg"),
         imageAlt: "A person trying out the Powersiut in the IDE studio of RCA",
         year: 2016,
         tags: ["Experimentation"],
