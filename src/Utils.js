@@ -134,7 +134,7 @@ export const projectsData= [
     {
         id: 7,
         name: "Surreal Dream",
-        imageURL:require("./assets/Escape Room/Hat Mirror.png"),
+        imageURL:require("./assets/Escape Room/Hat Mirror-min.jpg"),
         imageAlt: "A player solving the hat puzzle",
         year: 2017,
         tags: ["Games"],

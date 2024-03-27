@@ -1,5 +1,5 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
-import Gallery from './../components/gallery/Gallery'
+import ImageGallery from 'react-image-gallery'
 
 function SurrealDream() {
     return (
@@ -36,37 +36,80 @@ function SurrealDream() {
                     },
                 ]}
             />
-            <Gallery
-                images={[
-                    require("./../assets/Escape Room/Book.png"),
-                    require("./../assets/Escape Room/Chimes 2.png"),
-                    require("./../assets/Escape Room/Hat Band.png"),
-                    require("./../assets/Escape Room/Hat Mirror.png"),
-                    require("./../assets/Escape Room/Small Note.png"),
-                    require("./../assets/Escape Room/Table.png"),
-                    require("./../assets/Escape Room/Tree.png"),
-                    require("./../assets/Escape Room/Chess 1.png"),
-                    require("./../assets/Escape Room/Chess 2.png"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Escape Room/Book-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Book-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/Chimes 2-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Chimes 2-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/Hat Band-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Hat Band-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/Hat Mirror-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Hat Mirror-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/Small Note-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Small Note-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/Table-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Table-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/Tree-cropped-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Tree-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/Chess 1-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Chess 1-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/Chess 2-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Chess 2-thumbnail-min.jpg"),
+                    },
                 ]}
             />
             <h2>Theme</h2>
             <p>Many escape rooms have a science or time travel theme.</p>
             <p>We wanted an escape room that can evoke a certain feeling while being located at a university lecture hall. We felt surrealism have enough reference material but still have creative freedom.</p>
-            <Gallery
-                images={[
-                    require("./../assets/Escape Room/Concept-01.png"),
-                    require("./../assets/Escape Room/Concept-02.png"),
-                    require("./../assets/Escape Room/Concept-03.png"),
-                    require("./../assets/Escape Room/VIDEO0255_0000000799.jpg"),
-                    require("./../assets/Escape Room/Final.jpg"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Escape Room/Concept-01-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Concept-01-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/Concept-02-resized-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Concept-02-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/Concept-03-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Concept-03-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/VIDEO0255_0000000799.jpg"),
+                        thumbnail: require("./../assets/Escape Room/VIDEO0255_0000000799-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Escape Room/Final-min.jpg"),
+                        thumbnail: require("./../assets/Escape Room/Final-thumbnail-min.jpg"),
+                    },
                 ]}
-            />
-
+            /> 
             <h2>Puzzles</h2>
             <p>The aim of the escape room is to improve teamwork and communication of the players.</p>
             <p>Our first puzzle can only be if everyone is communicating. This is how it works:</p>
             <img
-                src={require("./../assets/Escape Room/Blindfold.png")}
+                src={require("./../assets/Escape Room/Blindfold-min.jpg")}
                 alt="Two people solving the blindfold puzzle"
             />
             <ul>
@@ -81,7 +124,7 @@ function SurrealDream() {
                 </li>
             </ul>
             <img
-                src={require("./../assets/Escape Room/Paintings.png")}
+                src={require("./../assets/Escape Room/Paintings-min.jpg")}
                 alt="Two people solving the painting puzzle"
             />
             <p>To solve the puzzle:</p>
