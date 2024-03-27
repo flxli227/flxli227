@@ -1,6 +1,6 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
-import Gallery from './../components/gallery/Gallery'
-import Video from './../components/video/Video'
+import YouTube from './../components/youTube/YouTube.js'
+import ImageGallery from 'react-image-gallery';
 
 function Coinbox() {
     return (
@@ -53,22 +53,25 @@ function Coinbox() {
             />            
             <h2>Prototyping</h2>
             <p>After determining the product design specification, it was clear that a more sophisticated mechanism was needed.</p>
-            <Gallery
-                images={[
-                    require("./../assets/Coinbox/20180826_175831.jpg"),
-                    require("./../assets/Coinbox/20180826_211027.jpg"),
-                    require("./../assets/Coinbox/20180908_195301.jpg"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Coinbox/20180826_175831-resized-min.jpg"),
+                        thumbnail: require("./../assets/Coinbox/20180826_175831-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Coinbox/20180826_211027-resized-min.jpg"),
+                        thumbnail: require("./../assets/Coinbox/20180826_211027-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Coinbox/20180908_195301-resized-min.jpg"),
+                        thumbnail: require("./../assets/Coinbox/20180908_195301-thumbnail-min.jpg"),
+                    },
                 ]}
             />
-            <Video path={require("./../assets/Coinbox/03 - Prototype 1 Cut 1.mp4")}/>
-            <Video path={require("./../assets/Coinbox/05 - Prototype 1.1 Cut.mp4")}/>
-
+            <YouTube id="zZjDRcfeX7w"/>
             <p>Once the mechanism was prototyped, minor changes were made and the final build commenced.</p>
-
-            <Video path={require("./../assets/Coinbox/04 - Prototype 1.2 Cut.mp4")}/>
-            <Video path={require("./../assets/Coinbox/01 - Final Build Fails.mp4")}/>
-
-            <Video path={require("./../assets/Coinbox/02 - Final Montage.mp4")}/>
         </>
     )
 }
