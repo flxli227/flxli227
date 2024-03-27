@@ -1,7 +1,7 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
 import YouTube from './../components/youTube/YouTube.js'
 import Video from './../components/video/Video'
-import Gallery from './../components/gallery/Gallery'
+import ImageGallery from 'react-image-gallery';
 
 function Pool2() {
     return (
@@ -66,14 +66,14 @@ function Pool2() {
                 I joined <a href="https://buildspace.so/" target="_blank" rel="noreferrer">Buildspace</a> Season 4. Buildspace is a school where you can work on your own ideas. We all built our ideas alongside each other and graduated. 
             </p>
             <img 
-                src={require("./../assets/Pool2/LondonBuildspace.jpg")}
+                src={require("./../assets/Pool2/LondonBuildspace-resized-min.jpg")}
                 alt="The Buildspace London meet-up"
             />
             <p>
                 During that time I also showed Pool 2 at a festival, the <a href="https://thurrockscreenculturefestival.uk/2023-2/" target="_blank" rel="noreferrer">Thurrock Screen Culture Festival</a>. I made some friends in the games industry, had the first sign-ups to my mailing list and received feedback for my game.
             </p>
             <img 
-                src={require("./../assets/Pool2/Thurrock.png")}
+                src={require("./../assets/Pool2/Thurrock-resized-min.jpg")}
                 alt="Two people playing Pool 2"
             />
             <p>
@@ -85,17 +85,45 @@ function Pool2() {
                 <br/><br/>
                 I showcased Pool 2, streamed Pool 2 on Twitch, and hosted a Pool 2 tournament where attendees can play for a prize! (Even the founder of Buildspace played my game!)
             </p>
-            <Gallery
-                images={[
-                    require("./../assets/Pool2/BuildspaceSign.jpg"),
-                    require("./../assets/Pool2/BuildspaceTesting.jpg"),
-                    require("./../assets/Pool2/Farza.jpg"),
-                    require("./../assets/Pool2/Jeff.jpg"), 
-                    require("./../assets/Pool2/Winner.png"),
-                    require("./../assets/Pool2/BuildspaceExhibition.jpg"),
-                    require("./../assets/Pool2/BuildspaceGame.jpg"),
-                    require("./../assets/Pool2/BuildspaceGame1.jpg"), 
-                    require("./../assets/Pool2/BuildspaceGroupPic.jpg"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Pool2/BuildspaceSign-resized-min.jpg"),
+                        thumbnail: require("./../assets/Pool2/BuildspaceSign-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Pool2/BuildspaceTesting-resized-min.jpg"),
+                        thumbnail: require("./../assets/Pool2/BuildspaceTesting-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Pool2/Farza-resized-min.jpg"),
+                        thumbnail: require("./../assets/Pool2/Farza-thumbnail.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Pool2/Jeff-resized-min.jpg"),
+                        thumbnail: require("./../assets/Pool2/Jeff-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Pool2/Winner-resized-min.jpg"),
+                        thumbnail: require("./../assets/Pool2/Winner-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Pool2/BuildspaceExhibition-resized-min.jpg"),
+                        thumbnail: require("./../assets/Pool2/BuildspaceExhibition-thumbnail.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Pool2/BuildspaceGame-resized-min.jpg"),
+                        thumbnail: require("./../assets/Pool2/BuildspaceGame-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Pool2/BuildspaceGame1-resized-min.jpg"),
+                        thumbnail: require("./../assets/Pool2/BuildspaceGame1-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Pool2/BuildspaceGroupPic-resized-min.jpg"),
+                        thumbnail: require("./../assets/Pool2/BuildspaceGroupPic-thumbnail.jpg"),
+                    },
                 ]}
             />
             <h2>Conclusion?</h2>

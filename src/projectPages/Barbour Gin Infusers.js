@@ -1,5 +1,4 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
-import Gallery from './../components/gallery/Gallery'
 import Video from './../components/video/Video'
 import ImageGallery from 'react-image-gallery';
 
@@ -17,15 +16,15 @@ function BarbourGinInfusers() {
                 items={[
                     {
                         original: require("./../assets/Gin Infuser/DSF4134 2-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/DSF4134 2-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/DSF4134 2-thumbnail.jpg"),
                     },
                     { 
                         original: require("./../assets/Gin Infuser/Nice Photos-01-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/Nice Photos-01-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/Nice Photos-01-thumbnail.jpg"),
                     },
                     { 
                         original: require("./../assets/Gin Infuser/Nice Photos-02-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/Nice Photos-02-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/Nice Photos-02-thumbnail.jpg"),
                     },
                 ]}
             />
@@ -131,11 +130,11 @@ function BarbourGinInfusers() {
                 items={[
                     {
                         original: require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-7-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-7-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-7-thumbnail.jpg"),
                     },
                     {
                         original: require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-8-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-8-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/IT9 Concept Presentation Team7-8-thumbnail.jpg"),
                     },
                 ]}
             />
@@ -177,31 +176,31 @@ function BarbourGinInfusers() {
                 items={[
                     {
                         original: require("./../assets/Gin Infuser/IMAG0925-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/IMAG0925-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/IMAG0925-thumbnail.jpg"),
                     },
                     { 
                         original: require("./../assets/Gin Infuser/IMG_6507-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/IMG_6507-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_6507-thumbnail.jpg"),
                     },
                     { 
                         original: require("./../assets/Gin Infuser/IMG_6546-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/IMG_6546-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_6546-thumbnail.jpg"),
                     },
                     { 
                         original: require("./../assets/Gin Infuser/IMG_20170317_161209-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/IMG_20170317_161209-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_20170317_161209-thumbnail.jpg"),
                     },
                     { 
                         original: require("./../assets/Gin Infuser/IMG_20170319_111435-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/IMG_20170319_111435-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_20170319_111435-thumbnail.jpg"),
                     },
                     { 
                         original: require("./../assets/Gin Infuser/IMG_20170319_212352-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/IMG_20170319_212352-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_20170319_212352-thumbnail.jpg"),
                     },
                     { 
                         original: require("./../assets/Gin Infuser/IMG_20170319_212401-resized-min.jpg"),
-                        thumbnail: require("./../assets/Gin Infuser/IMG_20170319_212401-thumbnail.png"),
+                        thumbnail: require("./../assets/Gin Infuser/IMG_20170319_212401-thumbnail.jpg"),
                     },
                 ]}
             /> 
@@ -214,13 +213,29 @@ function BarbourGinInfusers() {
                 alt="The prototype Gin infuser the other group handed over to us"
             />
             <p>The design received some changes. To create 9 identical products engineering drawings were produced and manufacturing commenced.</p>
-            <Gallery
-                images={[
-                    require("./../assets/Gin Infuser/Bottom-01-resized-min.png"),
-                    require("./../assets/Gin Infuser/Final Assembly-resized-min.png"),
-                    require("./../assets/Gin Infuser/Edgy Designer Photo-01-resized-min.jpg"),
-                    require("./../assets/Gin Infuser/IMAG0947-resized-min.jpg"),
-                    require("./../assets/Gin Infuser/IMAG0949-resized-min.jpg"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Gin Infuser/Bottom-01-resized-min.png"),
+                        thumbnail: require("./../assets/Gin Infuser/Bottom-01-resized-min.png"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/Final Assembly-resized-min.png"),
+                        thumbnail: require("./../assets/Gin Infuser/Final Assembly-resized-min.png"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/Edgy Designer Photo-01-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/Edgy Designer Photo-01-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/IMAG0947-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/IMAG0947-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Gin Infuser/IMAG0949-resized-min.jpg"),
+                        thumbnail: require("./../assets/Gin Infuser/IMAG0949-thumbnail.jpg"),
+                    },
                 ]}
             /> 
         </>
