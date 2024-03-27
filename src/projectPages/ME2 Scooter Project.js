@@ -1,5 +1,5 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
-import Gallery from './../components/gallery/Gallery'
+import ImageGallery from 'react-image-gallery'
 
 function ME2ScooterProject() {
     return (
@@ -12,7 +12,7 @@ function ME2ScooterProject() {
                 columns = {[
                     {
                         image: {
-                            url: require("./../assets/Scooter/Scooter CAD.png"),
+                            url: require("./../assets/Scooter/Scooter CAD-min.jpg"),
                             alt: "Scooter CAD"
                         },
                         title: "Scooter Housing",
@@ -24,7 +24,7 @@ function ME2ScooterProject() {
                     },
                     {
                         image: {
-                            url: require("./../assets/Scooter/Tensioner.png"),
+                            url: require("./../assets/Scooter/Tensioner-min.jpg"),
                             alt: "Tensioner"
                         },
                         title: "Tensioner",
@@ -35,7 +35,7 @@ function ME2ScooterProject() {
                     },
                     {
                         image: {
-                            url: require("./../assets/Scooter/Wheel.png"),
+                            url: require("./../assets/Scooter/Wheel-min.jpg"),
                             alt: "Wheel Mount"
                         },
                         title: "Wheel Mount",
@@ -50,12 +50,25 @@ function ME2ScooterProject() {
             />
             <h2>Manufacturing</h2>
             <p>Engineering drawings were produced and it was manufactured.</p>
-            <Gallery
-                images={[
-                    require("./../assets/Scooter/General Assembly.png"),
-                    require("./../assets/Scooter/OUTER HOUSING RIGHT.png"),
-                    require("./../assets/Scooter/IMAG0062.jpg"),
-                    require("./../assets/Scooter/IMAG0061.jpg"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Scooter/General Assembly-min.png"),
+                        thumbnail: require("./../assets/Scooter/General Assembly-thumbnail-min.png"),
+                    },
+                    { 
+                        original: require("./../assets/Scooter/OUTER HOUSING RIGHT-resized-min.png"),
+                        thumbnail: require("./../assets/Scooter/OUTER HOUSING RIGHT-thumbnail-min.png"),
+                    },
+                    { 
+                        original: require("./../assets/Scooter/IMAG0062-resized-min.jpg"),
+                        thumbnail: require("./../assets/Scooter/IMAG0062-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Scooter/IMAG0061-resized-min.jpg"),
+                        thumbnail: require("./../assets/Scooter/IMAG0061-thumbnail-min.jpg"),
+                    },
                 ]}
             />
             <h2>Testing</h2>

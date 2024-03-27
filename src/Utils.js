@@ -212,7 +212,7 @@ export const projectsData= [
     {
         id: 0,
         name: "ME2 Scooter Project",
-        imageURL:require("./assets/Scooter/IMG-20150203-WA0006.jpg"),
+        imageURL:require("./assets/Scooter/IMG-20150203-WA0006-min.jpg"),
         imageAlt: "The inner workings of our ME2 electric scooter as a part of Mechanical Engineering at Imperial College",
         year: 2015,
         tags: ["Manufacturing", "Mechanical Engineering"],
