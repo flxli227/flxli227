@@ -1,6 +1,7 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
 import Gallery from './../components/gallery/Gallery'
 import Video from './../components/video/Video'
+import ImageGallery from 'react-image-gallery'
 
 function Notbook() {
     return (
@@ -66,11 +67,21 @@ function Notbook() {
                     How can we use the full potential of the rise in digital learning?
                 </li>
             </ul>
-            <Gallery
-                images={[
-                    require("./../assets/Not-Book/Maths 1.jpg"),
-                    require("./../assets/Not-Book/Maths 2.jpg"),
-                    require("./../assets/Not-Book/Maths 3.jpg"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Not-Book/Maths 1.jpg"),
+                        thumbnail: require("./../assets/Not-Book/Maths 1-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Not-Book/Maths 2.jpg"),
+                        thumbnail: require("./../assets/Not-Book/Maths 2-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Not-Book/Maths 3-resized-min.jpg"),
+                        thumbnail: require("./../assets/Not-Book/Maths 3-thumbnail.jpg"),
+                    },
                 ]}
             />
             <h2>How does it work?</h2>
@@ -79,7 +90,7 @@ function Notbook() {
                 columns = {[
                     {
                         image: {
-                            url: require("./../assets/Not-Book/Prototype Screenshots-02.png"),
+                            url: require("./../assets/Not-Book/Prototype Screenshots-02-resized-min.png"),
                             alt: "Target Icon",
                         },
                         title: "Introduce",
@@ -87,7 +98,7 @@ function Notbook() {
                     },
                     {
                         image: {
-                            url: require("./../assets/Not-Book/Prototype Screenshots-01.png"),
+                            url: require("./../assets/Not-Book/Prototype Screenshots-01-resized-min.png"),
                             alt: "Ejection Seat Icon",
                         },
                         title: "Explore",
@@ -95,7 +106,7 @@ function Notbook() {
                     },
                     {
                         image: {
-                            url: require("./../assets/Not-Book/Prototype Screenshots-04.png"),
+                            url: require("./../assets/Not-Book/Prototype Screenshots-04-resized-min.png"),
                             alt: "Boxes Icon",
                         },
                         title: "Test",
@@ -103,7 +114,7 @@ function Notbook() {
                     },
                     {
                         image: {
-                            url: require("./../assets/Not-Book/Prototype Screenshots-03.png"),
+                            url: require("./../assets/Not-Book/Prototype Screenshots-03-resized-min.png"),
                             alt: "Summarise",
                         },
                         title: "Summarise",
@@ -117,7 +128,7 @@ function Notbook() {
             <Video path={require("./../assets/Not-Book/02 - Final Montage.mp4")}/>
             <img 
                 className="contentImage"
-                src={require("./../assets/Not-Book/Challenge.png")}
+                src={require("./../assets/Not-Book/Challenge-resized-min.jpg")}
                 alt="User testing a paper prototye of the test part"
             />
             <h2>Early Stage Validation</h2>

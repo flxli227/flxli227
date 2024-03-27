@@ -116,7 +116,7 @@ export const projectsData= [
     {
         id: 9,
         name: "Notbook",
-        imageURL: require("./assets/Not-Book/New Hero Shot Photoshop Replacement-02-01.jpg"),
+        imageURL: require("./assets/Not-Book/New Hero Shot Photoshop Replacement-02-01-resized-min.jpg"),
         imageAlt: "A screenshot of Not-Book, the interactive learning platform",
         year: 2018,
         tags: ["UX/UI", "Games", "Product Design", "Coding"],
