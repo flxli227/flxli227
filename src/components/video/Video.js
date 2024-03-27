@@ -7,8 +7,9 @@ function Video(props){
     return(
         <video 
             className={styles.video}
-            autoPlay={true}
-            muted
+            preload={props.lazyLoad ? "metadata" : "auto"} //If lazy loading is truth-y, don't load the full video unless the user plays it
+            autoPlay={props.lazyLoad ? false : true} //If lazy loading is false-y, autoplay the video
+            muted={props.lazyLoad ? false : true}  //If lazy loading is false-y, and the video plays by itself, mute the video
             loop 
             playsInline
             controls

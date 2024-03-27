@@ -325,8 +325,14 @@ function Timie() {
                     },
                 ]}
             />
-            {/* <Video path={require("./../assets/Timie/01 - VIDEO0069.mp4")}/>
-            <Video path={require("./../assets/Timie/02 - VIDEO0072TrimTrim.mp4")}/> */}
+            <Video 
+                lazyLoad={true} 
+                path={require("./../assets/Timie/01 - VIDEO0069.mp4")}
+            />
+            <Video 
+                lazyLoad={true}
+                path={require("./../assets/Timie/02 - VIDEO0072TrimTrim.mp4")}
+            />
         </>
     )
 }
