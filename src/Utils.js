@@ -59,7 +59,7 @@ export const projectsData= [
     {
         id: 14,
         name: "Pool 2",
-        imageURL: require("./assets/Pool2/Heroshot-min.png"),
+        imageURL: require("./assets/Pool2/Heroshot-min.jpg"),
         imageAlt: "A screenshot of the Pool 2 game",
         year: "2023",
         tags: ["Games", "Coding"],
@@ -104,7 +104,7 @@ export const projectsData= [
     {
         id: 10,
         name: "Coinbox",
-        imageURL: require("./assets/Coinbox/Hero Shot.png"),
+        imageURL: require("./assets/Coinbox/Hero Shot-min.jpg"),
         imageAlt: "Felix with his coinbox",
         year: 2018,
         tags: ["Artistic Fabrication", "Manufacturing", "Mechanical Engineering"],
@@ -170,7 +170,7 @@ export const projectsData= [
     {
         id: 4,
         name: "Timie",
-        imageURL:require("./assets/Timie/Timie EXP Pictures-05 2-05-05 1 Resized-min.png"),
+        imageURL:require("./assets/Timie/Timie EXP Pictures-05 2-05-05 1-resized-min.jpg"),
         imageAlt: "A prototype smart watch and app to help you be on time",
         year: 2017,
         tags: ["Product Design", "Coding"],
@@ -188,7 +188,7 @@ export const projectsData= [
     {
         id: 2,
         name: "Superform",
-        imageURL:require("./assets/Superform/DSCF1740.JPG.jpg"),
+        imageURL:require("./assets/Superform/DSCF1740-resized-min.jpg"),
         imageAlt: "A cardboard foldable chair made in the Superform module",
         year: 2017,
         tags: ["Art", "Artistic Fabrication"],
