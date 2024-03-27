@@ -1,5 +1,5 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
-import Gallery from './../components/gallery/Gallery'
+import ImageGallery from 'react-image-gallery';
 import YouTube from './../components/youTube/YouTube'
 
 
@@ -45,22 +45,65 @@ function GorillaSuit() {
                     },
                 ]}
             />
-            <Gallery
-                images={[
-                    require("./../assets/Elastic Octopus/IMG_9578-resized-min.jpg"),
-                    require("./../assets/Elastic Octopus/Mimosa Plant Box.gif"),
-                    require("./../assets/Elastic Octopus/IMG_7374-resized-min.jpg"),
-                    require("./../assets/Elastic Octopus/Andy Monkey Hug-resized-min.jpg"),
-                    require("./../assets/Elastic Octopus/IMG_9568-min.jpg"),
-                    require("./../assets/Elastic Octopus/Beak-min.jpg"),
-                    require("./../assets/Elastic Octopus/IMG_9584-resized-min.jpg"),
-                    require("./../assets/Elastic Octopus/Joe as a Bird-min.jpg"),
-                    require("./../assets/Elastic Octopus/IMAG0477-resized-min.jpg"),
-                    require("./../assets/Elastic Octopus/Andy Monkey Hug-resized-min.jpg"),
-                    require("./../assets/Elastic Octopus/IMG_9649-resized-min.jpg"),
-                    require("./../assets/Elastic Octopus/IMG_9653-resized-min.jpg"),
-                    require("./../assets/Elastic Octopus/IMAG0481-resized-min.jpg"),
-                    require("./../assets/Elastic Octopus/IMAG0472-resized-min.jpg"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Elastic Octopus/IMG_9578-resized-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/IMG_9578-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Elastic Octopus/MimosaPlantBox.gif"),
+                        thumbnail: require("./../assets/Elastic Octopus/MimosaPlantBox-thumbnail.gif"),
+                    },
+                    { 
+                        original: require("./../assets/Elastic Octopus/IMG_7374-resized-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/IMG_7374-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Elastic Octopus/Andy Monkey Hug-resized-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/Andy Monkey Hug-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Elastic Octopus/IMG_9568-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/IMG_9568-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Elastic Octopus/Beak-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/Beak-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Elastic Octopus/IMG_9584-resized-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/IMG_9584-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Elastic Octopus/Joe as a Bird-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/Joe as a Bird-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Elastic Octopus/IMAG0477-resized-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/IMAG0477-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Elastic Octopus/Andy Monkey Hug-resized-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/Andy Monkey Hug-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Elastic Octopus/IMG_9649-resized-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/IMG_9649-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Elastic Octopus/IMG_9653-resized-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/IMG_9653-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Elastic Octopus/IMAG0481-resized-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/IMAG0481-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Elastic Octopus/IMAG0472-resized-min.jpg"),
+                        thumbnail: require("./../assets/Elastic Octopus/IMAG0472-thumbnail-min.jpg"),
+                    },
                 ]}
             />
         </>
