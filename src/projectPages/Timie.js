@@ -1,6 +1,7 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
 import Gallery from './../components/gallery/Gallery'
 import Video from './../components/video/Video'
+import ImageGallery from 'react-image-gallery'
 
 function Timie() {
     return (
@@ -9,14 +10,14 @@ function Timie() {
             <p>Timie is a smartwatch paired with an app that is designed to help people with AD(H)D get to places on time if they are “late” due to disorganisation and bad time management.</p>
             <Gallery
                 images={[
-                    require("./../assets/Timie/Front Cover for Solo Major.png"),
-                    require("./../assets/Timie/Infographic New 2-01.png"),
+                    require("./../assets/Timie/Front Cover for Solo Major-min.png"),
+                    require("./../assets/Timie/Infographic New 2-01-min.png"),
                 ]}
             />
             <h2>How does it work?</h2>
             <p>The user first sets up Timie by downloading the app and creating an account. The app will ask a few questions about the user's morning routine.</p>
             <img
-                src={require("./../assets/Timie/Slide7.PNG")}
+                src={require("./../assets/Timie/Slide7-min.PNG")}
                 alt="A screenshot of a user selecting their morning routine"
             />
             <p>To use Timie, the user enters when and where they need to be as a new event in the app.</p>
@@ -33,12 +34,12 @@ function Timie() {
                 </li>
             </ul>
             <img
-                src={require("./../assets/Timie/Slide14+16.png")}
+                src={require("./../assets/Timie/Slide14+16-min.png")}
                 alt="A screenshot of a user creating a new event and selecting what they need to do for that event"
             />
             <p>The app reminds the user what events they have on a given day.</p>
             <img
-                src={require("./../assets/Timie/Slide11.PNG")}
+                src={require("./../assets/Timie/Slide11-min.PNG")}
                 alt="A screenshot of Timie reminding a user what events they have for the day"
             />
             <p>
@@ -98,22 +99,22 @@ function Timie() {
             </p>
             <Gallery
                 images={[
-                    require("./../assets/Timie/1. To Do.jpg"),
-                    require("./../assets/Timie/2. Maps.jpg"),
-                    require("./../assets/Timie/3. Try and be on time.jpg"),
-                    require("./../assets/Timie/4. Get ready Earlier.jpg"),
-                    require("./../assets/Timie/5. Clothes on.jpg"),
-                    require("./../assets/Timie/6. 20 minutes to kill.jpg"),
-                    require("./../assets/Timie/7. TV.jpg"),
-                    require("./../assets/Timie/8. TV 2.jpg"),
-                    require("./../assets/Timie/9. Oh no.jpg"),
-                    require("./../assets/Timie/10. Pack Computer.jpg"),
-                    require("./../assets/Timie/11. Shoes.jpg"),
-                    require("./../assets/Timie/12. Loo.jpg"),
-                    require("./../assets/Timie/13. Keys.jpg"),
-                    require("./../assets/Timie/14. Leaves House.jpg"),
-                    require("./../assets/Timie/15. Conclusion 1.jpg"),
-                    require("./../assets/Timie/16. Conclusion 2.jpg"),
+                    require("./../assets/Timie/1-min.png"),
+                    require("./../assets/Timie/2-min.png"),
+                    require("./../assets/Timie/3-min.png"),
+                    require("./../assets/Timie/4-min.png"),
+                    require("./../assets/Timie/5-min.png"),
+                    require("./../assets/Timie/6-min.png"),
+                    require("./../assets/Timie/7-min.png"),
+                    require("./../assets/Timie/8-min.png"),
+                    require("./../assets/Timie/9-min.png"),
+                    require("./../assets/Timie/10-min.png"),
+                    require("./../assets/Timie/11-min.png"),
+                    require("./../assets/Timie/12-min.png"),
+                    require("./../assets/Timie/13-min.png"),
+                    require("./../assets/Timie/14-min.png"),
+                    require("./../assets/Timie/15-min.png"),
+                    require("./../assets/Timie/16-min.png"),
                 ]}
             />
 
@@ -259,31 +260,73 @@ function Timie() {
                 ]}
             />
             <h2>Process and Experimentation</h2>
-            {/* Images */}
-            <Gallery
-                images={[
-                    require("./../assets/Timie/AR-2.gif"),
-                    require("./../assets/Timie/Day Timeline 1.jpg"),
-                    require("./../assets/Timie/Day Timeline 2.jpg"),
-                    require("./../assets/Timie/IMAG1089.jpg"),
-                    require("./../assets/Timie/IMAG1090.jpg"),
-                    require("./../assets/Timie/IMAG1135.jpg"),
-                    require("./../assets/Timie/IMAG1146.jpg"),
-                    require("./../assets/Timie/Micro Timeline.jpg"),
-                    require("./../assets/Timie/Morning Mode Big Compact.jpg"),
-                    require("./../assets/Timie/Phone Cropped 1.jpg"),
-                    require("./../assets/Timie/Phone Cropped.jpg"),
-                    require("./../assets/Timie/Punctuality-Board-Gif.gif"),
-                    require("./../projectPages/Timie.js"),
-                    require("./../assets/Timie/Tim-E-gif-Big.gif"),
-                    require("./../assets/Timie/Timie EXP Pictures-01.png"),
-                    require("./../assets/Timie/Timie EXP Pictures-02.png"),
-                    require("./../assets/Timie/Timie EXP Pictures-03.png"),
-                    require("./../assets/Timie/Timie EXP Pictures-04.png"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/Timie/AR-2-resized.gif"),
+                        thumbnail: require("./../assets/Timie/AR-2-thumbnail.gif"),
+                    },
+                    {
+                        original: require("./../assets/Timie/Day Timeline 1-resized-min.jpg"),
+                        thumbnail: require("./../assets/Timie/Day Timeline 1-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Timie/Day Timeline 2-resized-min.jpg"),
+                        thumbnail: require("./../assets/Timie/Day Timeline 2-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Timie/IMAG1089-resized-min.jpg"),
+                        thumbnail: require("./../assets/Timie/IMAG1089-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Timie/IMAG1090-resized-min.jpg"),
+                        thumbnail: require("./../assets/Timie/IMAG1090-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Timie/IMAG1135-resized-min.jpg"),
+                        thumbnail: require("./../assets/Timie/IMAG1135-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Timie/IMAG1146-resized-min.jpg"),
+                        thumbnail: require("./../assets/Timie/IMAG1146-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Timie/Micro Timeline-resized-min.jpg"),
+                        thumbnail: require("./../assets/Timie/Micro Timeline-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Timie/Morning Mode Big Compact-min.png"),
+                        thumbnail: require("./../assets/Timie/Morning Mode Big Compact-min.png"),
+                    },
+                    { 
+                        original: require("./../assets/Timie/Tim-E-gif-Big.gif"),
+                        thumbnail: require("./../assets/Timie/Tim-E-gif-Big.gif"),
+                    },
+                    { 
+                        original: require("./../assets/Timie/Timie EXP Pictures-01-min.png"),
+                        thumbnail: require("./../assets/Timie/Timie EXP Pictures-01-thumbnail-min.png"),
+                    },
+                    {
+                        original: require("./../assets/Timie/Timie EXP Pictures-02-min.jpg"),
+                        thumbnail: require("./../assets/Timie/Timie EXP Pictures-02-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Timie/Timie EXP Pictures-03-min.png"),
+                        thumbnail: require("./../assets/Timie/Timie EXP Pictures-03-thumbnail-min.png"),
+                    },
+                    { 
+                        original: require("./../assets/Timie/Timie EXP Pictures-04-resized-min.jpg"),
+                        thumbnail: require("./../assets/Timie/Timie EXP Pictures-04-thumbnail-min.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/Timie/Punctuality-Board-Gif-resized.gif"),
+                        thumbnail: require("./../assets/Timie/Punctuality-Board-Gif-thumbnail.gif"),
+                    },
                 ]}
             />
-            <Video path={require("./../assets/Timie/01 - VIDEO0069.mp4")}/>
-            <Video path={require("./../assets/Timie/02 - VIDEO0072TrimTrim.mp4")}/>
+            {/* <Video path={require("./../assets/Timie/01 - VIDEO0069.mp4")}/>
+            <Video path={require("./../assets/Timie/02 - VIDEO0072TrimTrim.mp4")}/> */}
         </>
     )
 }
