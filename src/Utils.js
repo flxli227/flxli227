@@ -71,7 +71,7 @@ export const projectsData= [
     {
         id: 13,
         name: "FronTiers",
-        imageURL: require("./assets/FronTiers/FronTiersHero-min.png"),
+        imageURL: require("./assets/FronTiers/FronTiersHero-min.jpg"),
         imageAlt: "The FronTiers Logo overlayed on a FronTiers page",
         year: "2020",
         tags: ["UX/UI", "Project Management", "Web Development", "Coding"],

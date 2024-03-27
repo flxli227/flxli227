@@ -1,7 +1,6 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
-import YouTube from './../components/youTube/YouTube.js'
-import Video from './../components/video/Video'
 import Gallery from './../components/gallery/Gallery'
+import ImageGallery from 'react-image-gallery';
 
 function FronTiers() {
     return (
@@ -85,13 +84,29 @@ function FronTiers() {
                 <br/><br/>
                 As the frontend developer I received mock-ups of each product release page and code the UI using HTML and CSS. 
             </p>
-            <Gallery
-                images={[
-                    require("./../assets/FronTiers/image 38.png"),
-                    require("./../assets/FronTiers/image 39.png"),
-                    require("./../assets/FronTiers/image 40.png"),
-                    require("./../assets/FronTiers/image 42.png"), 
-                    require("./../assets/FronTiers/image 41.png"), 
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/FronTiers/image 38-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/image 38-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/image 39-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/image 39-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/image 40-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/image 40-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/image 42-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/image 42-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/image 41-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/image 41-thumbnail.jpg"),
+                    },
                 ]}
             />
             <h2>Automation</h2>
@@ -140,14 +155,14 @@ function FronTiers() {
                 Before FronTiers, 3D designers used Kickstarter to release their products. Kickstarter was  good for showcasing and selling their models, but it didn’t have the ability to distribute them. 
             </p>
             <img 
-                src={require("./../assets/FronTiers/Kickstarter.png")}
+                src={require("./../assets/FronTiers/Kickstarter-min.jpg")}
                 alt="The A Helluva Sisters: Warlock Tiefling Pin-Up STL Set + Altar campaign on Kickstarter"
             />
             <p>
                 I also looked at Gamefound, a similar product to ours, it offered distribution of goods but it was targeted at board games.
             </p>
             <img 
-                src={require("./../assets/FronTiers/Gamefound.png")}
+                src={require("./../assets/FronTiers/Gamefound-min.jpg")}
                 alt="The Dungeons & Lasers VI: Caves campaign on Gamefound"
             />
             <p>
@@ -161,14 +176,14 @@ function FronTiers() {
                 columns = {[
                     {
                         image: {
-                            url: require("./../assets/FronTiers/GoogleDrive.png"),
+                            url: require("./../assets/FronTiers/GoogleDrive-resized-min.png"),
                             alt: "Target Icon",
                         },
                         title:"Google Drive",
                     },
                     {
                         image: {
-                            url: require("./../assets/FronTiers/Dropbox.png"),
+                            url: require("./../assets/FronTiers/Dropbox-resized-min.png"),
                             alt: "People Icon",
                         },
                         title:"Dropbox",
@@ -192,12 +207,25 @@ function FronTiers() {
                 <br/><br/>
                 As the developer for the previous product launch pages, I understood what information is needed to make one. I produced mock-ups and requirements for a page that contains different fields and a text editor so a MyMiniFactory staff and eventually a 3D designer can complete a product launch page without needing a developer.
             </p>
-            <Gallery
-                images={[
-                    require("./../assets/FronTiers/ExampleFronTier.png"),
-                    require("./../assets/FronTiers/ExampleFronTier2.png"),
-                    require("./../assets/FronTiers/FronTierBuilder.png"),
-                    require("./../assets/FronTiers/AboutBuilder.png"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/FronTiers/ExampleFronTier-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/ExampleFronTier-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/ExampleFronTier2-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/ExampleFronTier2-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/FronTierBuilder-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/FronTierBuilder-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/AboutBuilder-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/AboutBuilder-thumbnail.jpg"),
+                    },
                 ]}
             />
             <p>
@@ -205,11 +233,21 @@ function FronTiers() {
                 <br/><br/>
                 For that I produced mock-ups and requirements for a page where you can browse and search for FronTiers and also integrate it with our platform's main search.
             </p>
-            <Gallery
-                images={[
-                    require("./../assets/FronTiers/Campaigns Search.png"),
-                    require("./../assets/FronTiers/FronTiersPageCropped.png"),
-                    require("./../assets/FronTiers/FronTiers Page.png"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/FronTiers/Campaigns Search-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/Campaigns Search-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/FronTiersPageCropped-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/FronTiersPageCropped-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/FronTiers Page-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/FronTiers Page-thumbnail.jpg"),
+                    },
                 ]}
             />
             <p>
@@ -220,20 +258,37 @@ function FronTiers() {
             <ul>
                 <li>A premaketing page which a 3D designer can set up to offer a freebie model to someone who signs up to their mailing list</li>
             </ul>
-            <Gallery
-                images={[
-                    require("./../assets/FronTiers/Premarketing Page.png"),
-                    require("./../assets/FronTiers/PremarketingBuilder.png"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/FronTiers/Premarketing Page-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/Premarketing Page-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/PremarketingBuilder-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/PremarketingBuilder-thumbnail.jpg"),
+                    },
                 ]}
             />
             <ul>
                 <li>A dedicated Milestones feature where 3D designers can upload models which are unlocked as the total sales of the product launch reaches certain thresholds.</li>
             </ul>
-            <Gallery
-                images={[
-                    require("./../assets/FronTiers/Milestones.png"),
-                    require("./../assets/FronTiers/AddMilestones.png"),
-                    require("./../assets/FronTiers/MilestonesBuilder.png"),
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    {
+                        original: require("./../assets/FronTiers/Milestones-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/Milestones-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/AddMilestones-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/AddMilestones-thumbnail.jpg"),
+                    },
+                    { 
+                        original: require("./../assets/FronTiers/MilestonesBuilder-min.jpg"),
+                        thumbnail: require("./../assets/FronTiers/MilestonesBuilder-thumbnail.jpg"),
+                    },
                 ]}
             />
             <p>
