@@ -158,7 +158,7 @@ export const projectsData= [
     {
         id: 5,
         name: "New Spawn Baby",
-        imageURL:require("./assets/Newspawn Baby/Movie Thumbnail.png"),
+        imageURL:require("./assets/Newspawn Baby/Movie Thumbnail-min.jpg"),
         imageAlt: "A screenshot of the shot film New Spawn Baby",
         year: 2017,
         tags: ["Film"],
