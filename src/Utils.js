@@ -6,11 +6,11 @@ export const sluggify = (string) => {
 export const tags=[
     {
         id:0,
-        name: "Web Development",
+        name: "Project Management",
     },
     {
         id:1,
-        name: "Project Management",
+        name: "Web Development",
     },
     {
         id:2,
@@ -22,36 +22,36 @@ export const tags=[
     },
     {
         id:4,
-        name: "Mechanical Engineering",
-    },
-    {
-        id:5,
-        name: "Manufacturing",
-    },
-    {
-        id:6,
         name: "Product Design",
     },
     {
+        id:5,
+        name: "Mechanical Engineering",
+    },
+    {
+        id:6,
+        name: "Manufacturing",
+    },
+    {
         id:7,
-        name: "Art",
+        name: "Artistic Fabrication",
     },
     {
         id:8,
         name: "Film",
     },
-    {
-        id:9,
-        name: "Experimentation",
-    },
-    {
-        id:10,
-        name: "Coding",
-    },
-    {
-        id:11,
-        name: "Artistic Fabrication",
-    }
+    // {
+    //     id:9,
+    //     name: "Art",
+    // },
+    // {
+    //     id:10,
+    //     name: "Experimentation",
+    // },
+    // {
+    //     id:11,
+    //     name: "Coding",
+    // },
 ]
 
 //Projects data
