@@ -51,7 +51,9 @@ class TopBar extends React.Component {
           className = {className}
           onClick={this.SideNavClose}
         >
-          {menuItem.name}
+          <div>
+            {menuItem.name}
+          </div>
         </Link>
       )
     })

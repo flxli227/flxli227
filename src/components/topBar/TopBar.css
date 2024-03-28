@@ -55,12 +55,19 @@
 .menuItem{
   font-size: var(---font-size-large-x);
   color: var(---color-highlight-1);
-  margin-bottom: var(---spacing-medium);
+  margin-bottom: var(---spacing-small);
   text-decoration: none;
+  padding: 4px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menuItemSelected{
-  text-decoration: underline;
+    background-color: var(---color-highlight-1);
+    color: #060814;
+    font-weight: bold;
+    border-radius: 999px;
 }
 
 .closeButton{
@@ -107,7 +114,7 @@
 
   .menuItem{
     margin-bottom: 0;
-    margin-right: var(---spacing-small);
+    margin-right: var(---spacing-micro);
   }
 
   .menuItem:last-child{

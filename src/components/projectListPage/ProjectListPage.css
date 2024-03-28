@@ -17,8 +17,8 @@
     border-color: rgba(0, 0, 0, 0);
     font-size: var(---font-size-large-x);
     font-family: inherit;
-    margin: var(---spacing-micro) var(---spacing-small);
-    padding: 0;
+    margin: var(---spacing-micro) var(---spacing-micro);
+    padding: 2px 12px;
 }
 
 .filterButton:hover{
@@ -27,7 +27,10 @@
 }
 
 .filterButton.selected{
-    text-decoration: underline;
+    background-color: var(---color-highlight-2);
+    color: #060814;
+    font-weight: bold;
+    border-radius: 999px;
 }
 
 /* Dropdown Filter */
