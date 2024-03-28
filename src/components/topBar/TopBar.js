@@ -82,7 +82,11 @@ class TopBar extends React.Component {
       <>
         <div className="TopBar">
           <div className="nameContainer">
-            Felix Li
+            <Link
+              to={"/"}  
+            >
+              Felix Li
+            </Link>
             <div className="hamburgerContainer">
               <div 
                 className="hamburger"
