@@ -43,7 +43,9 @@ function About() {
               },
             ]}
             />
-            {/* <h2>Employment</h2> */}
+            <p>
+              Download my CV <a href="./../../assets/Misc/Felix Li - Project Owner CV.pdf" download>here</a>!
+            </p>
         </div>
       </div>
     </>
