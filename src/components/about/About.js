@@ -44,7 +44,7 @@ function About() {
             ]}
             />
             <p>
-              Download my CV <a href="./../../assets/Misc/Felix Li - Project Owner CV.pdf" download>here</a>!
+              Download my CV <a href="Felix Li - Project Owner CV.pdf" download>here</a>!
             </p>
         </div>
       </div>
