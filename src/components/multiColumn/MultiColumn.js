@@ -1,4 +1,5 @@
 import styles from './MultiColumn.module.css';
+import {Link} from "react-router-dom";
 
 function multiColumn(props){
 
@@ -10,8 +11,8 @@ function multiColumn(props){
             filter: column.image.filters
         }
 
-        return(
-            <div className={styles.column}>
+        let imageAndTitle = (
+            <>
                 <img 
                     className={styles.columnImage}
                     src={column.image.url}
@@ -19,6 +20,35 @@ function multiColumn(props){
                     style={filters}
                 />
                 <p  className={styles.columnTitle}>{column.title}</p>
+            </>
+        );
+        
+        if(column.link){
+            const target = column.link.target ? column.link.target : "";
+            if(column.link.internalLinkTo){
+                imageAndTitle = (
+                    <Link 
+                        to={column.link.internalLinkTo}
+                        target={target}
+                    >
+                        {imageAndTitle}
+                    </Link>
+                )    
+            }else if(column.link.url){
+                imageAndTitle = (
+                    <a 
+                        href={column.link.url}
+                        target={target}
+                    >
+                        {imageAndTitle}
+                    </a>
+                )  
+            }
+        }
+
+        return(
+            <div className={styles.column}>
+                {imageAndTitle}
                 <p  className={styles.columnBody}>{column.body}</p>
             </div>
         )

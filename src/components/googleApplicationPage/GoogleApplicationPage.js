@@ -47,6 +47,10 @@ function About() {
                 },
                 title: "FronTiers",
                 body: "A product launch tool for 3D designers",
+                link: {
+                  internalLinkTo: "/project/frontiers",
+                  target: "_blank"
+                }
               },
               {
                 image: {
@@ -55,6 +59,10 @@ function About() {
                 },
                 title: "Customizer",
                 body: "A tool where a 3D designer can make money by selling customisable 3D designs",
+                link:{
+                  internalLinkTo: "/project/customizer",
+                  target: "_blank"
+                }
               },
             ]}
           />
@@ -75,6 +83,10 @@ function About() {
                 },
                 title: "Coinbox",
                 body: "A physical Super Mario Bros Coinbox replica submitted as a part of Level-up competition hosted by the Imperial Hackspace",
+                link: {
+                  internalLinkTo: "/project/coinbox",
+                  target: "_blank"
+                }
               },
               {
                 image: {
@@ -83,6 +95,10 @@ function About() {
                 },
                 title: "ME2 Scooter Project",
                 body: "Transformation of a push scooter to an electric scooter",
+                link: {
+                  internalLinkTo: "/project/me2-scooter-project",
+                  target: "_blank"
+                }
               },
             ]}
           />
@@ -105,6 +121,10 @@ function About() {
                 },
                 title: "Notbook",
                 body: "An interactive learning platform where you learn by playing",
+                link: {
+                  internalLinkTo: "/project/notbook",
+                  target: "_blank"
+                }
               },
               {
                 image: {
@@ -113,6 +133,10 @@ function About() {
                 },
                 title: "Timie",
                 body: "Your Personal Time Companion",
+                link: {
+                  internalLinkTo: "/project/timie",
+                  target: "_blank"
+                }
               },
             ]}
           />
@@ -135,6 +159,10 @@ function About() {
                 },
                 title: "Pool 2",
                 body: "A game of pool, but each player has their own cue ball and shots happen in real time",
+                link: {
+                  internalLinkTo: "/project/pool-2",
+                  target: "_blank"
+                }
               },
               {
                 image: {
@@ -143,6 +171,10 @@ function About() {
                 },
                 title: "Awesome Per Second",
                 body: "An Extra Credits Game Jam Entry about my experence of making my first game",
+                link: {
+                  internalLinkTo: "/project/Awesome-Per-Second",
+                  target: "_blank"
+                }
               },
             ]}
           />
@@ -161,6 +193,10 @@ function About() {
                 },
                 title: "",
                 body: "",
+                link: {
+                  internalLinkTo: "/project/frontiers",
+                  target: "_blank"
+                }
               },
               {
                 image: {
@@ -169,6 +205,10 @@ function About() {
                 },
                 title: "",
                 body: "",
+                link: {
+                  internalLinkTo: "/project/frontiers",
+                  target: "_blank"
+                }
               },
             ]}
           /> */}

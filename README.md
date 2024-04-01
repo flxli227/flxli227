@@ -195,6 +195,26 @@ Please use the MultiColumn component and enter the images, title and text via an
 />
 ```
 
+Here is a column with all its keys:
+
+Please use link.internalLinkTo or link.url but not both
+
+```
+{
+    image: {
+        url: Where the image is stored,
+        alt: The alt text for the image,
+        filters: ["invert(1)"] //<- If you want to invert black icons into white icons
+    },
+    title: The title of the column,
+    body: The text that goes underneath the column,
+    link:{ //<- Include if you want the image and title to take you somewhere when clicked
+        internalLinkTo: "/project/customizer", //<- The path to where the link goes, (only for inside this web app)
+        url: "www.google.com" //<- Any external webpage
+        target: "_blank" //<- You can leave it blank if you don't want to open in a new tab
+    }
+},
+```
 ## Adding functions that will be used in multiple components
 
 Please add them in the file Utils.js
