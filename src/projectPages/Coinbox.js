@@ -1,6 +1,6 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
 import YouTube from './../components/youTube/YouTube.js'
-import ImageGallery from 'react-image-gallery';
+import Video from './../components/video/Video'
 
 function Coinbox() {
     return (
@@ -95,6 +95,10 @@ function Coinbox() {
             <YouTube id="zZjDRcfeX7w"/>
             <h2>Conclusion</h2>
             <p>I am very happy with how the box turned out. It won 3rd prize and it was many people’s favourite project!</p>
+            <Video 
+                lazyLoad={true} 
+                path={require("./../assets/Coinbox/SelfieVideo.mp4")}
+            />
         </>
     )
 }
