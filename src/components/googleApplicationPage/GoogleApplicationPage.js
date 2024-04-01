@@ -182,36 +182,32 @@ function About() {
           <p>
             Outside of making things, I enjoy doing sports!
             <br/><br/>
-            Currently I am playing Kabaddi and Wrestling. Recently I just came back from India having participated in the Pro Kabaddi League as a professional Kabaddi player! 
+            Currently I am playing Kabaddi and Wrestling. 
           </p>
-          {/* <MultiColumn 
+          <MultiColumn 
             columns = {[
               {
                 image: {
-                  url: require("./../../assets/"),
-                  alt: "",
+                  url: require("./../../assets/Sports/Dabang Delhi-min.jpg"),
+                  alt: "Felix Li and Mohit in Pro Kabaddi League Season 10",
                 },
-                title: "",
-                body: "",
+                title: "Kabaddi",
+                body: "Just came back from India having participated in the Pro Kabaddi League Seaon 10 as a professional Kabaddi player!",
                 link: {
-                  internalLinkTo: "/project/frontiers",
+                  url:"https://www.instagram.com/p/C40P2gKpbGU/",
                   target: "_blank"
                 }
               },
               {
                 image: {
-                  url: require("./../../assets/"),
-                  alt: "",
+                  url: require("./../../assets/Sports/Wrestling-min.jpg"),
+                  alt: "Felix training at London Fight Factory",
                 },
-                title: "",
-                body: "",
-                link: {
-                  internalLinkTo: "/project/frontiers",
-                  target: "_blank"
-                }
+                title: "Wrestling",
+                body: "Looking to start competing in June!",
               },
             ]}
-          /> */}
+          />
           <h2>Thank you!</h2>
           <p>
             Overall, my process is to find opportunities and problems to solve!
