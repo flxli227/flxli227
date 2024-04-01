@@ -90,7 +90,7 @@ function About() {
               },
               {
                 image: {
-                  url: require("./../../assets/Scooter/IMG-20150203-WA0006-min.jpg"),
+                  url: require("./../../assets/Scooter/IMG-20150203-WA0006-resized-min.jpg"),
                   alt: "The inner workings of our ME2 electric scooter as a part of Mechanical Engineering at Imperial College",
                 },
                 title: "ME2 Scooter Project",
