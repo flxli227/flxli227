@@ -67,6 +67,14 @@ function App() {
             <Route path="" element={<NoPage />} />
             <Route path="*" element={<NoPage />} />
           </Route>
+          <Route //GoogleApplication
+            path="Hey-Google" 
+            element={
+              <ContentAndFooter 
+                pageContent = "GoogleApplication"
+              />
+            }
+          ></Route>
           <Route
               path=""
               element={ <Navigate to="/Projects"/> }

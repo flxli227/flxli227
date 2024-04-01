@@ -5,6 +5,8 @@ import JavascriptPageShow from './../javascriptPageShow/JavascriptPageShow';
 import Footer from './../footer/Footer';
 import YouTube from '../youTube/YouTube';
 import Video from '../video/Video';
+import GoogleApplicationPage from '../googleApplicationPage/GoogleApplicationPage';
+
 
 function ContentAndFooter(props) {
 
@@ -62,6 +64,13 @@ function ContentAndFooter(props) {
       </>
     );
     document.title = "Felix Li - "+ props.name;
+  }else if(props.pageContent === "GoogleApplication"){
+    //Special Google page
+    content = (
+      <>
+        <GoogleApplicationPage/>
+      </>
+    );
   }
 
   return (
