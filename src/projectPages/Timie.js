@@ -292,7 +292,6 @@ function Timie() {
                 Users would plan what they need to do before leaving and move the respective blocks onto the timeline. Then they would set an alarm for that time and would start getting ready when the alarm rang.
             </p>
             <img
-                style={{maxHeight: "100vh"}}
                 src={require("./../assets/Timie/Punctuality-Board-Gif-resized.gif")}
                 alt="Timie experiment 2, punctuality board"
             />
