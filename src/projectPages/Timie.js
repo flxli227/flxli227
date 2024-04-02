@@ -7,51 +7,57 @@ function Timie() {
     return (
         <>
             <h2>What is it?</h2>
-            <p>Timie is a smartwatch paired with an app that is designed to help people with AD(H)D get to places on time if they are “late” due to disorganisation and bad time management.</p>
+            <p>Timie is a smartwatch paired with an app designed to help people who are regularly late to places and meetings due to disorganisation and bad time management to be on time.</p>
             <Gallery
                 images={[
-                    require("./../assets/Timie/Front Cover for Solo Major-min.png"),
                     require("./../assets/Timie/Infographic New 2-01-min.png"),
+                    require("./../assets/Timie/Front Cover for Solo Major-min.png"),
                 ]}
             />
             <h2>How does it work?</h2>
-            <p>The user first sets up Timie by downloading the app and creating an account. The app will ask a few questions about the user's morning routine.</p>
+            <p>When setting up Timie for the first time, the app asks the user about their morning routine.</p>
             <img
                 src={require("./../assets/Timie/Slide7-min.PNG")}
                 alt="A screenshot of a user selecting their morning routine"
             />
-            <p>To use Timie, the user enters when and where they need to be as a new event in the app.</p>
-            <p>With this information the app can figure out:</p>
+            <p>
+                To use Timie, the user enters where they are going and when they need to be there.
+                <br/><br/>
+                The app will figure out:
+            </p>
             <ul>
                 <li>
-                    When the user needs to leave
+                    When the user needs to leave their house
                 </li>
                 <li>
                     What the user needs to do before leaving
                 </li>
                 <li>
-                    When the user needs to start getting ready to leave
+                    When the user needs to start getting ready to leave on time
                 </li>
             </ul>
             <img
                 src={require("./../assets/Timie/Slide14+16-min.png")}
                 alt="A screenshot of a user creating a new event and selecting what they need to do for that event"
             />
-            <p>The app reminds the user what events they have on a given day.</p>
+            <p>On a given day, Timie will remind the user what they have got on that day.</p>
             <img
                 src={require("./../assets/Timie/Slide11-min.PNG")}
                 alt="A screenshot of Timie reminding a user what events they have for the day"
             />
             <p>
-                When the time comes for the user to start getting ready, the smartwatch notifies them. The smartwatch shows Timie, a punctual version of themselves.
+            When the time comes for the user to start getting ready, the smartwatch notifies them. 
                 <br/><br/>
-                Timie does the task the user needs to do to get ready. All the user has to do is to race Timie.
+                The smartwatch shows Timie, a punctual version of the user. Timie does all the tasks the user needs to do to get ready. To be on time, all the user has to do is to race Timie.
                 <br/><br/>
-                For every task the user completes, they press the button on the smartwatch. This informs Timie how long it takes the user to do a certain task and will help Timie become more accurate in the future.
+                The watch will remind the user each task they have to do and upon completion of the task they press the button on the watch.
             </p>
             <Video path={require("./../assets/Timie/03 - Time Animation.mp4")}/>
-            <p>With this the user will use their time in a better way and leave on time to be punctual.</p>
-
+            <p>
+                As the user uses Timie more, Timie will know how long it takes the user to do that task and become more accurate in the future.
+                <br/><br/>
+                With this, the user will do all the tasks they need to before leaving when they need to be done to be punctual.
+            </p>
             <h2>What is the need for this?</h2>
             <p>People who are often late for meetings or events may have a negative impact on themselves and the people around them:</p>
             <MultiColumn 
@@ -87,16 +93,28 @@ function Timie() {
             />
             <h2>Why are people late?</h2>
             <p>
-                There are many reasons why people can be late. Many reasons are out of their control.
+                There are many reasons why people can be late and many could be out of their control, such as a traffic jam or an emergency.
                 <br/><br/>
                 However, many people are late due to bad time management.
                 <br/><br/>
-                "Me personally it's related to <b>knowing when to stop doing something</b> and do something else" Anonymous
+                <i><q>Me personally it's related to knowing when to stop doing something and do something else</q></i> - Anonymous
                 <br/><br/>
-                "Sometimes <b>if I get really hooked I can be half an hour late,</b> but normally I stop as I'm just meant to be leaving" Dan
+                <i><q>Sometimes if I get really hooked I can be half an hour late, but normally I stop as I'm just meant to be leaving</q></i> - Dan
                 <br/><br/>
-                This is what tends to happen before these people leave the house.
+                I interviewed many people and found a recurring theme and how they are late.
             </p>
+            <ul>
+                <li>
+                    They either underestimate how long something takes to do and start getting ready late. 
+                </li>
+                <li>
+                    Or they get ready extra early and have time to kill so they do something else, but they next realise what time it is they are already late.
+                </li>
+                <li>
+                    Or they are about to leave the house, just to discover they haven’t packed their bags or factor in time to wear their shoes or go to the loo.
+                </li>
+            </ul>
+            <p>Here is a comic that show a common way people are late:</p>
             <Gallery
                 images={[
                     require("./../assets/Timie/1-min.png"),
@@ -122,9 +140,9 @@ function Timie() {
             <p>
                 Anyone could be late, however many people with AD(H)D are often chronically late.
                 <br/><br/>
-                "11% of children (6.4 million) have been diagnosed with AD(H)D, 2011" www.cdc.gov/ncbddd/adhd/data.html
+                <i><q>11% of children (6.4 million) have been diagnosed with AD(H)D, 2011</q></i> - <a href="www.cdc.gov/ncbddd/adhd/data.html" target="_blank" rel="noreferrer">CDC</a>
                 <br/><br/>
-                Symptoms often include:
+                People with AD(H)D often experience:
             </p>
             <MultiColumn 
                 columns = {[
@@ -134,7 +152,7 @@ function Timie() {
                             alt: "Hyperfocus Icon",
                             filters: ["invert(1)"]
                         },
-                        body:"Hyperfocus"
+                        title:"Hyperfocus"
                     },
                     {
                         image: {
@@ -142,7 +160,7 @@ function Timie() {
                             alt: "Concentration Issues Icon",
                             filters: ["invert(1)"]
                         },
-                        body:"Concentration Issues"
+                        title:"Concentration Issues"
                     },
                     {
                         image: {
@@ -150,15 +168,16 @@ function Timie() {
                             alt: "Disorganisation Icon",
                             filters: ["invert(1)"]
                         },
-                        body:"Disorganisation, (which may cause bad time management)"
+                        title:"Disorganisation",
+                        body: "Which may cause bad time management"
                     },
                 ]}
             />            
             <h2>What do people currently use?</h2>
             <p>
-                People tend to use apps that tell them how long it takes to get to their destination and what the steps are in their journey. Then they can figure out when to leave the house.
+                People tend to use apps to tell them how long the journey takes from their home to their destination and what steps are in their journey. 
                 <br/><br/>
-                Here are some examples of these apps:
+                These apps help the user plan, but only in an outdoor context:
             </p>
             <MultiColumn 
                 columns = {[
@@ -178,9 +197,7 @@ function Timie() {
                     },
                 ]}
             />
-            <p>These apps help the user plan, but only in an outdoor context.</p>
-
-            <p>People also tend to keep track of time using:</p>
+            <p>People also keep track of time using:</p>
             <MultiColumn 
                 columns = {[
                     {
@@ -199,7 +216,7 @@ function Timie() {
                     },
                 ]}
             />
-            <p>These rely on the user's planning skills to know when to set the timers.</p>
+            <p>But these rely on the user's planning skills to know when to set the timers.</p>
             <h2>Key Problem and Opportunities</h2>
             <p>Here are the key problems the project aims to solve. People may:</p>
             <MultiColumn 
@@ -260,6 +277,43 @@ function Timie() {
                 ]}
             />
             <h2>Process and Experimentation</h2>
+            <p>
+                The first experiment I wanted to be someone’s time assistant. So as my friend was getting ready, I sent them Facebook messages to try to keep them on time.
+            </p>
+            <img
+                src={require("./../assets/Timie/Timie EXP Pictures-03-min.png")}
+                alt="A screenshot of my first experiment of being a time assistant on Facebook messenger"
+            />
+            <p>
+                The main finding was describing time in a text format in minutes and seconds, it is not very intuitive. 
+                <br/><br/>
+                Then I made the punctuality board so time can be shown as blocks in a timeline. 
+                <br/><br/>
+                Users would plan what they need to do before leaving and move the respective blocks onto the timeline. Then they would set an alarm for that time and would start getting ready when the alarm rang.
+            </p>
+            <img
+                style={{maxHeight: "100vh"}}
+                src={require("./../assets/Timie/Punctuality-Board-Gif-resized.gif")}
+                alt="Timie experiment 2, punctuality board"
+            />
+            <Video 
+                lazyLoad={true} 
+                path={require("./../assets/Timie/01 - VIDEO0069.mp4")}
+            />
+            <p>
+                The main finding was that different people take different amounts of time for each task. Also it’s hard to track if they are currently on time.
+                <br/><br/>
+                So I went back to Facebook messenger but this time I sent them photos with a timeline of tasks they had to do versus a visualisation of the current time/ time left decreasing.
+            </p>
+            <img
+                src={require("./../assets/Timie/Timie EXP Pictures-04-resized-min.jpg")}
+                alt="A screenshot of my second experiment of being a time assistant on Facebook messenger with a timeline"
+            />
+            <p>
+                This was a lot clearer but pictures over Facebook messenger isn’t the best. 
+                <br/><br/>
+                At the time, companies were investing in augmented reality technology such as the Google Glass and Apple Vision Pro. So I experimented to see if I could make time companions in AR.
+            </p>
             <ImageGallery
                 lazyLoad={true}
                 items={[
@@ -267,13 +321,17 @@ function Timie() {
                         original: require("./../assets/Timie/AR-2-resized.gif"),
                         thumbnail: require("./../assets/Timie/AR-2-thumbnail.gif"),
                     },
-                    {
-                        original: require("./../assets/Timie/Day Timeline 1-resized-min.jpg"),
-                        thumbnail: require("./../assets/Timie/Day Timeline 1-thumbnail-min.jpg"),
-                    },
                     { 
                         original: require("./../assets/Timie/Day Timeline 2-resized-min.jpg"),
                         thumbnail: require("./../assets/Timie/Day Timeline 2-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Timie/Micro Timeline-resized-min.jpg"),
+                        thumbnail: require("./../assets/Timie/Micro Timeline-thumbnail-min.jpg"),
+                    },
+                    {
+                        original: require("./../assets/Timie/Day Timeline 1-resized-min.jpg"),
+                        thumbnail: require("./../assets/Timie/Day Timeline 1-thumbnail-min.jpg"),
                     },
                     { 
                         original: require("./../assets/Timie/IMAG1089-resized-min.jpg"),
@@ -283,17 +341,21 @@ function Timie() {
                         original: require("./../assets/Timie/IMAG1090-resized-min.jpg"),
                         thumbnail: require("./../assets/Timie/IMAG1090-thumbnail-min.jpg"),
                     },
+                ]}
+            />
+            <Video 
+                lazyLoad={true}
+                path={require("./../assets/Timie/02 - VIDEO0072TrimTrim.mp4")}
+            />
+            <p>
+                Then I decided that may be a bit far into the future and tried to make it with technology widely used today. So I experimented with making it a phone and smartwatch app.
+            </p>
+            <ImageGallery
+                lazyLoad={true}
+                items={[
                     { 
                         original: require("./../assets/Timie/IMAG1135-resized-min.jpg"),
                         thumbnail: require("./../assets/Timie/IMAG1135-thumbnail-min.jpg"),
-                    },
-                    { 
-                        original: require("./../assets/Timie/IMAG1146-resized-min.jpg"),
-                        thumbnail: require("./../assets/Timie/IMAG1146-thumbnail-min.jpg"),
-                    },
-                    {
-                        original: require("./../assets/Timie/Micro Timeline-resized-min.jpg"),
-                        thumbnail: require("./../assets/Timie/Micro Timeline-thumbnail-min.jpg"),
                     },
                     { 
                         original: require("./../assets/Timie/Morning Mode Big Compact-min.png"),
@@ -307,31 +369,7 @@ function Timie() {
                         original: require("./../assets/Timie/Timie EXP Pictures-01-min.png"),
                         thumbnail: require("./../assets/Timie/Timie EXP Pictures-01-thumbnail-min.png"),
                     },
-                    {
-                        original: require("./../assets/Timie/Timie EXP Pictures-02-min.jpg"),
-                        thumbnail: require("./../assets/Timie/Timie EXP Pictures-02-thumbnail-min.jpg"),
-                    },
-                    { 
-                        original: require("./../assets/Timie/Timie EXP Pictures-03-min.png"),
-                        thumbnail: require("./../assets/Timie/Timie EXP Pictures-03-thumbnail-min.png"),
-                    },
-                    { 
-                        original: require("./../assets/Timie/Timie EXP Pictures-04-resized-min.jpg"),
-                        thumbnail: require("./../assets/Timie/Timie EXP Pictures-04-thumbnail-min.jpg"),
-                    },
-                    { 
-                        original: require("./../assets/Timie/Punctuality-Board-Gif-resized.gif"),
-                        thumbnail: require("./../assets/Timie/Punctuality-Board-Gif-thumbnail.gif"),
-                    },
                 ]}
-            />
-            <Video 
-                lazyLoad={true} 
-                path={require("./../assets/Timie/01 - VIDEO0069.mp4")}
-            />
-            <Video 
-                lazyLoad={true}
-                path={require("./../assets/Timie/02 - VIDEO0072TrimTrim.mp4")}
             />
         </>
     )
