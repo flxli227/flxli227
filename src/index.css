@@ -22,6 +22,8 @@ body {
   ---font-size-body: 16px;
   ---font-size-small: 12px;
 
+  ---line-height-body: 1.4em;
+
   /* Spacing */
   /* TODO: Figure out what size gaps should be when on different screen sizes */
   ---spacing-from-edge: 20px;
