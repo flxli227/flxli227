@@ -2,6 +2,7 @@
   display: grid;
   row-gap: var(---spacing-large);
   width: 100%;
+  margin-bottom: var(---spacing-medium);
 }
 
 @media only screen and (min-width: 601px){
