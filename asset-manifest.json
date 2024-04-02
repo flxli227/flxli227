@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.52696a86.css",
-    "main.js": "/static/js/main.69737851.js",
+    "main.js": "/static/js/main.299f4522.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/01 - VIDEO0069.mp4": "/static/media/01 - VIDEO0069.a673e4a78ca4ae26e02e.mp4",
     "static/media/Promo Video.mp4": "/static/media/Promo Video.65812f8d0b1c9890da2c.mp4",
@@ -70,7 +70,6 @@
     "static/media/Royal College of Art-Photoroom.png-Photoroom.png": "/static/media/Royal College of Art-Photoroom.png-Photoroom.cea4e2e2fec32a8f8bf0.png",
     "static/media/ExampleFronTier-min.jpg": "/static/media/ExampleFronTier-min.1d89ce3d630181f5315a.jpg",
     "static/media/Elastic Octopus Portfolio A3-03-resized-min.png": "/static/media/Elastic Octopus Portfolio A3-03-resized-min.d9d750788afbb6adb13a.png",
-    "static/media/IMAG1146-resized-min.jpg": "/static/media/IMAG1146-resized-min.f1b4e6d56e8989da6106.jpg",
     "static/media/DSF4134 2-resized-min.jpg": "/static/media/DSF4134 2-resized-min.f643fa34f3c3d652941e.jpg",
     "static/media/IMAG0766-resized-min.jpg": "/static/media/IMAG0766-resized-min.d85a4f0fb55621eb5c50.jpg",
     "static/media/IMAG0747-resized-min.jpg": "/static/media/IMAG0747-resized-min.9b36f4b8994615a2eff0.jpg",
@@ -122,7 +121,6 @@
     "static/media/IMG_9653-resized-min.jpg": "/static/media/IMG_9653-resized-min.36f64fbe0fddc9795979.jpg",
     "static/media/VIDEO0255_0000000799.jpg": "/static/media/VIDEO0255_0000000799.02c73e7724930abe8d47.jpg",
     "static/media/DSCF1739-resized-min.jpg": "/static/media/DSCF1739-resized-min.e367251f5e269bd0ab61.jpg",
-    "static/media/Timie EXP Pictures-02-min.jpg": "/static/media/Timie EXP Pictures-02-min.e9f7ab9fb68dbc1577eb.jpg",
     "static/media/EXP Pictures-07-min.jpg": "/static/media/EXP Pictures-07-min.bb7dd8f37d31060400e0.jpg",
     "static/media/IMG_9578-resized-min.jpg": "/static/media/IMG_9578-resized-min.28d73f72aeaf922c1f7b.jpg",
     "static/media/IMAG0062-resized-min.jpg": "/static/media/IMAG0062-resized-min.28d956c007245748c7d4.jpg",
@@ -184,6 +182,7 @@
     "static/media/EXP Pictures-01-min.jpg": "/static/media/EXP Pictures-01-min.164f1c50b0adba9f6fd5.jpg",
     "static/media/IMAG0729-resized-min.jpg": "/static/media/IMAG0729-resized-min.85ba29ebfa38ec093455.jpg",
     "static/media/MilestonesBuilder-min.jpg": "/static/media/MilestonesBuilder-min.046e02565ede7f867a28.jpg",
+    "static/media/Mario1-small.jpg": "/static/media/Mario1-small.6695bc320199752a3aa4.jpg",
     "static/media/FronTiers Page-thumbnail.jpg": "/static/media/FronTiers Page-thumbnail.1fedf95d645e7bb06d50.jpg",
     "static/media/OUTER HOUSING RIGHT-resized-min.png": "/static/media/OUTER HOUSING RIGHT-resized-min.9a00b2edb04784818e17.png",
     "static/media/IMAG0925-thumbnail.jpg": "/static/media/IMAG0925-thumbnail.9912acd8a16071a580e7.jpg",
@@ -202,6 +201,7 @@
     "static/media/IMAG0949-thumbnail.jpg": "/static/media/IMAG0949-thumbnail.75218a6b00b9b8386dbf.jpg",
     "static/media/EXP Pictures-08-min.jpg": "/static/media/EXP Pictures-08-min.701f5fe93517f2f63b7b.jpg",
     "static/media/Chess 1-min.jpg": "/static/media/Chess 1-min.b5af9a65f48ed0919d14.jpg",
+    "static/media/Mario-small.jpg": "/static/media/Mario-small.c8a271cd7555ea08ef57.jpg",
     "static/media/Winner-thumbnail.jpg": "/static/media/Winner-thumbnail.189428ccbd033e040750.jpg",
     "static/media/Wheel-resized-min.jpg": "/static/media/Wheel-resized-min.cda47c01434afd12c3a5.jpg",
     "static/media/Wrestling-min.jpg": "/static/media/Wrestling-min.1e586d9576191c3d095f.jpg",
@@ -213,7 +213,6 @@
     "static/media/UserTest1.jpg": "/static/media/UserTest1.aff208ff8a88f85f78d2.jpg",
     "static/media/Screenshot3-min.png": "/static/media/Screenshot3-min.d262bdb4874c1c58c1bb.png",
     "static/media/Jeff-thumbnail.jpg": "/static/media/Jeff-thumbnail.1e9f4af35a1b8ca4cd69.jpg",
-    "static/media/Punctuality-Board-Gif-thumbnail.gif": "/static/media/Punctuality-Board-Gif-thumbnail.8df0707a7a8e08180b30.gif",
     "static/media/Tensioner-min.jpg": "/static/media/Tensioner-min.f75688ea1a41e9695c42.jpg",
     "static/media/Screenshot4-min.png": "/static/media/Screenshot4-min.cdfc8e078a55cb72b461.png",
     "static/media/IMG_6507-thumbnail.jpg": "/static/media/IMG_6507-thumbnail.dda53273396cfe869200.jpg",
@@ -321,7 +320,6 @@
     "static/media/IMAG1090-thumbnail-min.jpg": "/static/media/IMAG1090-thumbnail-min.8ee61dfd9ab81b137ae1.jpg",
     "static/media/IMG_9653-thumbnail-min.jpg": "/static/media/IMG_9653-thumbnail-min.a3d659929983fad28f37.jpg",
     "static/media/Prototype Screenshots-03-resized-min.png": "/static/media/Prototype Screenshots-03-resized-min.4bed6f17625cea42e90e.png",
-    "static/media/Maths 1-thumbnail.jpg": "/static/media/Maths 1-thumbnail.b7f47e96fa38bfc03361.jpg",
     "static/media/Slide11-min.PNG": "/static/media/Slide11-min.6a4540d3b68e88229ca9.PNG",
     "static/media/Memory-cropped.png": "/static/media/Memory-cropped.b86223581d02380ae55b.png",
     "static/media/Day Timeline 1-thumbnail-min.jpg": "/static/media/Day Timeline 1-thumbnail-min.0113fa5be0cb62e90d0d.jpg",
@@ -358,11 +356,11 @@
     "static/media/Hamburger.svg": "/static/media/Hamburger.7ab380941805ef19c9a1.svg",
     "static/media/Close.svg": "/static/media/Close.be8946c25ad550399dad.svg",
     "main.52696a86.css.map": "/static/css/main.52696a86.css.map",
-    "main.69737851.js.map": "/static/js/main.69737851.js.map",
+    "main.299f4522.js.map": "/static/js/main.299f4522.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52696a86.css",
-    "static/js/main.69737851.js"
+    "static/js/main.299f4522.js"
   ]
 }
