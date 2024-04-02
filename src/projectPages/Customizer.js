@@ -6,6 +6,7 @@ class Customizer extends React.Component {
     render(){
         return (
             <>
+                <h2>What is it?</h2>
                 <p>
                     The MyMiniFactory Customizer is a tool where a 3D designer can make money by selling customisable 3D designs.
                     <br/><br/>

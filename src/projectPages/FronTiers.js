@@ -5,6 +5,7 @@ import ImageGallery from 'react-image-gallery';
 function FronTiers() {
     return (
         <>
+            <h2>What is it?</h2>
             <p>
                 MyMiniFactory FronTiers is a product where 3D designers can do a product launch, and communicate with their customers.
                 <br/><br/>
