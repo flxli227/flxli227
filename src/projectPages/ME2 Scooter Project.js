@@ -109,7 +109,6 @@ function ME2ScooterProject() {
             It was a really fun project and the raceday was a great way to end my second year of Mechanical Engineering!
             </p>
             <img
-                class="contentImage"
                 src={require("./../assets/Scooter/IMG-20150604-WA0005.jpg")}
                 alt="Felix just before his race"
             />

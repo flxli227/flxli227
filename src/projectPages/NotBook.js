@@ -130,7 +130,6 @@ function Notbook() {
                 Here the participant is demonstrating to NotBook that they understood the concept of Y-intercept on a graph so they can move on to the next part of the lesson.
             </p>
             <img 
-                className="contentImage"
                 src={require("./../assets/Not-Book/Challenge-resized-min.jpg")}
                 alt="User testing a paper prototye of the test part"
             />
@@ -147,7 +146,6 @@ function Notbook() {
                 In this example they are learning about graphs. Graphs can be used to show a relationship between two variables, such as the price for renting out a bike.
             </p>
             <img 
-                className="contentImage"
                 src={require("./../assets/Not-Book/Prototype Screenshots-02-resized-min.png")}
                 alt="Screenshot of NotBook Introduction phase"
             />
@@ -157,7 +155,6 @@ function Notbook() {
                 What they learn is governed by the syllabus and what will come up in the exam.
             </p>
             <img 
-                className="contentImage"
                 src={require("./../assets/Not-Book/Prototype Screenshots-01-resized-min.png")}
                 alt="Screenshot of NotBook Explore phase"
             />
@@ -167,7 +164,6 @@ function Notbook() {
                 They can go back to the previous explore phases if they would like to explore some more.
             </p>
             <img 
-                className="contentImage"
                 src={require("./../assets/Not-Book/Prototype Screenshots-04-resized-min.png")}
                 alt="Screenshot of NotBook Test phase"
             />
@@ -177,7 +173,6 @@ function Notbook() {
                 When all the concepts are covered the learner can see a summary on what they have learnt to consolidate their learning and test themselves.
             </p>
             <img 
-                className="contentImage"
                 src={require("./../assets/Not-Book/Prototype Screenshots-03-resized-min.png")}
                 alt="Screenshot of NotBook Summary phase"
             />

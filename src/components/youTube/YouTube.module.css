@@ -1,5 +1,6 @@
 .youtubeContainer{
     width: 100%;
+    margin-bottom: var(---spacing-medium);
   }
   
 .youtubeContainer div{
