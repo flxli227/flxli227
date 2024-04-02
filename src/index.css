@@ -22,6 +22,8 @@ body {
   ---font-size-body: 16px;
   ---font-size-small: 12px;
 
+  ---line-height-body: 1.4em;
+
   /* Spacing */
   /* TODO: Figure out what size gaps should be when on different screen sizes */
   ---spacing-from-edge: 20px;
@@ -109,7 +111,7 @@ code {
     ---font-size-large-x3: 72px;
     ---font-size-large-x2: 36px;
     ---font-size-large-x: 24px;
-    ---font-size-body: 16px;
+    ---font-size-body: 18px;
     ---font-size-small: 12px;
 
     ---spacing-from-edge: 5%;

@@ -29,6 +29,7 @@
   color: var(---color-text);
   margin-top: 0;
   margin-bottom: var(---spacing-medium);
+  line-height: var(---line-height-body);
 }
 
 .markdownContainer img{
@@ -51,6 +52,7 @@
   color: var(---color-text);
   margin-top: 0;
   margin-bottom: var(---spacing-medium);
+  line-height: var(---line-height-body);
 }
 
 /* Gallery Styles */
