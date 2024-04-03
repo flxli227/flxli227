@@ -31,8 +31,16 @@
 .mainDesciption{
   font-size: var(---font-size-large-x3);
   max-width: 600px;
+  margin: var(---spacing-small) 0;
 }
 
+.heyGoogle{
+  color:var(---color-highlight-1);
+}
+
+/* .niceToMeetYou{
+  color:var(---color-highlight-2);
+} */
 
 @media only screen and (min-width: 1025px){
   .imageTextContainer{

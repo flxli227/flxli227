@@ -1,4 +1,4 @@
-// import styles from './GoogleApplicationPage.module.css';
+import styles from './GoogleApplicationPage.module.css';
 import './../javascriptPageShow/JavascriptPageShow.css';
 import MultiColumn from './../multiColumn/MultiColumn'
 import {Link} from "react-router-dom";
@@ -7,26 +7,39 @@ function About() {
 
   return (
     <>
-      <h1 className="pageTitle">Hey Google!</h1>
+      <div className={styles.imageTextContainer}>
+        <div className={styles.imageContainer}>
+              <div>
+                  <img
+                    src={require("./../../assets/ProfilePic.png")}
+                    alt="Felix punching his coinbox"
+                  />
+              </div>
+          </div>
+          <div className={styles.mainDesciptionContainer}>
+            <p className={`${styles.mainDesciption} ${styles.heyGoogle}`}> 
+              Hey Google!
+            </p>
+            <p className={`${styles.mainDesciption} ${styles.niceToMeetYou}`}>
+              I’m Felix, nice to meet you!
+            </p>
+          </div>
+      </div>
       <div className="markdownShowFlexContainer">
         <div className="markdownContainer">
-          <p>
-            I’m Felix Nice to meet you!
-          </p>
-
           <h2>A bit about me!</h2>
           <p>
             The bulk of my professional work has been in Project management, UX/UI and Web development, but...
             <br/><br/>
             I find it difficult to be categorised as one role, so I’d like to holistically show you who I am and the variety of things I do!
-            <br/><br/>
-            Here are some of my best projects!
+            {/* <br/><br/>
+            Here are some of my best projects! */}
           </p>
-          <p>
+          {/* <p>
             (Alternatively, if you want to just look through all of my projects click <Link to="/projects">here</Link>!
             <br/><br/>
             This is a special page just for you guys so there is no way to navigate back to here from the main site!)
-          </p>
+          </p> */}
 
           <h2>Tech and Web</h2>
           <p>
