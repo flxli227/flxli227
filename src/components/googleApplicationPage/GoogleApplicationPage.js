@@ -229,7 +229,11 @@ function About() {
             <br/><br/>
             Thank you for your time, I hope you saw a project you liked and I look forward to hearing from you!
           </p>
-          <p>(If you’d like, there are more projects to check out on the main site, <Link to="/projects">here</Link>!)</p>
+          <p>
+            (If you’d like, there are more projects to check out on the main site, <Link to="/projects">here</Link>!
+            <br/><br/>
+            This is a special page just for you guys so there is no way to navigate back to here from the main site!)
+          </p>
         </div>
       </div>
     </>
