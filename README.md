@@ -147,6 +147,22 @@ For example:
 `<Video path={require("./../assets/Not-Book/Final Montage.mp4")}/>`
 Note the relative path is from the Javascript Content page.
 
+You can turn off the controls using this
+```
+<Video 
+    path={require("./../assets/Not-Book/Final Montage.mp4")}
+    turnOffControls={true}
+/>
+```
+
+For longer videos you can preload them but it will turn off autoplay
+```
+<Video 
+    path={require("./../assets/Not-Book/Final Montage.mp4")}
+    lazyLoad={true}
+/>
+```
+
 ### Adding a Gallery with images
 
 Please use the Gallery component and enter the images via an array as a prop called images for example 
@@ -197,10 +213,14 @@ Please use the MultiColumn component and enter the images, title and text via an
 
 Here is a column with all its keys:
 
-Please use link.internalLinkTo or link.url but not both
+Please use link.internalLinkTo or link.url but not both.
+If video and image are both present, it will show the video
 
 ```
 {
+    video: {
+        url: require("./../../assets/Coinbox/02-FinalMontage-ezgif.com-resize-video.mp4"),
+    },
     image: {
         url: Where the image is stored,
         alt: The alt text for the image,

@@ -1,27 +1,44 @@
 import styles from './MultiColumn.module.css';
 import {Link} from "react-router-dom";
+import Video from './../video/Video'
 
 function multiColumn(props){
 
     // Put all the content into columns
     let columnsJSX = props.columns.map((column) =>{
 
-        // Use the filter passed through as props
-        const filters = {
-            filter: column.image.filters
-        }
+        let imageAndTitle;
+        if(column.video){
+            imageAndTitle = (
+                <>
+                    <div className={styles.columnVideoContainer}>
+                        <Video
+                            path={column.video.url}
+                            turnOffControls={true}
+                        />
+                    </div>
+                    <p  className={styles.columnTitle}>{column.title}</p>
+                </>
+            );
 
-        let imageAndTitle = (
-            <>
-                <img 
-                    className={styles.columnImage}
-                    src={column.image.url}
-                    alt={column.image.alt}
-                    style={filters}
-                />
-                <p  className={styles.columnTitle}>{column.title}</p>
-            </>
-        );
+        }else if(column.image){
+            // Use the filter passed through as props
+            const filters = {
+                filter: column.image.filters
+            }
+
+            imageAndTitle = (
+                <>
+                    <img 
+                        className={styles.columnImage}
+                        src={column.image.url}
+                        alt={column.image.alt}
+                        style={filters}
+                        />
+                    <p  className={styles.columnTitle}>{column.title}</p>
+                </>
+            );
+        }
         
         if(column.link){
             const target = column.link.target ? column.link.target : "";

@@ -66,6 +66,9 @@ function About() {
                 }
               },
               {
+                video: {
+                  url: require("./../../assets/Customizer/Customizer-ezgif.com-resize-video.mp4"),
+                },
                 image: {
                   url: require("./../../assets/Customizer/HeroImage.jpg"),
                   alt: "A character created from the MyMiniFactory Customizer",
@@ -90,6 +93,9 @@ function About() {
           <MultiColumn 
             columns = {[
               {
+                video: {
+                  url: require("./../../assets/Coinbox/02-FinalMontage-ezgif.com-resize-video.mp4"),
+                },
                 image: {
                   url: require("./../../assets/Coinbox/Hero Shot-min.jpg"),
                   alt: "Felix with his coinbox",
@@ -166,6 +172,9 @@ function About() {
           <MultiColumn 
             columns = {[
               {
+                video: {
+                  url: require("./../../assets/Pool2/Pool2Gameplay12Seconds-ezgif.com-resize-video.mp4"),
+                },
                 image: {
                   url: require("./../../assets/Pool2/Heroshot-min.jpg"),
                   alt: "A screenshot of the Pool 2 game",
@@ -178,6 +187,9 @@ function About() {
                 }
               },
               {
+                video: {
+                  url: require("./../../assets/Awesome per Second/01-8Second-ezgif.com-resize-video.mp4"),
+                },
                 image: {
                   url: require("./../../assets/Awesome per Second/AwesomePerSecond.jpg"),
                   alt: "A screenshot of Awsome per Second the game",

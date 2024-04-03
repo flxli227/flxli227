@@ -12,7 +12,7 @@ function Video(props){
             muted={props.lazyLoad ? false : true}  //If lazy loading is false-y, and the video plays by itself, mute the video
             loop 
             playsInline
-            controls
+            controls={props.turnOffControls ? false : true}
         >
                 <source src={props.path} type={videoFormat}/>
         </video>

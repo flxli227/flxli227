@@ -20,6 +20,10 @@
         max-width: 100%;
         margin-bottom: var(---spacing-tiny);
     }
+
+    .columnVideoContainer{
+        margin-bottom: var(---spacing-tiny);
+    }
     
     .columnTitle{
         font-weight: bold;
