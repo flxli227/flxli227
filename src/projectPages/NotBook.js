@@ -1,6 +1,7 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
 import Video from './../components/video/Video'
 import ImageGallery from 'react-image-gallery'
+import YouTube from './../components/youTube/YouTube.js'
 
 function Notbook() {
     return (
@@ -248,6 +249,11 @@ function Notbook() {
             <p>
                 When they were doing the test on the NotBook, many of the students wanted to do the interactive test. They became very competitive and compared their scores with each other. This shows there could be potential in providing minigames about a topic and a leaderboard for it for a future feature.
             </p>
+            <h2>Digital Discovery Day</h2>
+            <p>
+                In 2019, I gave a talk on NotBook at the Digital Discovery Day from <a href="https://get.vitalsource.com/" target="_blank" rel="noreferrer">VitalSource</a>. 
+            </p>
+            <YouTube id="m_xRdN4Sn0g"/>
         </>
     )
 }
