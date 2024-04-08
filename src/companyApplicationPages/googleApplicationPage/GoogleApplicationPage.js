@@ -3,7 +3,7 @@ import './../../components/javascriptPageShow/JavascriptPageShow.css';
 import MultiColumn from './../../components/multiColumn/MultiColumn'
 import {Link} from "react-router-dom";
 
-function About() {
+function GoogleApplicationPage() {
 
   return (
     <>
@@ -252,4 +252,4 @@ function About() {
   );
 }
 
-export default About;
+export default GoogleApplicationPage;
