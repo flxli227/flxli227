@@ -5,7 +5,7 @@ import JavascriptPageShow from './../javascriptPageShow/JavascriptPageShow';
 import Footer from './../footer/Footer';
 import YouTube from '../youTube/YouTube';
 import Video from '../video/Video';
-import GoogleApplicationPage from '../googleApplicationPage/GoogleApplicationPage';
+import GoogleApplicationPage from '../../companyApplicationPages/googleApplicationPage/GoogleApplicationPage';
 
 
 function ContentAndFooter(props) {

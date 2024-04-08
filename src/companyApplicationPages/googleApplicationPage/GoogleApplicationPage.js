@@ -1,6 +1,6 @@
 import styles from './GoogleApplicationPage.module.css';
-import './../javascriptPageShow/JavascriptPageShow.css';
-import MultiColumn from './../multiColumn/MultiColumn'
+import './../../components/javascriptPageShow/JavascriptPageShow.css';
+import MultiColumn from './../../components/multiColumn/MultiColumn'
 import {Link} from "react-router-dom";
 
 function About() {
