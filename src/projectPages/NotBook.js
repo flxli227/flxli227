@@ -54,7 +54,7 @@ function Notbook() {
                     Can we help these people understand themselves better and seek support if they need it?
                 </li>
             </ul>
-            <Video path={require("./../assets/Not-Book/03 - Gateway 2 EXP Montage 2.mp4")}/>
+            <Video path={require("./../assets/Not-Book/03-Gateway2EXPMontage2-ezgif.com-mute-video.mp4")}/>
             <p>As I did more research and experiments, I found out these people actually need a way of learning that is catered to them. So the project evolved into an exploration of alternative ways of learning.</p>
             <ul>
                 <li>
@@ -67,9 +67,9 @@ function Notbook() {
             <p>
                 So I experimented with making learning more kinesthetic, and tried to teach algebra, a topic many people struggle with.
             </p>
-            <img
-                src={require("./../assets/Not-Book/Maths 1.jpg")}
-                alt="1st experiment of NotBook, earning algebra with cards"
+            <Video 
+                path={require("./../assets/Not-Book/EXP1-ezgif.com-resize-video.mp4")}
+                lazyLoad={true}
             />
             <p>
                 The main finding was that the cards were just symbols and the participants still didn’t understand what they meant and why they were learning algebra.
@@ -126,18 +126,22 @@ function Notbook() {
             <p>
                 To test and iterate on this idea, I made NotBook lessons for a variety of topics ranging from GCSE mathematics to first-year university level thermodynamics, and tested them on their respective user groups.
                 <br/><br/>
-                For each lesson, I first used paper to test the NotBook lesson so I could change and iterate quicker than if it was coded. 
-                <br/><br/>
-                Here the participant is demonstrating to NotBook that they understood the concept of Y-intercept on a graph so they can move on to the next part of the lesson.
+                Here an Imperial mechanical engineering student explores system boundaries and energy transfers.
             </p>
-            <img 
-                src={require("./../assets/Not-Book/Challenge-resized-min.jpg")}
-                alt="User testing a paper prototye of the test part"
-            />
+            <Video path={require("./../assets/Not-Book/Thermo-ezgif.com-mute-video.mp4")}/>
             <p>
-                Here are some of the NotBook lessons I coded on Unity where I try to let the learner explore the concept by clicking and dragging. 
+                Here are more NotBook lessons I coded on Unity where I try to let the learner explore the concept by clicking and dragging.  
             </p>
             <Video path={require("./../assets/Not-Book/02 - Final Montage.mp4")}/>
+            <p>
+                To gauge if the learner has understood the lesson, they have to do a test. The learner can only move on to the next part of the lesson once they manage to complete it.
+                <br/><br/>
+                I prototyped the NotBook tests with paper so I can iterate quicker than if it was coded.
+            </p>
+            <Video 
+                path={require("./../assets/Not-Book/05-TestMontage2-ezgif.com-mute-video.mp4")}
+                lazyLoad={true}
+            />
             <h2>How does it work?</h2>
             <p>
                 After doing many lessons and tests, this is the framework that seems to work the best for any given topic. 
@@ -243,6 +247,22 @@ function Notbook() {
                         },
                         title:"Test performance",
                         body:"How well the participant scored in the written test"
+                    },
+                ]}
+            />
+            <p>
+                Here are some positive feedback from the user testing:
+            </p>
+            <ImageGallery
+                lazyLoad={true}
+                items={[
+                    { 
+                        original: require("./../assets/Not-Book/StudentFeedback.png"),
+                        thumbnail: require("./../assets/Not-Book/StudentFeedback.png"),
+                    },
+                    { 
+                        original: require("./../assets/Not-Book/StudentFeedback1.png"),
+                        thumbnail: require("./../assets/Not-Book/StudentFeedback1.png"),
                     },
                 ]}
             />
