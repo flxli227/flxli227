@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad0e4bc7.css",
-    "main.js": "/static/js/main.64b9927b.js",
+    "main.css": "/static/css/main.dbaea948.css",
+    "main.js": "/static/js/main.b0f29a7b.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/01 - VIDEO0069.mp4": "/static/media/01 - VIDEO0069.a673e4a78ca4ae26e02e.mp4",
     "static/media/Promo Video.mp4": "/static/media/Promo Video.65812f8d0b1c9890da2c.mp4",
@@ -9,13 +9,16 @@
     "static/media/02 - Final Montage.mp4": "/static/media/02 - Final Montage.0a696db4d244fd15105a.mp4",
     "static/media/02 - VIDEO0072TrimTrim.mp4": "/static/media/02 - VIDEO0072TrimTrim.98ca60a0324d2796d6ad.mp4",
     "static/media/SelfieVideo.mp4": "/static/media/SelfieVideo.0c3a4b6a9d592256004b.mp4",
-    "static/media/03 - Gateway 2 EXP Montage 2.mp4": "/static/media/03 - Gateway 2 EXP Montage 2.1a5524ecf8ad48e41383.mp4",
     "static/media/01 - Clicking and Dragging.mp4": "/static/media/01 - Clicking and Dragging.ef751643accc2ff7c63a.mp4",
     "static/media/Customizer.mp4": "/static/media/Customizer.f870e255b2b293f05aa5.mp4",
     "static/media/03 - Sauce Dripping-resized.mp4": "/static/media/03 - Sauce Dripping-resized.b09cea854245411d4158.mp4",
+    "static/media/05-TestMontage2-ezgif.com-mute-video.mp4": "/static/media/05-TestMontage2-ezgif.com-mute-video.474c29554007847cf531.mp4",
+    "static/media/EXP1-ezgif.com-resize-video.mp4": "/static/media/EXP1-ezgif.com-resize-video.b774f697915952270a39.mp4",
     "static/media/01 - Mixing-resized.mp4": "/static/media/01 - Mixing-resized.ff35784c1e605dee3064.mp4",
     "static/media/02 - Pouring-resized.mp4": "/static/media/02 - Pouring-resized.861f820a7d0d0705aa7f.mp4",
     "static/media/AR-2-resized.gif": "/static/media/AR-2-resized.95fa9340050f9f98fc9d.gif",
+    "static/media/Thermo-ezgif.com-mute-video.mp4": "/static/media/Thermo-ezgif.com-mute-video.7d1608dc85e8f34b007f.mp4",
+    "static/media/03-Gateway2EXPMontage2-ezgif.com-mute-video.mp4": "/static/media/03-Gateway2EXPMontage2-ezgif.com-mute-video.6285eabcf1877140fbf3.mp4",
     "static/media/01 - 8 Second.mp4": "/static/media/01 - 8 Second.e922df88d9913dfd5503.mp4",
     "static/media/02-FinalMontage-ezgif.com-resize-video.mp4": "/static/media/02-FinalMontage-ezgif.com-resize-video.8d67996a585527c13e1d.mp4",
     "static/media/MimosaPlantBox.gif": "/static/media/MimosaPlantBox.29185d0a4f3c9c2ebd4f.gif",
@@ -97,7 +100,6 @@
     "static/media/IMAG0769-resized-min.jpg": "/static/media/IMAG0769-resized-min.fee1124be0ce4eb68134.jpg",
     "static/media/IMAG0947-resized-min.jpg": "/static/media/IMAG0947-resized-min.5acb61246c020202d293.jpg",
     "static/media/20180908_195301-resized-min.jpg": "/static/media/20180908_195301-resized-min.54916ad9133c9527c9d5.jpg",
-    "static/media/Challenge-resized-min.jpg": "/static/media/Challenge-resized-min.9871a14ad45858b32c9a.jpg",
     "static/media/ExampleFronTier2-min.jpg": "/static/media/ExampleFronTier2-min.31e787585ea0e5b91416.jpg",
     "static/media/Prototype Screenshots-01.png": "/static/media/Prototype Screenshots-01.88d8d979996ab283c13b.png",
     "static/media/Winner-resized-min.jpg": "/static/media/Winner-resized-min.8dffc199035bdb601007.jpg",
@@ -179,6 +181,7 @@
     "static/media/egg-timer.jpg": "/static/media/egg-timer.f94c5b1ee2f4d27c6b9c.jpg",
     "static/media/AboutBuilder-min.jpg": "/static/media/AboutBuilder-min.702884dac680452cd041.jpg",
     "static/media/IMAG0732-resized-min.jpg": "/static/media/IMAG0732-resized-min.7883d1792fddeed021dd.jpg",
+    "static/media/StudentFeedback1.png": "/static/media/StudentFeedback1.850f150e55f584647983.png",
     "static/media/IMG_9649-resized-min.jpg": "/static/media/IMG_9649-resized-min.5698a1ef9025b663249d.jpg",
     "static/media/IMAG1090-resized-min.jpg": "/static/media/IMAG1090-resized-min.ab0638449cd686154f09.jpg",
     "static/media/Exit Bottleneck.png": "/static/media/Exit Bottleneck.d0fec3e15f1aaacc4322.png",
@@ -229,6 +232,7 @@
     "static/media/Final Assembly-resized-min.png": "/static/media/Final Assembly-resized-min.d3f7e564fdc9b966fe3b.png",
     "static/media/UI Design-cropped.png": "/static/media/UI Design-cropped.923829413777fc420b81.png",
     "static/media/New Hero Shot Photoshop Replacement-02-01-resized-min.jpg": "/static/media/New Hero Shot Photoshop Replacement-02-01-resized-min.25069805ca49fd52d8b9.jpg",
+    "static/media/StudentFeedback.png": "/static/media/StudentFeedback.b3662885f810f6288a55.png",
     "static/media/Front Cover for Solo Major-min.png": "/static/media/Front Cover for Solo Major-min.4c50d5a3677119d1b657.png",
     "static/media/Bottom-01-resized-min.png": "/static/media/Bottom-01-resized-min.4d0a024371621b895055.png",
     "static/media/Beak-min.jpg": "/static/media/Beak-min.53ecc53d6a3a8de79b09.jpg",
@@ -250,7 +254,6 @@
     "static/media/Monkey Illustration-min.png": "/static/media/Monkey Illustration-min.669dc239d7aaeec36409.png",
     "static/media/IMG_20170319_111435-thumbnail.jpg": "/static/media/IMG_20170319_111435-thumbnail.478ccc0babad335d6ccc.jpg",
     "static/media/Campaigns Search-thumbnail.jpg": "/static/media/Campaigns Search-thumbnail.07724e0befb4d5c0428d.jpg",
-    "static/media/Maths 1.jpg": "/static/media/Maths 1.40feec59063bdce63afd.jpg",
     "static/media/Time-cropped.png": "/static/media/Time-cropped.99d7855ed388b7958efa.png",
     "static/media/AR-2-thumbnail.gif": "/static/media/AR-2-thumbnail.1c5ed116d1e52a776334.gif",
     "static/media/Ambulance-cropped1.png": "/static/media/Ambulance-cropped1.187c32a66b0f81f37e42.png",
@@ -359,12 +362,12 @@
     "index.html": "/index.html",
     "static/media/Hamburger.svg": "/static/media/Hamburger.7ab380941805ef19c9a1.svg",
     "static/media/Close.svg": "/static/media/Close.be8946c25ad550399dad.svg",
-    "main.ad0e4bc7.css.map": "/static/css/main.ad0e4bc7.css.map",
-    "main.64b9927b.js.map": "/static/js/main.64b9927b.js.map",
+    "main.dbaea948.css.map": "/static/css/main.dbaea948.css.map",
+    "main.b0f29a7b.js.map": "/static/js/main.b0f29a7b.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad0e4bc7.css",
-    "static/js/main.64b9927b.js"
+    "static/css/main.dbaea948.css",
+    "static/js/main.b0f29a7b.js"
   ]
 }
