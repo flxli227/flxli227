@@ -6,6 +6,7 @@ import Footer from './../footer/Footer';
 import YouTube from '../youTube/YouTube';
 import Video from '../video/Video';
 import GoogleApplicationPage from '../../companyApplicationPages/googleApplicationPage/GoogleApplicationPage';
+import BrilliantApplicationPage from '../../companyApplicationPages/brilliantApplicationPage/BrilliantApplicationPage';
 
 
 function ContentAndFooter(props) {
@@ -64,11 +65,18 @@ function ContentAndFooter(props) {
       </>
     );
     document.title = "Felix Li - "+ props.name;
-  }else if(props.pageContent === "GoogleApplication"){
+  }else if(props.pageContent === "GoogleApplication"){ //<- From here is the application pages
     //Special Google page
     content = (
       <>
         <GoogleApplicationPage/>
+      </>
+    );
+  }else if(props.pageContent === "BrilliantApplication"){
+    //Special Brilliant page
+    content = (
+      <>
+        <BrilliantApplicationPage/>
       </>
     );
   }

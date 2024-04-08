@@ -75,6 +75,14 @@ function App() {
               />
             }
           ></Route>
+          <Route //BrilliantApplication
+            path="Hey-Brilliant" 
+            element={
+              <ContentAndFooter 
+                pageContent = "BrilliantApplication"
+              />
+            }
+          ></Route>
           <Route
               path=""
               element={ <Navigate to="/Projects"/> }
