@@ -1,6 +1,7 @@
 import React from 'react';
 import Gallery from './../components/gallery/Gallery'
 import MultiColumn from './../components/multiColumn/MultiColumn'
+import Video from './../components/video/Video'
 
 class Customizer extends React.Component {
     render(){
@@ -95,13 +96,11 @@ class Customizer extends React.Component {
                 <p>
                     I brainstormed different ways the overall main structure of the Customizer could work. I tested these using paper prototypes with which users can click through. With paper, I can easily iterate and change the prototype quickly even during mid test.
                 </p>
-                <img 
-                    src={require("./../assets/Customizer/UserTest1.jpg")}
-                />
+                <Video path={require("./../assets/Customizer/PaperPrototype-ezgif.com-mute-video.mp4")}/>
                 <p>
                     For inputting the position and rotation of where parts joined together I prototyped a few different ways to do that in Unity.
                 </p>
-                <img src={require("./../assets/Customizer/UnityTest.jpg")}/>
+                <Video path={require("./../assets/Customizer/Joining-ezgif.com-mute-video.mp4")}/>
                 <p>
                     These were the metrics and considerations of choosing the method of joining parts.
                 </p>
