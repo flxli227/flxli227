@@ -1,5 +1,4 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
-import Gallery from './../components/gallery/Gallery'
 import ImageGallery from 'react-image-gallery';
 
 function FronTiers() {
