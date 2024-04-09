@@ -61,6 +61,7 @@ function ProjectListPage(props) {
     }
 
 
+    window.scrollTo(0, 0);
     return (
         <>
             <h1 className="pageTitle">Projects</h1>
