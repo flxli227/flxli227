@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dbaea948.css",
-    "main.js": "/static/js/main.b0f29a7b.js",
+    "main.js": "/static/js/main.28b51222.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/01 - VIDEO0069.mp4": "/static/media/01 - VIDEO0069.a673e4a78ca4ae26e02e.mp4",
     "static/media/Promo Video.mp4": "/static/media/Promo Video.65812f8d0b1c9890da2c.mp4",
@@ -17,6 +17,7 @@
     "static/media/01 - Mixing-resized.mp4": "/static/media/01 - Mixing-resized.ff35784c1e605dee3064.mp4",
     "static/media/02 - Pouring-resized.mp4": "/static/media/02 - Pouring-resized.861f820a7d0d0705aa7f.mp4",
     "static/media/AR-2-resized.gif": "/static/media/AR-2-resized.95fa9340050f9f98fc9d.gif",
+    "static/media/PaperPrototype-ezgif.com-mute-video.mp4": "/static/media/PaperPrototype-ezgif.com-mute-video.ad3be671a94c58a7cef3.mp4",
     "static/media/Thermo-ezgif.com-mute-video.mp4": "/static/media/Thermo-ezgif.com-mute-video.7d1608dc85e8f34b007f.mp4",
     "static/media/03-Gateway2EXPMontage2-ezgif.com-mute-video.mp4": "/static/media/03-Gateway2EXPMontage2-ezgif.com-mute-video.6285eabcf1877140fbf3.mp4",
     "static/media/01 - 8 Second.mp4": "/static/media/01 - 8 Second.e922df88d9913dfd5503.mp4",
@@ -47,6 +48,7 @@
     "static/media/IMAG0754-resized-min.jpg": "/static/media/IMAG0754-resized-min.9d444c692b083c24ca6a.jpg",
     "static/media/DSC0028-resized-min.jpg": "/static/media/DSC0028-resized-min.3730bbcb9cb760416de6.jpg",
     "static/media/BuildspaceGroupPic-resized-min.jpg": "/static/media/BuildspaceGroupPic-resized-min.ebe9a5782251c13cd458.jpg",
+    "static/media/Joining-ezgif.com-mute-video.mp4": "/static/media/Joining-ezgif.com-mute-video.8fa96aab26020681abc8.mp4",
     "static/media/IMAG0759-resized-min.jpg": "/static/media/IMAG0759-resized-min.9b18891888e84e12d408.jpg",
     "static/media/DSC0021-resized-min.jpg": "/static/media/DSC0021-resized-min.b3ec3cf6a057e0163919.jpg",
     "static/media/DSC0020-resized-min.jpg": "/static/media/DSC0020-resized-min.cbd52c39c52cddf4932d.jpg",
@@ -148,7 +150,6 @@
     "static/media/IMG_6552-resized-min.jpg": "/static/media/IMG_6552-resized-min.af002eda87f8521deb96.jpg",
     "static/media/Love Parade-resized-min.jpg": "/static/media/Love Parade-resized-min.7f0d5c0547dceff1351d.jpg",
     "static/media/HeroForge-resized-min.jpg": "/static/media/HeroForge-resized-min.660798eaf498947a9f1f.jpg",
-    "static/media/UnityTest.jpg": "/static/media/UnityTest.62a4d78332dc7b8aab8e.jpg",
     "static/media/image 42-min.jpg": "/static/media/image 42-min.ac9d7b581b27e563513c.jpg",
     "static/media/IMG_7374-resized-min.jpg": "/static/media/IMG_7374-resized-min.4288a764c55bceacf402.jpg",
     "static/media/CustomizerWorld-min.jpg": "/static/media/CustomizerWorld-min.26f5808e6df028195778.jpg",
@@ -217,7 +218,6 @@
     "static/media/IMAG1089-resized-min.jpg": "/static/media/IMAG1089-resized-min.cc5b4552f2209aa7a11d.jpg",
     "static/media/Scooter CAD-resized-min.jpg": "/static/media/Scooter CAD-resized-min.225d868062a766a7789b.jpg",
     "static/media/FronTierBuilder-min.jpg": "/static/media/FronTierBuilder-min.48460fa02d6645ba32bf.jpg",
-    "static/media/UserTest1.jpg": "/static/media/UserTest1.aff208ff8a88f85f78d2.jpg",
     "static/media/Screenshot3-min.png": "/static/media/Screenshot3-min.d262bdb4874c1c58c1bb.png",
     "static/media/Jeff-thumbnail.jpg": "/static/media/Jeff-thumbnail.1e9f4af35a1b8ca4cd69.jpg",
     "static/media/Tensioner-min.jpg": "/static/media/Tensioner-min.f75688ea1a41e9695c42.jpg",
@@ -363,11 +363,11 @@
     "static/media/Hamburger.svg": "/static/media/Hamburger.7ab380941805ef19c9a1.svg",
     "static/media/Close.svg": "/static/media/Close.be8946c25ad550399dad.svg",
     "main.dbaea948.css.map": "/static/css/main.dbaea948.css.map",
-    "main.b0f29a7b.js.map": "/static/js/main.b0f29a7b.js.map",
+    "main.28b51222.js.map": "/static/js/main.28b51222.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dbaea948.css",
-    "static/js/main.b0f29a7b.js"
+    "static/js/main.28b51222.js"
   ]
 }
