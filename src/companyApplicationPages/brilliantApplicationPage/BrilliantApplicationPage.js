@@ -108,6 +108,51 @@ function BrilliantApplicationPage() {
             ]}
           />
 
+          <h2>Games</h2>
+          <p>
+            Video games are a big part of my life.
+            <br/><br/>
+            I love creating and participating in creative, novel interactive experiences. 
+            <br/><br/>
+            Currently I am developing my own Indie game and my goal is to sell it as a product.
+            <br/><br/>
+            Here is the game I am working on and one I’ve made in the past:
+          </p>
+          <MultiColumn 
+            columns = {[
+              {
+                video: {
+                  url: require("./../../assets/Pool2/Pool2Gameplay12Seconds-ezgif.com-resize-video.mp4"),
+                },
+                image: {
+                  url: require("./../../assets/Pool2/Heroshot-min.jpg"),
+                  alt: "A screenshot of the Pool 2 game",
+                },
+                title: "Pool 2",
+                body: "A game of pool, but each player has their own cue ball and shots happen in real time",
+                link: {
+                  internalLinkTo: "/project/pool-2",
+                  target: "_blank"
+                }
+              },
+              {
+                video: {
+                  url: require("./../../assets/Awesome per Second/01-8Second-ezgif.com-resize-video.mp4"),
+                },
+                image: {
+                  url: require("./../../assets/Awesome per Second/AwesomePerSecond.jpg"),
+                  alt: "A screenshot of Awsome per Second the game",
+                },
+                title: "Awesome Per Second",
+                body: "An Extra Credits Game Jam Entry about my experence of making my first game",
+                link: {
+                  internalLinkTo: "/project/Awesome-Per-Second",
+                  target: "_blank"
+                }
+              },
+            ]}
+          />
+
           <h2>Thank you!</h2>
           <p>
             I’ve done loads of other projects you may find interesting too, check them out <Link to="/projects">here</Link>!
