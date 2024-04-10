@@ -2,10 +2,38 @@ import { useState } from "react";
 import ProjectList from './../projectList/ProjectList';
 import {tags} from './../../Utils.js';
 import './ProjectListPage.css';
+import { useLocation } from 'react-router-dom';
+import {sluggify} from './../../Utils';
 
 
 function ProjectListPage(props) {
-    const  [selectedOption, setSelectedOption] =  useState('All');
+    
+    // On page load read the URL query string and select the correct filter
+
+    // Read query string in URL for "filter"
+    let searchParams = new URLSearchParams(useLocation().search);
+    let query = searchParams.get("filter");
+    let querySluggified = sluggify(query);
+
+    // Sluggify all tags
+    let tagSluggifiedArray = tags.map((tag)=>{
+        return sluggify(tag.name)
+    })
+
+    // See if sluggified query string matches any of the sluggified tags
+    // If yes return the index
+    let indexOfTagMatch = tagSluggifiedArray.indexOf(querySluggified);
+    let tagMatched;
+    if(indexOfTagMatch >= 0){
+        tagMatched = tags[indexOfTagMatch].name;
+    }else{
+        tagMatched = "All";
+
+    }
+    
+
+    // Setting up state
+    const  [selectedOption, setSelectedOption] =  useState(tagMatched);
 
     const  handleDropdownChange = (event) => {
 		setSelectedOption(event.target.value);
