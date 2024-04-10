@@ -13,35 +13,42 @@ function ProjectListPage(props) {
     // Read query string in URL for "filter"
     let searchParams = new URLSearchParams(useLocation().search);
     let query = searchParams.get("filter");
-    let querySluggified = sluggify(query);
-
-    // Sluggify all tags
-    let tagSluggifiedArray = tags.map((tag)=>{
-        return sluggify(tag.name)
-    })
-
-    // See if sluggified query string matches any of the sluggified tags
-    // If yes return the index
-    let indexOfTagMatch = tagSluggifiedArray.indexOf(querySluggified);
-    let tagMatched;
-    if(indexOfTagMatch >= 0){
-        tagMatched = tags[indexOfTagMatch].name;
-    }else{
-        tagMatched = "All";
-
+    let tagMatched = "All";
+    if(query){
+        let querySluggified = sluggify(query);
+        
+        // // Sluggify all tags
+        let tagSluggifiedArray = tags.map((tag)=>{
+            return sluggify(tag.name)
+        })
+        
+        // // See if sluggified query string matches any of the sluggified tags
+        // // If yes return the index
+        let indexOfTagMatch = tagSluggifiedArray.indexOf(querySluggified);
+        
+        if(indexOfTagMatch >= 0){
+            tagMatched = tags[indexOfTagMatch].name;
+        }
     }
-    
+        
 
     // Setting up state
     const  [selectedOption, setSelectedOption] =  useState(tagMatched);
+    // const  [selectedOption, setSelectedOption] =  useState("All");
 
     const  handleDropdownChange = (event) => {
 		setSelectedOption(event.target.value);
 	};
 
     const  handleButtonClick = (event) => {
+        
+        // window.history.replaceState({}, "", "/another-new-url");
         setSelectedOption(event.target.value);
     };
+
+    // applyFilterAndUpdateUrl= (filter) =>{
+    //     window.history.replaceState({}, "", filter);
+    // };
 
     // Render Button Filter (for desktop)
     let tagButtons =  tags.map((tag) =>{
