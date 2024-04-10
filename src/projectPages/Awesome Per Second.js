@@ -16,7 +16,7 @@ function AwesomePerSecond() {
                 I made Awesome Per Second on Unity (C#) and made the assets on Adobe Illustrator.
             </p>
 
-            <h2>What Software did I use?</h2>
+            <h2>Inspiration</h2>
             <p>
                 I felt like the opposite of the brief is trying to have extrinsic fun, and to be the genre of idle games fit that description. 
                 <br/><br/>
