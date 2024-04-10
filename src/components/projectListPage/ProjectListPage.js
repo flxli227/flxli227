@@ -11,10 +11,17 @@ function ProjectListPage(props) {
     // On page load read the URL query string and select the correct filter
 
     // Read query string in URL for "filter"
-    let searchParams = new URLSearchParams(useLocation().search);
+    let urlObject = useLocation();
+    console.log(urlObject);
+    let searchParams = new URLSearchParams(urlObject.search);
     let query = searchParams.get("filter");
+
+    // Set up this variable for use later
     let tagMatched = "All";
+
+    //If there is a query String
     if(query){
+        // Sluggify the query string
         let querySluggified = sluggify(query);
         
         // // Sluggify all tags
@@ -23,7 +30,7 @@ function ProjectListPage(props) {
         })
         
         // // See if sluggified query string matches any of the sluggified tags
-        // // If yes return the index
+        // // If yes return the index, if not return -1
         let indexOfTagMatch = tagSluggifiedArray.indexOf(querySluggified);
         
         if(indexOfTagMatch >= 0){
@@ -37,18 +44,18 @@ function ProjectListPage(props) {
     // const  [selectedOption, setSelectedOption] =  useState("All");
 
     const  handleDropdownChange = (event) => {
-		setSelectedOption(event.target.value);
+		applyFilterAndUpdateUrl(event.target.value);
 	};
 
     const  handleButtonClick = (event) => {
-        
-        // window.history.replaceState({}, "", "/another-new-url");
-        setSelectedOption(event.target.value);
+        applyFilterAndUpdateUrl(event.target.value);
     };
 
-    // applyFilterAndUpdateUrl= (filter) =>{
-    //     window.history.replaceState({}, "", filter);
-    // };
+    const applyFilterAndUpdateUrl= (filter) =>{
+        let urlString = "/#" + urlObject.pathname + "?filter=" + sluggify(filter);
+        window.history.replaceState({}, "", urlString);
+        setSelectedOption(filter);
+    };
 
     // Render Button Filter (for desktop)
     let tagButtons =  tags.map((tag) =>{
