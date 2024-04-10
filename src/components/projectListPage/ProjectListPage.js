@@ -52,7 +52,11 @@ function ProjectListPage(props) {
     };
 
     const applyFilterAndUpdateUrl= (filter) =>{
-        let urlString = "/#" + urlObject.pathname + "?filter=" + sluggify(filter);
+        let urlString = "/#" + urlObject.pathname;
+        if(sluggify(filter) != "all"){
+            //If filter is not all then add the query string in the URL
+            urlString = urlString + "?filter=" + sluggify(filter);
+        }
         window.history.replaceState({}, "", urlString);
         setSelectedOption(filter);
     };
