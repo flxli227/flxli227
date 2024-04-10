@@ -12,7 +12,6 @@ function ProjectListPage(props) {
 
     // Read query string in URL for "filter"
     let urlObject = useLocation();
-    console.log(urlObject);
     let searchParams = new URLSearchParams(urlObject.search);
     let query = searchParams.get("filter");
 
