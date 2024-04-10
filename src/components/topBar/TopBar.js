@@ -39,8 +39,8 @@ class TopBar extends React.Component {
 
       // Make the className default as "menuItem"
       let className = "menuItem";
-      // If the menuItem.name is the same as the slug add " menuItemSelcted" at the end of the classname
-      if(sluggify(menuItem.name) === slug){
+      // If the menuItem.name is included in the slug, add " menuItemSelcted" at the end of the classname
+      if(slug.includes(sluggify(menuItem.name))){
         className += " menuItemSelected"
       }
 
