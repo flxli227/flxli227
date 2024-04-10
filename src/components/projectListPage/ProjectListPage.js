@@ -73,6 +73,7 @@ function ProjectListPage(props) {
                     className={buttonClassName}
                     type="button"
                     value={tag.name}
+                    key={tag.id}
                     onClick={handleButtonClick}
                     >
                     {tag.name}
