@@ -67,7 +67,7 @@ function App() {
             <Route path="" element={<NoPage />} />
             <Route path="*" element={<NoPage />} />
           </Route>
-          <Route //GoogleApplication
+          {/* <Route //GoogleApplication
             path="Hey-Google" 
             element={
               <ContentAndFooter 
@@ -82,7 +82,7 @@ function App() {
                 pageContent = "BrilliantApplication"
               />
             }
-          ></Route>
+          ></Route> */}
           <Route
               path=""
               element={ <Navigate to="/Projects"/> }
