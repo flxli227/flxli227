@@ -9,7 +9,7 @@ function Pool2() {
             <p>
                 Pool 2 is a local multiplayer game about pool but each player has their own cue ball and shots happen in real time.
                 <br/><br/>
-                Click <a href="https://flxli227.itch.io/8-ball-pool-2" target="_blank" rel="noreferrer">here</a> to play the demo. (For desktop only.)
+                Click <a href="https://store.steampowered.com/app/2601390/Pool_2/" target="_blank" rel="noreferrer">here</a> to check out the Steam page and play the demo. 
             </p>
             <h2>Inspiration</h2>
             <p>
@@ -70,13 +70,6 @@ function Pool2() {
                 alt="The Buildspace London meet-up"
             />
             <p>
-                During that time I also showed Pool 2 at a festival, the <a href="https://thurrockscreenculturefestival.uk/2023-2/" target="_blank" rel="noreferrer">Thurrock Screen Culture Festival</a>. I made some friends in the games industry, had the first sign-ups to my mailing list and received feedback for my game.
-            </p>
-            <img 
-                src={require("./../assets/Pool2/Thurrock-resized-min.jpg")}
-                alt="Two people playing Pool 2"
-            />
-            <p>
                 This is the final video showing my progress in the 6 weeks of Buildspace!
             </p>
             <YouTube id="H285iIVfSMg"/>
@@ -126,9 +119,32 @@ function Pool2() {
                     },
                 ]}
             />
-            <h2>Conclusion?</h2>
+            <h2>Showing my game</h2>            
             <p>
-                Pool 2 is still ongoing and the adventure has not ended. Stay tuned for the release of Pool 2 on Steam!
+                During the development of Pool 2, I showed it at some in person festivals:
+            </p>
+            <ul>
+                <li><a href="https://thurrockscreenculturefestival.uk/2023-2/" target="_blank" rel="noreferrer">Thurrock Screen Culture Festival</a> </li>
+                <li><a href="https://games.london/event/game-day-x/" target="_blank" rel="noreferrer">Game Day X</a></li>
+                <li>PLAY Showcase at the <a href="https://re-publica.com/en/news/tincon-x-republica-24" target="_blank" rel="noreferrer">TINCON/re:publica</a></li>
+                <li><a href="https://x.com/egx?lang=en" target="_blank" rel="noreferrer">EGX</a></li>
+            </ul>
+            <Video path={require("./../assets/Pool2/ReactionShot.mp4")}/>
+            <p>
+                In these festivals, I made friends in the games industry, had the first sign-ups to my mailing list, got wishlists and received feedback for my game.
+            </p>
+            <h2>The “Mario Kart of Pool”</h2>            
+            <p>
+                After coding the main game I was looking to other multiplayer games for inspiration. I was playing Mario Kart at the time and was thinking in Mario Kart, there are different courses and modes to keep things fresh. 
+                <br/><br/>
+                From there, I got the inspiration to make different tables, a time trial mode (and maybe a battle mode and “Grand Prix” mode to come.)
+            </p>
+            <Video path={require("./../assets/Pool2/TableMontage.mp4")}/>
+            <h2>Conclusion</h2>
+            <p>
+                I am extremely proud of how this project. I’ve always loved games while growing up, and making a games and releasing one was on my bucket list and one of my life goals! 
+                <br/><br/>
+                Now that I’ve released a game, I know the basics of how to develop, design, and market a game. I feel like my next game could be much larger in scope, higher fidelity and could be made much quicker. I hope to make another commercial game in the future!
             </p>
         </>
     )
