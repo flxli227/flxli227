@@ -19,6 +19,7 @@ body {
   ---font-size-large-x3: 36px;
   ---font-size-large-x2: 24px;
   ---font-size-large-x: 24px;
+  ---font-size-large-m: 20px;
   ---font-size-body: 16px;
   ---font-size-small: 12px;
 
@@ -111,6 +112,7 @@ code {
     ---font-size-large-x3: 72px;
     ---font-size-large-x2: 36px;
     ---font-size-large-x: 24px;
+    ---font-size-large-m: 20px;
     ---font-size-body: 16px;
     ---font-size-small: 12px;
 

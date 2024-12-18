@@ -23,6 +23,22 @@
   margin-bottom: var(---spacing-small);
 }
 
+.markdownContainer h3{
+  width: 100%;
+  font-size: var(---font-size-large-m);
+  color: var(---color-highlight-1);
+  margin-top: var(---spacing-small);
+  margin-bottom: var(---spacing-small);
+}
+
+.markdownContainer h4{
+  width: 100%;
+  font-size: var(---font-size-body);
+  color: var(---color-highlight-2);
+  margin-top: var(---spacing-tiny);
+  margin-bottom: var(---spacing-tiny);
+}
+
 .markdownContainer p{
   width: 100%;
   font-size: var(---font-size-body);
@@ -45,6 +61,25 @@
   max-height: 100vh;
   margin-top: 0;
   margin-bottom: var(---spacing-medium);
+}
+
+.markdownContainer > div.restrictVideoHeightContainer{
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.markdownContainer > div.restrictVideoHeightContainer > div{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.markdownContainer > div.restrictVideoHeightContainer > div > video{
+  height: 100%;
+  width: 100%;
 }
 
 .markdownContainer ul{
@@ -78,4 +113,15 @@
 /* Overides */
 .markdownContainer .image-gallery-content img{
   margin-bottom: 0;
+}
+
+
+/* Breakpoints */
+@media only screen and (min-width: 601px){
+
+  .markdownContainer > div.restrictVideoHeightContainer{
+    /* Forces video max height to be 16:9 for screen larger than 601px viewport */
+    padding-top: 56.25%;
+  }
+
 }
