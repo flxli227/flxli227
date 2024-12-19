@@ -67,22 +67,14 @@ function App() {
             <Route path="" element={<NoPage />} />
             <Route path="*" element={<NoPage />} />
           </Route>
-          {/* <Route //GoogleApplication
-            path="Hey-Google" 
+          <Route //MetaApplication
+            path="Meta-Product-Design-Prototyper" 
             element={
               <ContentAndFooter 
-                pageContent = "GoogleApplication"
+                pageContent = "MetaApplication"
               />
             }
           ></Route>
-          <Route //BrilliantApplication
-            path="Hey-Brilliant" 
-            element={
-              <ContentAndFooter 
-                pageContent = "BrilliantApplication"
-              />
-            }
-          ></Route> */}
           <Route
               path=""
               element={ <Navigate to="/Projects"/> }
