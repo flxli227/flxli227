@@ -57,7 +57,7 @@ export const tags=[
 //Projects data
 export const projectsData= [
     {
-        id: 14,
+        id: 15,
         name: "Pool 2",
         imageURL: require("./assets/Pool2/Heroshot-Steam.jpg"),
         imageAlt: "The cover art for the Pool 2 game",
@@ -67,6 +67,15 @@ export const projectsData= [
         titleVideoOverride:{
             youTubeId: "i7_Fqt3Rj-s",
         }
+    },
+    {
+        id: 14,
+        name: "Library",
+        imageURL: require("./assets/Library/Hero Image.png"),
+        imageAlt: "The FronTiers Logo overlayed on a FronTiers page",
+        year: "2022",
+        tags: ["UX/UI", "Project Management", "Web Development"],
+        body: "The overhaul and redesign of the MyMinFactory Library",
     },
     {
         id: 13,

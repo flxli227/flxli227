@@ -8,6 +8,7 @@ import Customizer from '../../projectPages/Customizer';
 import Firefly from '../../projectPages/Firefly';
 import FronTiers from '../../projectPages/FronTiers';
 import GorillaSuit from '../../projectPages/Gorilla Suit';
+import Library from '../../projectPages/Library';
 import ME2ScooterProject from '../../projectPages/ME2 Scooter Project';
 import NewSpawnBaby from '../../projectPages/New Spawn Baby';
 import Notbook from '../../projectPages/NotBook';
@@ -35,7 +36,9 @@ class JavascriptPageShow extends Component {
       return <FronTiers/>  
     } else if(projectName === "Gorilla Suit"){
       return <GorillaSuit/>  
-    } else if(projectName === "ME2 Scooter Project"){
+    } else if(projectName === "Library"){
+      return <Library/>  
+    }else if(projectName === "ME2 Scooter Project"){
       return <ME2ScooterProject/>  
     } else if(projectName === "New Spawn Baby"){
       return <NewSpawnBaby/>  
