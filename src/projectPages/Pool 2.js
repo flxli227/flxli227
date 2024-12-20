@@ -1,7 +1,5 @@
 import MultiColumn from './../components/multiColumn/MultiColumn'
-import YouTube from './../components/youTube/YouTube.js'
 import Video from './../components/video/Video'
-import ImageGallery from 'react-image-gallery';
 
 function Pool2() {
     return (
