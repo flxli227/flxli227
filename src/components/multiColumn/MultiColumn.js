@@ -38,6 +38,12 @@ function multiColumn(props){
                     <p  className={styles.columnTitle}>{column.title}</p>
                 </>
             );
+        }else{
+            imageAndTitle = (
+                <>
+                    <p  className={styles.columnTitle}>{column.title}</p>
+                </>
+            );
         }
         
         if(column.link){
