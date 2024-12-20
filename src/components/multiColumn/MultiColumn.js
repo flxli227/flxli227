@@ -63,10 +63,13 @@ function multiColumn(props){
             }
         }
 
+        //Show linebreaks as \n in MultiColumn body 
+        const displayText = column.body.split('\n').map(str => <>{str}<br/></>);
+
         return(
             <div className={styles.column}>
                 {imageAndTitle}
-                <p  className={styles.columnBody}>{column.body}</p>
+                <p  className={styles.columnBody}>{displayText}</p>
             </div>
         )
     })
