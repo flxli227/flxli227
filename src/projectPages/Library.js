@@ -52,19 +52,37 @@ function Library() {
                 columns = {[
                     {
                         title: "1. Why do users usually access the library?",
-                        body:"- To redeem their files from creators (84%)\n\n- To download files from the library (76%)\n\n... and more"
+                        body:<ul>
+                                <li>To redeem their files from creators (84%)</li>
+                                <li>To download files from the library (76%)</li>
+                                <li>... and more</li>
+                            </ul>
                     },
                     {
                         title: "2. What sections of the library do users visit most?",
-                        body:"-  Objects shared with me (80%)​​\n\n- Purchases (65%)\n\n... and more"
+                        body:<ul>
+                            <li>Objects shared with me (80%)​</li>
+                            <li>Purchases (65%)</li>
+                            <li>... and more</li>
+                        </ul>
                     },
                     {
                         title: "3. What tasks are users performing most often?",
-                        body:"-  Finding specific objects to download​​​\n\n- Claiming rewards and checking if all the promised files are there​\n\n- Accessing creators' profiles from the library to find similar files\n\n... and more"
+                        body:<ul>
+                            <li>Finding specific objects to download</li>
+                            <li>Claiming rewards and checking if all the promised files are there</li>
+                            <li>Accessing creators' profiles from the library to find similar files</li>
+                            <li>... and more</li>
+                        </ul>
                     },
                     {
                         title: "4. What annoys users the most?",
-                        body:"- The way files are organised (76%)\n\n- Lack of custom organisation (54%)\n\n- No-multi file download (40%)\n\n... and more"
+                        body:<ul>
+                            <li>The way files are organised (76%)</li>
+                            <li>Lack of custom organisation (54%)</li>
+                            <li>No-multi file download (40%)</li>
+                            <li>... and more</li>
+                        </ul>
                     },
                 ]}
             />
