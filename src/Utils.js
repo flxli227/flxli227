@@ -72,7 +72,7 @@ export const projectsData= [
         id: 14,
         name: "Library",
         imageURL: require("./assets/Library/Hero Image.png"),
-        imageAlt: "The FronTiers Logo overlayed on a FronTiers page",
+        imageAlt: "A mockup of the finalised new library design",
         year: "2022",
         tags: ["UX/UI", "Project Management", "Web Development"],
         body: "The overhaul and redesign of the MyMinFactory Library",
