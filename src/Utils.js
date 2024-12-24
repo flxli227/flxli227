@@ -60,7 +60,7 @@ export const projectsData= [
         id: 15,
         name: "Pool 2",
         imageURL: require("./assets/Pool2/Heroshot-Steam.jpg"),
-        imageAlt: "The cover art for the Pool 2 game",
+        imageAlt: "A screenshot of Pool 2 gameplay",
         year: "2023",
         tags: ["Games", "Coding"],
         body: "A game of pool, but each player has their own cue ball and shots happen in real time",
