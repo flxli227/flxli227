@@ -58,90 +58,84 @@ function MetaApplicationPage() {
           <p>
             Timie helps individuals with ADHD or poor planning habits manage their time by gamifying punctuality. Users race against a virtual version of themselves that is on time, turning time management into an engaging challenge.
           </p>
-          <h4>Highlights</h4>
+          <h4>Problem</h4>
+          <p>
+            Chronic lateness due to leaving their house late. (Caused by poor task planning and underestimating how long they will take.)
+          </p>
+          <Gallery
+            images={[
+                require("./../../assets/Timie/1-min.png"),
+                require("./../../assets/Timie/2-min.png"),
+                require("./../../assets/Timie/3-min.png"),
+                require("./../../assets/Timie/4-min.png"),
+                require("./../../assets/Timie/5-min.png"),
+                require("./../../assets/Timie/6-min.png"),
+                require("./../../assets/Timie/7-min.png"),
+                require("./../../assets/Timie/8-min.png"),
+                require("./../../assets/Timie/9-min.png"),
+                require("./../../assets/Timie/10-min.png"),
+                require("./../../assets/Timie/11-min.png"),
+                require("./../../assets/Timie/12-min.png"),
+                require("./../../assets/Timie/13-min.png"),
+                require("./../../assets/Timie/14-min.png"),
+                require("./../../assets/Timie/15-min.png"),
+                require("./../../assets/Timie/16-min.png"),
+            ]}
+          />
+          <h4>Solution</h4>
+          <p>
+            Designed an intuitive, gamified system to help users visualise when they need to start getting ready.
+          </p>
+          <Video path={require("./../../assets/Timie/03 - Time Animation.mp4")}/>
+          <h4>Process</h4>
           <ul>
-            <li>
-              Problem: Chronic lateness due to leaving their house late. (Caused by poor task planning and underestimating how long they will take.)
-              <br/><br/>
-              <Gallery
-                images={[
-                    require("./../../assets/Timie/1-min.png"),
-                    require("./../../assets/Timie/2-min.png"),
-                    require("./../../assets/Timie/3-min.png"),
-                    require("./../../assets/Timie/4-min.png"),
-                    require("./../../assets/Timie/5-min.png"),
-                    require("./../../assets/Timie/6-min.png"),
-                    require("./../../assets/Timie/7-min.png"),
-                    require("./../../assets/Timie/8-min.png"),
-                    require("./../../assets/Timie/9-min.png"),
-                    require("./../../assets/Timie/10-min.png"),
-                    require("./../../assets/Timie/11-min.png"),
-                    require("./../../assets/Timie/12-min.png"),
-                    require("./../../assets/Timie/13-min.png"),
-                    require("./../../assets/Timie/14-min.png"),
-                    require("./../../assets/Timie/15-min.png"),
-                    require("./../../assets/Timie/16-min.png"),
-                ]}
-              />
-            </li>
-            <li>
-              Solution: Designed an intuitive, gamified system to help users visualise when they need to start getting ready.
-              <br/><br/>
-              <Video path={require("./../../assets/Timie/03 - Time Animation.mp4")}/>
-              <br/><br/>
-            </li>
-            <li>
-              Process:
-              <ul>
-                <li>Conducted user interviews to identify pain points and define problem statement.</li>
-                <li>Explored solutions, from physical prototypes (post-it timelines) to AR concepts for Google Glass.</li>
-                <li>Adapted the design to a smartphone/smartwatch app, creating detailed user flows and mockups.</li>
-              </ul>
-              <ImageGallery
-                lazyLoad={true}
-                items={[
-                    {
-                        original: require("./../../assets/Timie/AR-2-resized.gif"),
-                        thumbnail: require("./../../assets/Timie/AR-2-thumbnail.gif"),
-                    },
-                    { 
-                        original: require("./../../assets/Timie/Day Timeline 2-resized-min.jpg"),
-                        thumbnail: require("./../../assets/Timie/Day Timeline 2-thumbnail-min.jpg"),
-                    },
-                    {
-                        original: require("./../../assets/Timie/Micro Timeline-resized-min.jpg"),
-                        thumbnail: require("./../../assets/Timie/Micro Timeline-thumbnail-min.jpg"),
-                    },
-                    {
-                        original: require("./../../assets/Timie/Day Timeline 1-resized-min.jpg"),
-                        thumbnail: require("./../../assets/Timie/Day Timeline 1-thumbnail-min.jpg"),
-                    },
-                    { 
-                        original: require("./../../assets/Timie/IMAG1089-resized-min.jpg"),
-                        thumbnail: require("./../../assets/Timie/IMAG1089-thumbnail-min.jpg"),
-                    },
-                    {
-                        original: require("./../../assets/Timie/IMAG1090-resized-min.jpg"),
-                        thumbnail: require("./../../assets/Timie/IMAG1090-thumbnail-min.jpg"),
-                    },
-                ]}
-            />
-            </li>
-            <li>
-              Outcome: Developed a visual prototype demonstrating innovative interaction design.
-              <br/><br/>
-              <img
-                src={require("./../../assets/Timie/Timie EXP Pictures-05 2-05-05 1-resized-min.jpg")}
-                alt="A prototype smart watch and app to help you be on time"
-              />
-            </li>
+            <li>Conducted user interviews to identify pain points and define problem statement.</li>
+            <li>Explored solutions, from physical prototypes (post-it timelines) to AR concepts for Google Glass.</li>
+            <li>Adapted the design to a smartphone/smartwatch app, creating detailed user flows and mockups.</li>
           </ul>
+          <ImageGallery
+            lazyLoad={true}
+            items={[
+                {
+                    original: require("./../../assets/Timie/AR-2-resized.gif"),
+                    thumbnail: require("./../../assets/Timie/AR-2-thumbnail.gif"),
+                },
+                { 
+                    original: require("./../../assets/Timie/Day Timeline 2-resized-min.jpg"),
+                    thumbnail: require("./../../assets/Timie/Day Timeline 2-thumbnail-min.jpg"),
+                },
+                {
+                    original: require("./../../assets/Timie/Micro Timeline-resized-min.jpg"),
+                    thumbnail: require("./../../assets/Timie/Micro Timeline-thumbnail-min.jpg"),
+                },
+                {
+                    original: require("./../../assets/Timie/Day Timeline 1-resized-min.jpg"),
+                    thumbnail: require("./../../assets/Timie/Day Timeline 1-thumbnail-min.jpg"),
+                },
+                { 
+                    original: require("./../../assets/Timie/IMAG1089-resized-min.jpg"),
+                    thumbnail: require("./../../assets/Timie/IMAG1089-thumbnail-min.jpg"),
+                },
+                {
+                    original: require("./../../assets/Timie/IMAG1090-resized-min.jpg"),
+                    thumbnail: require("./../../assets/Timie/IMAG1090-thumbnail-min.jpg"),
+                },
+            ]}
+          />
+          <h4>Outcome</h4>
+          <p>
+            Developed a visual prototype demonstrating innovative interaction design.
+          </p>
+          <img
+            src={require("./../../assets/Timie/Timie EXP Pictures-05 2-05-05 1-resized-min.jpg")}
+            alt="A prototype smart watch and app to help you be on time"
+          />
           <h4>Key skills</h4>
           <ul>
             <li>User Research</li>
             <li>Prototyping</li>
             <li>AR Interaction Design</li>
-          </ul>
+          </ul>          
           <p>
             Check out the project in more detail <Link to="/project/timie" target="_blank" rel="noopener noreferrer">here</Link>!
           </p>
@@ -158,46 +152,40 @@ function MetaApplicationPage() {
           <p>
             Pool 2 is a 4 player physics-based party game where you play pool with a chaotic twist on wacky tables. No more waiting for your turn as each player controls a cue ball, and shots are taken in real-time! 
           </p>
-          <h4>Highlights</h4>
+          <h4>Process</h4>
           <ul>
-            <li>
-              Process:
-              <ul>
-                <li>Built playable prototype of the game</li>
-                <li>Set up user testing and gathered player feedback</li>
-                <li>Iterate and added requested features and maps</li>
-                <li>Polish visuals and game juciness</li>
-                <li>Release on Steam</li>
-              </ul>
-              {/* [Screenshot of Joe Mama] */}
-              <Video path={require("./../../assets/Pool2/AimBot-ezgif.com-resize-video.mp4")}/>
-              <br/><br/>
-            </li>
-            <li>
-              Outcome: Released a full game on Steam
-              <br/><br/>
-              <img
-                      src={require("./../../assets/Pool2/Steam Store.png")}
-                      alt="Screenshot of the Steam Store"
-                  />
-                  <MultiColumn 
-                      columns = {[
-                          {
-                              image: {
-                                  url: require("./../../assets/Pool2/Review 1.png"),
-                                  alt: "A positive reivew on the Pool 2 Steam Store",
-                              },
-                          },
-                          {
-                              image: {
-                                  url: require("./../../assets/Pool2/Review 2.png"),
-                                  alt: "A positive reivew on the Pool 2 Steam Store",
-                              },
-                          },
-                      ]}
-                  />
-            </li>
+            <li>Built playable prototype of the game</li>
+            <li>Set up user testing and gathered player feedback</li>
+            <li>Iterate and added requested features and maps</li>
+            <li>Polish visuals and game juciness</li>
+            <li>Release on Steam</li>
           </ul>
+          {/* [Screenshot of Joe Mama] */}
+          <Video path={require("./../../assets/Pool2/AimBot-ezgif.com-resize-video.mp4")}/>
+          <h4>Outcome</h4>
+          <p>
+            Released a full game on Steam
+          </p>
+          <img
+              src={require("./../../assets/Pool2/Steam Store.png")}
+              alt="Screenshot of the Steam Store"
+          />
+          <MultiColumn 
+              columns = {[
+                  {
+                      image: {
+                          url: require("./../../assets/Pool2/Review 1.png"),
+                          alt: "A positive reivew on the Pool 2 Steam Store",
+                      },
+                  },
+                  {
+                      image: {
+                          url: require("./../../assets/Pool2/Review 2.png"),
+                          alt: "A positive reivew on the Pool 2 Steam Store",
+                      },
+                  },
+              ]}
+          />
           <h4>Key skills</h4>
           <ul>
             <li>Unity (C#) development</li>
@@ -223,89 +211,90 @@ function MetaApplicationPage() {
           <p>
             The library is the place where a user can access all the 3D files they have bought on MyMIniFactory. The task is to redesign and improve the MyMiniFactory library.
           </p>
-          <h4>Highlights</h4>
+          <h4>Problem</h4>
+          <p>
+            Users on the platform are not happy about the library
+          </p>
+          <h4>Solution</h4>
+          <p>
+            Conduct UX research and redesign the library to make it more user friendly
+          </p>
+          <h4>Process</h4>
           <ul>
-            <li>Problem: Users on the platform are not happy about the library</li>
-            <li>Solution: Conduct UX research and redesign the library to make it more user friendly</li>
             <li>
-              Process:
-              <ul>
-                <li>
-                  Conducted UX research by sending surveys and interviewing extreme users to collect qualitative and quantitative data on the existing library
-                  <br/><br/>
-                  <i><q>I now have Purchased, Campaigns AND Shared with me....why can't these be all together by designer?</q></i> - User 1
-                  <br/><br/>
-                  <i><q>Also let us search in our library so if I'm printing dwarves I can see what I already have on hand.</q></i> - User 2
-                  <br/><br/>
+              Conducted UX research by sending surveys and interviewing extreme users to collect qualitative and quantitative data on the existing library
+              <br/><br/>
+              <i><q>I now have Purchased, Campaigns AND Shared with me....why can't these be all together by designer?</q></i> - User 1
+              <br/><br/>
+              <i><q>Also let us search in our library so if I'm printing dwarves I can see what I already have on hand.</q></i> - User 2
+              <br/><br/>
 
-                  <table>
-                    <tr>
-                      <th>Task</th>
-                      <th>Time</th>
-                    </tr>
-                    <tr>
-                      <td>Locate a specific object</td>
-                      <td> &gt; 1 minute</td>
-                    </tr>
-                    <tr>
-                      <td>Find files from a specific campaign</td>
-                      <td>20sec</td>
-                    </tr>
-                    <tr>
-                      <td>Find a specific release from a monthly subscription</td>
-                      <td>10sec</td>
-                    </tr>
-                    <tr>
-                      <td>Find a specific collection of files</td>
-                      <td>12sec</td>
-                    </tr>
-                  </table>
-                </li>
-                <li>
-                  Design and tested UX prototypes with users on Figma and iterated the design
-                  <br/><br/>
-                  <img 
-                      src={require("./../../assets/Library/Library prototype.png")}
-                      alt="A clickable prototype of the new library interface"
-                  />
-                  <MultiColumn 
-                      columns = {[
-                          {
-                              image: {
-                                  url: require("./../../assets/Library/Overall Time Taken.png"),
-                                  alt: "Graphic showing the time decrease when using the library",
-                              },
-                              // title: "Time save",
-                              // body:"Tasks in the prototype took a third of the time they used to"
-                          },
-                          {
-                              image: {
-                                  url: require("./../../assets/Library/Rating.png"),
-                                  alt: "Graphic showing the customer satisfaction score from the old library to the prototype",
-                              },
-                              // title: "Customer satisfaction",
-                              // body:"Users felt better when using the final prototype"
-                          },
-                      ]}
-                  />
-                </li>
-                <li>
-                  Developed product specification documents for the tech team and QA
-                </li>
-                <li>
-                  Liase with the tech team to validate the feasibility of the project and get rough timeline for project managment 
-                </li>
-                <li>
-                  Conceived the product roadmap and prioritised features to put into the tech sprint
-                </li>
-              </ul>
+              <table>
+                <tr>
+                  <th>Task</th>
+                  <th>Time</th>
+                </tr>
+                <tr>
+                  <td>Locate a specific object</td>
+                  <td> &gt; 1 minute</td>
+                </tr>
+                <tr>
+                  <td>Find files from a specific campaign</td>
+                  <td>20sec</td>
+                </tr>
+                <tr>
+                  <td>Find a specific release from a monthly subscription</td>
+                  <td>10sec</td>
+                </tr>
+                <tr>
+                  <td>Find a specific collection of files</td>
+                  <td>12sec</td>
+                </tr>
+              </table>
             </li>
             <li>
-              Outcome: Produced in depth product specification and roadmap document. (The library has since become live on MyMiniFactory.)
+              Design and tested UX prototypes with users on Figma and iterated the design
               <br/><br/>
-              {/* [Another mock-up?] */}
+              <img 
+                  src={require("./../../assets/Library/Library prototype.png")}
+                  alt="A clickable prototype of the new library interface"
+              />
+              <MultiColumn 
+                  columns = {[
+                      {
+                          image: {
+                              url: require("./../../assets/Library/Overall Time Taken.png"),
+                              alt: "Graphic showing the time decrease when using the library",
+                          },
+                          // title: "Time save",
+                          // body:"Tasks in the prototype took a third of the time they used to"
+                      },
+                      {
+                          image: {
+                              url: require("./../../assets/Library/Rating.png"),
+                              alt: "Graphic showing the customer satisfaction score from the old library to the prototype",
+                          },
+                          // title: "Customer satisfaction",
+                          // body:"Users felt better when using the final prototype"
+                      },
+                  ]}
+              />
+            </li>
+            <li>
+              Developed product specification documents for the tech team and QA
+            </li>
+            <li>
+              Liase with the tech team to validate the feasibility of the project and get rough timeline for project managment 
+            </li>
+            <li>
+              Conceived the product roadmap and prioritised features to put into the tech sprint
             </li>
           </ul>
+          <h4>Outcome</h4>
+          <p>
+            Produced in depth product specification and roadmap document. (The library has since become live on MyMiniFactory.)
+          </p>
+          {/* [Another mock-up?] */}
           <h4>Key skills</h4>
           <ul>
             <li>UX/UI research with qualitative and quantitative methods</li>
@@ -329,109 +318,105 @@ function MetaApplicationPage() {
           <p>
             The MyMiniFactory Customizer is a tool where a 3D designer can make money by selling customisable 3D designs.
             <br/><br/>
-            My role was to design a system where:
+            My role was to design a system where 3D designers:
           </p>
+          <MultiColumn 
+            columns = {[
+              {
+                image: {
+                  url: require("./../../assets/Icons/Upload.png"),
+                  alt: "Upload icon",
+                  filters: ["invert(1)"]
+                },
+                title: "Upload STL files",
+                body: "Can upload multiple STL files that will be interchanged to make a single STL file",
+              },
+              {
+                image: {
+                  url: require("./../../assets/Icons/Jigsaw Pieces-cropped.png"),
+                  alt: "Jigsaw Icon",
+                  filters: ["invert(1)"]
+                },
+                title: "Create customizer structure",
+                body: "Create the structure of the Customizer (which parts are interchangeable with other parts and how they join together)",
+              },
+            ]}
+          />
+          <p>
+            3D printer hobbyists:
+          </p>
+          <MultiColumn 
+            columns = {[
+              {
+                image: {
+                  url: require("./../../assets/Icons/Robot.png"),
+                  alt: "Robot icon",
+                  filters: ["invert(1)"]
+                },
+                title: "Customise",
+                body: "Can use the tool to pick and choose parts to customise their designs",
+              },
+              {
+                image: {
+                  url: require("./../../assets/Icons/Download.png"),
+                  alt: "Download Icon",
+                  filters: ["invert(1)"]
+                },
+                title: "Buy the customised file",
+                body: "Pay for every customised file they download",
+              },
+            ]}
+          />
+          <h4>Task</h4>
+          <p>
+            Create a interface where 3D designers can upload their own versions of a  customisable “Character Creator” but for any object
+          </p>
+          <h4>Process</h4>
           <ul>
             <li>
-              3D designers:
-              <MultiColumn 
-                columns = {[
-                  {
-                    image: {
-                      url: require("./../../assets/Icons/Upload.png"),
-                      alt: "Upload icon",
-                      filters: ["invert(1)"]
-                    },
-                    title: "Upload STL files",
-                    body: "Can upload multiple STL files that will be interchanged to make a single STL file",
-                  },
-                  {
-                    image: {
-                      url: require("./../../assets/Icons/Jigsaw Pieces-cropped.png"),
-                      alt: "Jigsaw Icon",
-                      filters: ["invert(1)"]
-                    },
-                    title: "Create customizer structure",
-                    body: "Create the structure of the Customizer (which parts are interchangeable with other parts and how they join together)",
-                  },
+              Analysed our competitors to see currently how other STL “Character Creators” work
+            </li>
+            <li>
+              Made prototypes on paper and Unity to test the user flow, joining accuracy and make iterations
+              <br/><br/>
+              <Video path={require("./../../assets/Customizer/PaperPrototype-ezgif.com-mute-video.mp4")}/>
+              <br/><br/>
+              <Video path={require("./../../assets/Customizer/Joining-ezgif.com-mute-video.mp4")}/>
+              <br/><br/>
+            </li>
+            <li>
+              Produced the final user flow diagrams and mockups and liaised with developers
+              <br/><br/>
+              <Gallery
+                images={[
+                    require("./../../assets/Customizer/Flowchart-min.png"),
+                    require("./../../assets/Customizer/ScreenshotOfCustomizer.png"),
+                    require("./../../assets/Customizer/CreatorSideUI.png"),
+                    require("./../../assets/Customizer/CreatorSideUI2.png"),
+                    require("./../../assets/Customizer/CreatorSideUI3.png"),
                 ]}
               />
             </li>
             <li>
-              3D printer hobbyists:
-              <MultiColumn 
-                columns = {[
-                  {
-                    image: {
-                      url: require("./../../assets/Icons/Robot.png"),
-                      alt: "Robot icon",
-                      filters: ["invert(1)"]
-                    },
-                    title: "Customise",
-                    body: "Can use the tool to pick and choose parts to customise their designs",
-                  },
-                  {
-                    image: {
-                      url: require("./../../assets/Icons/Download.png"),
-                      alt: "Download Icon",
-                      filters: ["invert(1)"]
-                    },
-                    title: "Buy the customised file",
-                    body: "Pay for every customised file they download",
-                  },
-                ]}
-              />
-            </li>
-          </ul>
-          <h4>Highlights</h4>
-          <ul>
-            <li>Task: Create a interface where 3D designers can upload their own versions of a  customisable “Character Creator” but for any object</li>
-            <li>
-              Process:
-              <ul>
-                <li>
-                  Analysed our competitors to see currently how other STL “Character Creators” work
-                </li>
-                <li>
-                  Made prototypes on paper and Unity to test the user flow, joining accuracy and make iterations
-                  <br/><br/>
-                  <Video path={require("./../../assets/Customizer/PaperPrototype-ezgif.com-mute-video.mp4")}/>
-                  <br/><br/>
-                  <Video path={require("./../../assets/Customizer/Joining-ezgif.com-mute-video.mp4")}/>
-                  <br/><br/>
-                </li>
-                <li>
-                  Produced the final user flow diagrams and mockups and liaised with developers
-                  <br/><br/>
-                  <Gallery
-                    images={[
-                        require("./../../assets/Customizer/Flowchart-min.png"),
-                        require("./../../assets/Customizer/ScreenshotOfCustomizer.png"),
-                        require("./../../assets/Customizer/CreatorSideUI.png"),
-                        require("./../../assets/Customizer/CreatorSideUI2.png"),
-                        require("./../../assets/Customizer/CreatorSideUI3.png"),
-                    ]}
-                  />
-                </li>
-                <li>
-                  Communicated with stakeholders and coordinated the product launch within the cross functional team
-                </li>
-                <li>
-                  Produced documentation for how the Customizer technically works and future plans for the product
-
-                  {/* DOCS */}
-                </li>
-              </ul>
+              Communicated with stakeholders and coordinated the product launch within the cross functional team
             </li>
             <li>
-              Outcome: Lauched the Customizer on MyMiniFactory.com (50,000 downloads 100,000+ views)
+              Produced documentation for how the Customizer technically works and future plans for the product
               <br/><br/>
               <img
-                src={require("./../../assets/Customizer/HeroImage.jpg")}
-                alt="A character created from the MyMiniFactory Customizer"
+                src={require("./../../assets/Customizer/Docs.png")}
+                alt="A screenshot of 2 pages of the Customizer documentation"
               />
             </li>
           </ul>
+          <h4>Outcome</h4>
+          <p>
+            Lauched the Customizer on MyMiniFactory.com (50,000 downloads 100,000+ views)
+          </p>
+          <img
+            src={require("./../../assets/Customizer/HeroImage.jpg")}
+            alt="A character created from the MyMiniFactory Customizer"
+          />
           <h4>Key skills</h4>
           <ul>
             <li>Product Launch</li>
@@ -586,6 +571,10 @@ function MetaApplicationPage() {
           />
           <hr/>
           <h2>Why I’m Excited About Reality Labs</h2>
+          <img
+            src={require("./../../assets/Misc/Meta Email.png")}
+            alt="A screenshot of the Meta email I've recieved"
+          />
           <p>
             Three years ago, I had the privilege of being contacted by Reality Labs for this exact role. Although I wasn’t ready to transition at the time, the opportunity left a lasting impression. 
             <br/><br/>
@@ -593,17 +582,25 @@ function MetaApplicationPage() {
             <br/><br/>
             This role represents the perfect next step in my career, and I’m excited to contribute my creativity and technical expertise to shape the future of AR/VR interactions.
             <br/><br/>
-            Let’s connect—I’d love to discuss how my skills and passion can bring value to Reality Labs.
+            Let’s connect, I’d love to discuss how my skills and passion can bring value to Reality Labs.
           </p>
           <h2>Thank you!</h2>
+
           <p>
-            Overall, my process is to find opportunities and problems to solve!
-            <br/><br/>
-            I experiment physically and digitally to see what sticks.
-            <br/><br/>
             Thank you for your time, I hope you saw a project you liked and I look forward to hearing from you!
-          </p>
-          <p>
+            <br/><br/>
+            <a 
+              href="mailto:felix.li@network.rca.ac.uk" 
+              target="_blank"
+              rel="noreferrer"
+            >
+              Let's have a chat!
+            </a>
+            <br/><br/>
+            <a href="Felix Li - Meta Product Design Prototyper CV" download>
+              Download my CV!
+            </a>
+            <br/><br/>
             (If you’d like, there are more projects to check out on the main site, <Link to="/projects">here</Link>!
             <br/><br/>
             This is a special page just for you guys so there is no way to navigate back to here from the main site!)

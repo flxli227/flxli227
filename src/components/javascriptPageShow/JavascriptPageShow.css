@@ -96,6 +96,10 @@
   line-height: var(---line-height-body);
 }
 
+.markdownContainer li{
+  margin-bottom: var(---spacing-micro);
+}
+
 .markdownContainer table {
   border-collapse: collapse;
   color: var(---color-text);
