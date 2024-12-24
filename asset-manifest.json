@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.679af752.css",
-    "main.js": "/static/js/main.7973b484.js",
+    "main.css": "/static/css/main.928a7d26.css",
+    "main.js": "/static/js/main.08f4cabd.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/01 - VIDEO0069.mp4": "/static/media/01 - VIDEO0069.a673e4a78ca4ae26e02e.mp4",
     "static/media/Promo Video.mp4": "/static/media/Promo Video.65812f8d0b1c9890da2c.mp4",
@@ -28,7 +28,6 @@
     "static/media/03-Gateway2EXPMontage2-ezgif.com-mute-video.mp4": "/static/media/03-Gateway2EXPMontage2-ezgif.com-mute-video.6285eabcf1877140fbf3.mp4",
     "static/media/AimBot-ezgif.com-resize-video.mp4": "/static/media/AimBot-ezgif.com-resize-video.93a3d0576de26749d437.mp4",
     "static/media/01 - 8 Second.mp4": "/static/media/01 - 8 Second.e922df88d9913dfd5503.mp4",
-    "static/media/02-FinalMontage-ezgif.com-resize-video.mp4": "/static/media/02-FinalMontage-ezgif.com-resize-video.8d67996a585527c13e1d.mp4",
     "static/media/Steam Store.png": "/static/media/Steam Store.89421ec0943cd67e03b1.png",
     "static/media/MimosaPlantBox.gif": "/static/media/MimosaPlantBox.29185d0a4f3c9c2ebd4f.gif",
     "static/media/Pool2InitialProgressCropped.mp4": "/static/media/Pool2InitialProgressCropped.8c0f59cf16bc8abcf298.mp4",
@@ -44,7 +43,6 @@
     "static/media/Heroshot-Steam.jpg": "/static/media/Heroshot-Steam.1c813534b5870bcd2b2b.jpg",
     "static/media/Hero Image.png": "/static/media/Hero Image.91dcd5e744d17cfdff19.png",
     "static/media/Cookie Clicker.jpg": "/static/media/Cookie Clicker.7072fea766759336740b.jpg",
-    "static/media/Pool2Gameplay12Seconds-ezgif.com-resize-video.mp4": "/static/media/Pool2Gameplay12Seconds-ezgif.com-resize-video.8598a2eac7b39d6d1817.mp4",
     "static/media/Customizer-ezgif.com-resize-video.mp4": "/static/media/Customizer-ezgif.com-resize-video.7ff6ee43fafea4350a0f.mp4",
     "static/media/ScreenshotOfCustomizer.png": "/static/media/ScreenshotOfCustomizer.db2df46fa152bcc421a8.png",
     "static/media/IMG_6507-resized-min.jpg": "/static/media/IMG_6507-resized-min.237d040b7f4b71077846.jpg",
@@ -111,6 +109,7 @@
     "static/media/Milestones-min.jpg": "/static/media/Milestones-min.ceb11a04883851ee687a.jpg",
     "static/media/HeroImage.jpg": "/static/media/HeroImage.7775228037ee3148b52d.jpg",
     "static/media/image 41-min.jpg": "/static/media/image 41-min.5c80a02385c217e47f92.jpg",
+    "static/media/Docs.png": "/static/media/Docs.409216871138d12cba78.png",
     "static/media/Nice Photos-02-resized-min.jpg": "/static/media/Nice Photos-02-resized-min.81e25f91c6a0090125dd.jpg",
     "static/media/image 38-min.jpg": "/static/media/image 38-min.3c32a10172b23f1e4990.jpg",
     "static/media/IMAG0842-resized-min.jpg": "/static/media/IMAG0842-resized-min.5a5fde72298199e0e877.jpg",
@@ -122,7 +121,6 @@
     "static/media/Nice Photos-01-resized-min.jpg": "/static/media/Nice Photos-01-resized-min.f1f396c9a3bb9199f686.jpg",
     "static/media/DSCF1741-resized-min.jpg": "/static/media/DSCF1741-resized-min.592a0667a392375ea7f6.jpg",
     "static/media/EXP Pictures-11-min.jpg": "/static/media/EXP Pictures-11-min.a96cc7e84444887ff81f.jpg",
-    "static/media/Dabang Delhi-min.jpg": "/static/media/Dabang Delhi-min.dff1cc597c53b203e325.jpg",
     "static/media/EXP Pictures-10-min.jpg": "/static/media/EXP Pictures-10-min.231dccf49c7dd6807089.jpg",
     "static/media/IMG-20150203-WA0006-resized-min.jpg": "/static/media/IMG-20150203-WA0006-resized-min.a2c5c87fd82ca36db391.jpg",
     "static/media/Final-min.jpg": "/static/media/Final-min.adb85ce155815360b469.jpg",
@@ -214,7 +212,6 @@
     "static/media/Chess 1-min.jpg": "/static/media/Chess 1-min.b5af9a65f48ed0919d14.jpg",
     "static/media/Mario-small.jpg": "/static/media/Mario-small.c8a271cd7555ea08ef57.jpg",
     "static/media/Wheel-resized-min.jpg": "/static/media/Wheel-resized-min.cda47c01434afd12c3a5.jpg",
-    "static/media/Wrestling-min.jpg": "/static/media/Wrestling-min.1e586d9576191c3d095f.jpg",
     "static/media/Hero Shot-min.jpg": "/static/media/Hero Shot-min.009f6b0fde4f02001caa.jpg",
     "static/media/IMG_6546-thumbnail.jpg": "/static/media/IMG_6546-thumbnail.9befb04d8f4c15904d10.jpg",
     "static/media/IMAG1089-resized-min.jpg": "/static/media/IMAG1089-resized-min.cc5b4552f2209aa7a11d.jpg",
@@ -236,6 +233,7 @@
     "static/media/New Hero Shot Photoshop Replacement-02-01-resized-min.jpg": "/static/media/New Hero Shot Photoshop Replacement-02-01-resized-min.25069805ca49fd52d8b9.jpg",
     "static/media/StudentFeedback.png": "/static/media/StudentFeedback.b3662885f810f6288a55.png",
     "static/media/Front Cover for Solo Major-min.png": "/static/media/Front Cover for Solo Major-min.4c50d5a3677119d1b657.png",
+    "static/media/Meta Email.png": "/static/media/Meta Email.012ddb18410803a41ed6.png",
     "static/media/Bottom-01-resized-min.png": "/static/media/Bottom-01-resized-min.4d0a024371621b895055.png",
     "static/media/Beak-min.jpg": "/static/media/Beak-min.53ecc53d6a3a8de79b09.jpg",
     "static/media/Small Note-min.jpg": "/static/media/Small Note-min.1225048ffc7bb8622896.jpg",
@@ -361,12 +359,12 @@
     "index.html": "/index.html",
     "static/media/Hamburger.svg": "/static/media/Hamburger.7ab380941805ef19c9a1.svg",
     "static/media/Close.svg": "/static/media/Close.be8946c25ad550399dad.svg",
-    "main.679af752.css.map": "/static/css/main.679af752.css.map",
-    "main.7973b484.js.map": "/static/js/main.7973b484.js.map",
+    "main.928a7d26.css.map": "/static/css/main.928a7d26.css.map",
+    "main.08f4cabd.js.map": "/static/js/main.08f4cabd.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.679af752.css",
-    "static/js/main.7973b484.js"
+    "static/css/main.928a7d26.css",
+    "static/js/main.08f4cabd.js"
   ]
 }
