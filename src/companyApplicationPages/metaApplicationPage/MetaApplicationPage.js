@@ -41,6 +41,7 @@ function MetaApplicationPage() {
             I’m excited about the opportunity to work with Reality Labs to define the future of AR/VR, combining creativity with cutting-edge technology.
           </p>
           <h2>Featured Projects</h2>
+
           <h3>Timie: Your AR Time Companion</h3>
           <p>
             <b>Role:</b> AR Interaction Designer 
@@ -58,13 +59,6 @@ function MetaApplicationPage() {
             Timie helps individuals with ADHD or poor planning habits manage their time by gamifying punctuality. Users race against a virtual version of themselves that is on time, turning time management into an engaging challenge.
           </p>
           <h4>Highlights</h4>
-          {/* <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul> */}
           <ul>
             <li>
               Problem: Chronic lateness due to leaving their house late. (Caused by poor task planning and underestimating how long they will take.)
@@ -149,9 +143,10 @@ function MetaApplicationPage() {
             <li>AR Interaction Design</li>
           </ul>
           <p>
-            Check out the project in more detail here!
+            Check out the project in more detail <Link to="/project/timie" target="_blank" rel="noopener noreferrer">here</Link>!
           </p>
           <hr/>
+
           <h3>Pool 2: Pool but you don’t have to wait your turn</h3>
           <p>
             <b>Role:</b> Solo indie game developer  
@@ -177,7 +172,6 @@ function MetaApplicationPage() {
               {/* [Screenshot of Joe Mama] */}
               <Video path={require("./../../assets/Pool2/AimBot-ezgif.com-resize-video.mp4")}/>
               <br/><br/>
-              {/* [Screenshot of Joe Mama] */}
             </li>
             <li>
               Outcome: Released a full game on Steam
@@ -211,14 +205,9 @@ function MetaApplicationPage() {
             <li>User testing</li>
           </ul>
           <p>
-            Check out the project in more detail here!
+            Check out the project in more detail <Link to="/project/pool-2" target="_blank" rel="noopener noreferrer">here</Link>!
           </p>
           <hr/>
-
-
-
-
-
 
           <h3>Library: A place where you can access the files you bought on MyMiniFactory</h3>
           <p>
@@ -243,13 +232,63 @@ function MetaApplicationPage() {
               <ul>
                 <li>
                   Conducted UX research by sending surveys and interviewing extreme users to collect qualitative and quantitative data on the existing library
+                  <br/><br/>
+                  <i><q>I now have Purchased, Campaigns AND Shared with me....why can't these be all together by designer?</q></i> - User 1
+                  <br/><br/>
+                  <i><q>Also let us search in our library so if I'm printing dwarves I can see what I already have on hand.</q></i> - User 2
+                  <br/><br/>
+
+                  <table>
+                    <tr>
+                      <th>Task</th>
+                      <th>Time</th>
+                    </tr>
+                    <tr>
+                      <td>Locate a specific object</td>
+                      <td> &gt; 1 minute</td>
+                    </tr>
+                    <tr>
+                      <td>Find files from a specific campaign</td>
+                      <td>20sec</td>
+                    </tr>
+                    <tr>
+                      <td>Find a specific release from a monthly subscription</td>
+                      <td>10sec</td>
+                    </tr>
+                    <tr>
+                      <td>Find a specific collection of files</td>
+                      <td>12sec</td>
+                    </tr>
+                  </table>
                 </li>
-                {/* [Quotes] */}
                 <li>
                   Design and tested UX prototypes with users on Figma and iterated the design
+                  <br/><br/>
+                  <img 
+                      src={require("./../../assets/Library/Library prototype.png")}
+                      alt="A clickable prototype of the new library interface"
+                  />
+                  <MultiColumn 
+                      columns = {[
+                          {
+                              image: {
+                                  url: require("./../../assets/Library/Overall Time Taken.png"),
+                                  alt: "Graphic showing the time decrease when using the library",
+                              },
+                              // title: "Time save",
+                              // body:"Tasks in the prototype took a third of the time they used to"
+                          },
+                          {
+                              image: {
+                                  url: require("./../../assets/Library/Rating.png"),
+                                  alt: "Graphic showing the customer satisfaction score from the old library to the prototype",
+                              },
+                              // title: "Customer satisfaction",
+                              // body:"Users felt better when using the final prototype"
+                          },
+                      ]}
+                  />
                 </li>
-                  {/* [Low fidelity mock up] */}
-                  {/* [Results] */}
                 <li>
                   Developed product specification documents for the tech team and QA
                 </li>
@@ -274,13 +313,9 @@ function MetaApplicationPage() {
             <li>Product roadmap and Agile</li>
           </ul>
           <p>
-            Check out the project in more detail here!
+            Check out the project in more detail <Link to="/project/library" target="_blank" rel="noopener noreferrer">here</Link>!
           </p>
-
-
-
-
-
+          <hr/>
 
           <h3>Customizer: Make money by selling customisable 3D designs</h3>
           <p>
@@ -288,10 +323,8 @@ function MetaApplicationPage() {
             <br/><br/>
             <b>Tools:</b> Adobe XD, HTML / CSS, Unity (C#)
           </p>
-          <img
-            src={require("./../../assets/Customizer/HeroImage.jpg")}
-            alt="A character created from the MyMiniFactory Customizer"
-          />
+          <Video path={require("./../../assets/Customizer/Customizer.mp4")}/>
+          
           <h4>Overview</h4>
           <p>
             The MyMiniFactory Customizer is a tool where a 3D designer can make money by selling customisable 3D designs.
@@ -301,28 +334,58 @@ function MetaApplicationPage() {
           <ul>
             <li>
               3D designers:
-              <ul>
-                <li>
-                Can upload multiple STL files that will be interchanged to make a single STL file
-                </li>
-                <li>
-                  Create the structure of the Customizer and tell the software which parts are interchangeable with other parts and how they join together
-                </li>
-              </ul>
+              <MultiColumn 
+                columns = {[
+                  {
+                    image: {
+                      url: require("./../../assets/Icons/Upload.png"),
+                      alt: "Upload icon",
+                      filters: ["invert(1)"]
+                    },
+                    title: "Upload STL files",
+                    body: "Can upload multiple STL files that will be interchanged to make a single STL file",
+                  },
+                  {
+                    image: {
+                      url: require("./../../assets/Icons/Jigsaw Pieces-cropped.png"),
+                      alt: "Jigsaw Icon",
+                      filters: ["invert(1)"]
+                    },
+                    title: "Create customizer structure",
+                    body: "Create the structure of the Customizer (which parts are interchangeable with other parts and how they join together)",
+                  },
+                ]}
+              />
             </li>
             <li>
               3D printer hobbyists:
-              <ul>
-                <li>
-                  Can use the tool to pick and choose parts to customise their designs
-                </li>
-              </ul>
+              <MultiColumn 
+                columns = {[
+                  {
+                    image: {
+                      url: require("./../../assets/Icons/Robot.png"),
+                      alt: "Robot icon",
+                      filters: ["invert(1)"]
+                    },
+                    title: "Customise",
+                    body: "Can use the tool to pick and choose parts to customise their designs",
+                  },
+                  {
+                    image: {
+                      url: require("./../../assets/Icons/Download.png"),
+                      alt: "Download Icon",
+                      filters: ["invert(1)"]
+                    },
+                    title: "Buy the customised file",
+                    body: "Pay for every customised file they download",
+                  },
+                ]}
+              />
             </li>
           </ul>
           <h4>Highlights</h4>
           <ul>
-            <li>Problem: Users on the platform are not happy about the library</li>
-            <li>Solution: Conduct UX research and redesign the library to make it more user friendly</li>
+            <li>Task: Create a interface where 3D designers can upload their own versions of a  customisable “Character Creator” but for any object</li>
             <li>
               Process:
               <ul>
@@ -330,15 +393,16 @@ function MetaApplicationPage() {
                   Analysed our competitors to see currently how other STL “Character Creators” work
                 </li>
                 <li>
-                  Brainstormed different interfaces to allow 3D designers to upload their files and create the structure of the Customizer
-                </li>
-                <li>
                   Made prototypes on paper and Unity to test the user flow, joining accuracy and make iterations
+                  <br/><br/>
                   <Video path={require("./../../assets/Customizer/PaperPrototype-ezgif.com-mute-video.mp4")}/>
+                  <br/><br/>
                   <Video path={require("./../../assets/Customizer/Joining-ezgif.com-mute-video.mp4")}/>
+                  <br/><br/>
                 </li>
                 <li>
                   Produced the final user flow diagrams and mockups and liaised with developers
+                  <br/><br/>
                   <Gallery
                     images={[
                         require("./../../assets/Customizer/Flowchart-min.png"),
@@ -352,12 +416,20 @@ function MetaApplicationPage() {
                 <li>
                   Communicated with stakeholders and coordinated the product launch within the cross functional team
                 </li>
+                <li>
+                  Produced documentation for how the Customizer technically works and future plans for the product
+
+                  {/* DOCS */}
+                </li>
               </ul>
             </li>
             <li>
               Outcome: Lauched the Customizer on MyMiniFactory.com (50,000 downloads 100,000+ views)
               <br/><br/>
-              <Video path={require("./../../assets/Customizer/Customizer.mp4")}/>
+              <img
+                src={require("./../../assets/Customizer/HeroImage.jpg")}
+                alt="A character created from the MyMiniFactory Customizer"
+              />
             </li>
           </ul>
           <h4>Key skills</h4>
@@ -367,9 +439,15 @@ function MetaApplicationPage() {
             <li>UX/UI Prototyping</li>
           </ul>
           <p>
-            Check out the project in more detail here!
+            Check out the project in more detail <Link to="/project/customizer" target="_blank" rel="noopener noreferrer">here</Link>!
           </p>
-          {/* <MultiColumn 
+          <hr/>
+          <h2>Skills & Projects</h2>
+          <h3>Product Launch and Leading Cross-Functional Teams</h3>
+          <p>
+            Projects showcasing my leadership in cross-functional environments and commercial product launches:
+          </p>
+          <MultiColumn 
             columns = {[
               {
                 image: {
@@ -377,7 +455,7 @@ function MetaApplicationPage() {
                   alt: "The FronTiers Logo overlayed on a FronTiers page",
                 },
                 title: "FronTiers",
-                body: "A product launch tool for 3D designers",
+                body: "Spearheaded a project from prototype to launch, generating $50,000/month in revenue.",
                 link: {
                   internalLinkTo: "/project/frontiers",
                   target: "_blank"
@@ -392,62 +470,37 @@ function MetaApplicationPage() {
                   alt: "A character created from the MyMiniFactory Customizer",
                 },
                 title: "Customizer",
-                body: "A tool where a 3D designer can make money by selling customisable 3D designs",
-                link:{
+                body: "Designed and developed a web-based tool for 3D printing, achieving 50,000 downloads.",
+                link: {
                   internalLinkTo: "/project/customizer",
                   target: "_blank"
                 }
               },
             ]}
-          /> */}
-          <h2>Physical Making</h2>
-          <p>
-            Outside of the digital world, I am also good with engineering and mechanisms. 
-            <br/><br/>
-            I can manufacture and make prototypes/ products in a workshop using wood and metal. I can also 3D model and produce engineering drawings.
-            <br/><br/>
-            Here are my proudest wood and metal working projects:
-          </p>
-          <MultiColumn 
+          />
+          {/* <MultiColumn 
             columns = {[
               {
-                video: {
-                  url: require("./../../assets/Coinbox/02-FinalMontage-ezgif.com-resize-video.mp4"),
-                },
                 image: {
-                  url: require("./../../assets/Coinbox/Hero Shot-min.jpg"),
-                  alt: "Felix with his coinbox",
+                  url: require("./../../assets/Library/Hero Image.png"),
+                  alt: "A mockup of the finalised new library design",
                 },
-                title: "Coinbox",
-                body: "A physical Super Mario Bros Coinbox replica submitted as a part of Level-up competition hosted by the Imperial Hackspace",
+                title: "Library",
+                body: "Overhauled the platform's library feature, improving file discoverability and user satisfaction.",
                 link: {
-                  internalLinkTo: "/project/coinbox",
-                  target: "_blank"
-                }
-              },
-              {
-                image: {
-                  url: require("./../../assets/Scooter/IMG-20150203-WA0006-resized-min.jpg"),
-                  alt: "The inner workings of our ME2 electric scooter as a part of Mechanical Engineering at Imperial College",
-                },
-                title: "ME2 Scooter Project",
-                body: "Transformation of a push scooter to an electric scooter",
-                link: {
-                  internalLinkTo: "/project/me2-scooter-project",
+                  internalLinkTo: "/project/library",
                   target: "_blank"
                 }
               },
             ]}
-          />
-          <h2>Product Design and solving problems</h2>
+          /> */}
+          <h3>Leveraging ML/AI Models (Coming Soon)</h3>
           <p>
-            I’m also curious and inquisitive, I like to learn about the world and solve problems.
-            <br/><br/>
-            It is a dream of mine to invent a product that changes the world for good.
-            <br/><br/>
-            The area I am particularly passionate about is education and assistive technology. Maybe because I was diagnosed with Dyslexia in my final year of university and at the time, I did not cope well with my studies.
-            <br/><br/>
-            Here are my projects which focus on education and assistive technology, finding the problem, experimentation and finding solutions for those problems:
+            Coming Soon...
+          </p>
+          <h3>Interaction, Prototyping, and Design Skills</h3>
+          <p>
+            Examples of projects where I prototyped and designed user interactions:
           </p>
           <MultiColumn 
             columns = {[
@@ -465,40 +518,50 @@ function MetaApplicationPage() {
               },
               {
                 image: {
+                  url: require("./../../assets/Firefly/Awesome Photo-resized-min.jpg"),
+                  alt: "Firefly directing crowds by projecting arrows",
+                },
+                title: "Firefly",
+                body: "A dynamic crowd management system using visual (projected arrows) and audio cues to help security personnel efficiently guide crowds at pop-up venues.",
+                link: {
+                  internalLinkTo: "/project/firefly",
+                  target: "_blank"
+                }
+              },
+            ]}
+          />
+          {/* <MultiColumn 
+            columns = {[
+              {
+                image: {
                   url: require("./../../assets/Timie/Timie EXP Pictures-05 2-05-05 1-resized-min.jpg"),
                   alt: "A prototype smart watch and app to help you be on time",
                 },
                 title: "Timie",
-                body: "Your Personal Time Companion",
+                body: "A gamified time management tool that uses AR concepts and physical prototyping to help users plan tasks and stay on time.",
                 link: {
                   internalLinkTo: "/project/timie",
                   target: "_blank"
                 }
               },
             ]}
-          />
-          <h2>Games</h2>
+          /> */}
+          <h3>Coding in Unity with C#</h3>
           <p>
-            Video games are a big part of my life.
-            <br/><br/>
-            I love creating and participating in creative, novel interactive experiences. 
-            <br/><br/>
-            Currently I am developing my own Indie game and my goal is to sell it as a product.
-            <br/><br/>
-            Here is the game I am working on and one I’ve made in the past:
+            Projects demonstrating my experience building interactive experiences in Unity:
           </p>
           <MultiColumn 
             columns = {[
               {
                 video: {
-                  url: require("./../../assets/Pool2/Pool2Gameplay12Seconds-ezgif.com-resize-video.mp4"),
+                  url: require("./../../assets/Pool2/TableMontage-ezgif.com-resize-video.mp4"),
                 },
                 image: {
                   url: require("./../../assets/Pool2/Heroshot-min.jpg"),
                   alt: "A screenshot of the Pool 2 game",
                 },
                 title: "Pool 2",
-                body: "A game of pool, but each player has their own cue ball and shots happen in real time",
+                body: "An indie game published on Steam, showcasing my end-to-end skills in Unity development, gameplay design, and shipping a commercial product",
                 link: {
                   internalLinkTo: "/project/pool-2",
                   target: "_blank"
@@ -521,36 +584,17 @@ function MetaApplicationPage() {
               },
             ]}
           />
-          <h2>Sports</h2>
+          <hr/>
+          <h2>Why I’m Excited About Reality Labs</h2>
           <p>
-            Outside of making things, I enjoy doing sports!
+            Three years ago, I had the privilege of being contacted by Reality Labs for this exact role. Although I wasn’t ready to transition at the time, the opportunity left a lasting impression. 
             <br/><br/>
-            Currently I am playing Kabaddi and Wrestling. 
+            Since then, I’ve focused on refining my skills in prototyping, interaction design, and Unity development to align even more closely with the work your team is doing.
+            <br/><br/>
+            This role represents the perfect next step in my career, and I’m excited to contribute my creativity and technical expertise to shape the future of AR/VR interactions.
+            <br/><br/>
+            Let’s connect—I’d love to discuss how my skills and passion can bring value to Reality Labs.
           </p>
-          <MultiColumn 
-            columns = {[
-              {
-                image: {
-                  url: require("./../../assets/Sports/Dabang Delhi-min.jpg"),
-                  alt: "Felix Li and Mohit in Pro Kabaddi League Season 10",
-                },
-                title: "Kabaddi",
-                body: "Just came back from India having participated in the Pro Kabaddi League Seaon 10 as a professional Kabaddi player!",
-                link: {
-                  url:"https://www.instagram.com/p/C40P2gKpbGU/",
-                  target: "_blank"
-                }
-              },
-              {
-                image: {
-                  url: require("./../../assets/Sports/Wrestling-min.jpg"),
-                  alt: "Felix training at London Fight Factory",
-                },
-                title: "Wrestling",
-                body: "Looking to start competing in June!",
-              },
-            ]}
-          />
           <h2>Thank you!</h2>
           <p>
             Overall, my process is to find opportunities and problems to solve!

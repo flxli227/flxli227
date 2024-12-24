@@ -48,6 +48,10 @@
   line-height: var(---line-height-body);
 }
 
+.markdownContainer q { 
+  color: var(---color-highlight-2);
+}
+
 .markdownContainer img{
   max-width: 100%;
   max-height: 100vh;
@@ -83,12 +87,38 @@
 }
 
 .markdownContainer ul{
+  box-sizing: border-box;
   width: 100%;
   font-size: var(---font-size-body);
   color: var(---color-text);
   margin-top: 0;
   margin-bottom: var(---spacing-medium);
   line-height: var(---line-height-body);
+}
+
+.markdownContainer table {
+  border-collapse: collapse;
+  color: var(---color-text);
+  margin-bottom: var(---spacing-medium);
+}
+
+/* Boarder and lines */
+.markdownContainer table, 
+.markdownContainer th, 
+.markdownContainer td{
+  border: 1px solid;
+}
+
+/* Styles for the cells */
+.markdownContainer th, 
+.markdownContainer td{
+  padding: var(---spacing-micro);
+}
+
+.markdownContainer hr{
+  width: 100%;
+  border-color: var(---color-text-2);
+  margin: 0;
 }
 
 /* Gallery Styles */
