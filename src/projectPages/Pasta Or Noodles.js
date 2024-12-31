@@ -9,7 +9,7 @@ function PastaOrNoodles() {
                 <br/><br/>
                 (The code is modified from “Is it a bird? Creating a model from your own data” by Jeremy Howard.)
                 <br/><br/>
-                Check out the Kaggle Notebook for the Pasta or Noodle <a href="https://www.kaggle.com/code/flxli227/is-it-a-pasta-or-noodle/" target="_blank" rel="noreferrer">here</a> !
+                Check out the Kaggle Notebook for the Pasta or Noodle <a href="https://www.kaggle.com/code/flxli227/is-it-a-pasta-or-noodle/" target="_blank" rel="noreferrer">here</a>!
                 <br/><br/>
                 Test the model <a href="https://huggingface.co/spaces/flxli227/Pasta_or_Noodles" target="_blank" rel="noreferrer">here</a>  yourself!
             </p>
@@ -88,7 +88,7 @@ function PastaOrNoodles() {
             </p>
             <h3>Final model</h3>
             <p>
-                The model is still not perfect but it’s the best it has been at 7.9% accuracy.
+                The model is still not perfect, but it’s the best it has been at 7.9% accuracy.
             </p>
             <img 
                 src={require("./../assets/Pasta or Noodles/Error.png")}
@@ -105,17 +105,17 @@ function PastaOrNoodles() {
                 <br/><br/>
                 I think the real solution would be to train the model on more images of pasta and noodles in packaging or precooked.
             </p>
-            <h4>Include different types of pasta an noodles</h4>
+            <h4>Include different types of pasta and noodles</h4>
             <p>
                 I think I could still improve the model by training it with more data. I would also insure the data has a variety of different pasta shapes (macaroni, fusilli and spagehtti), and colours (such as white sauce or red sauce).
             </p>
             <h4>Include augmented Images</h4>
             <p>
-                I could use multiple instance of the same image of pasta or noodles but slightly augmented so the model recognises the shapes and colours which are used to make the distinction between pasta and noodles.
+                I could use multiple instances of the same image of pasta or noodles but slightly augmented so the model recognises the shapes and colours that are used to make the distinction between pasta and noodles.
             </p>
             <h2>Conclusion</h2>
             <p>
-                This is my first time training a model so I am still getting to grips with it but overall I am happy with the results. I feel confident in making image classifiers in the future.
+                This is my first time training a model, so I am still getting to grips with it, but overall I am happy with the results. I feel confident in making image classifiers in the future.
             </p>
         </>
     )
