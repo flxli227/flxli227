@@ -175,9 +175,12 @@ function Pool2() {
             <MultiColumn 
                 columns = {[
                     {
-                        // TODO INSERT IMAGE
                         video: {
                             url: require("./../assets/Pool2/Pool100-ezgif.com-mute-video.mp4"),
+                        },
+                        image: {
+                            url: require("./../assets/Pool2/Pool100Screenshot-ezgif.com-resize.jpg"),
+                            alt: "Sink 'em all mode Pool 2 table set up"
                         },
                         title: "Sink ‘em All",
                         body: "A game mode where everyone sinks the same set of balls."
@@ -186,11 +189,10 @@ function Pool2() {
                         video: {
                             url: require("./../assets/Pool2/TimeTrial-ezgif.com-mute-video.mp4"),
                         },
-                        // TODO INSERT IMAGE
-                        // image: {
-                        //     url: require("./../assets/Not-Book/Prototype Screenshots-01.png"),
-                        //     alt: "A screenshot of Not-Book, the interactive learning platform"
-                        // },
+                        image: {
+                            url: require("./../assets/Pool2/TimeTrialScreenshot-ezgif.com-resize.jpg"),
+                            alt: "A screenshot of time in time trial mode"
+                        },
                         title: "Time trial mode",
                         body: "A mode where you try and beat your own time." 
                         //  (I’ll probably add an online leader board as downloadable content in the future)
