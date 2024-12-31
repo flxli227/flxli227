@@ -168,7 +168,7 @@ function MetaApplicationPage() {
           </p>
           <img
               src={require("./../../assets/Pool2/SteamStore-ezgif.com-png-to-jpg-converter.jpg")}
-              alt="Screenshot of the Steam Store"
+              alt="Steam Store"
           />
           <MultiColumn 
               columns = {[
@@ -217,7 +217,7 @@ function MetaApplicationPage() {
               <br/><br/>
               <img 
                   src={require("./../../assets/Pasta or Noodles/DataBlock-min.png")}
-                  alt="A image of some of the training data"
+                  alt="Some of the training data used"
               />
             </li>
             <li>
@@ -235,7 +235,7 @@ function MetaApplicationPage() {
           </p>
           <img 
               src={require("./../../assets/Pasta or Noodles/HeroImage2-ezgif.com-png-to-jpg-converter.jpg")}
-              alt="Example of pasta and image classified"
+              alt="A example of pasta and noodles classified"
           />
           <h4>Takeaway</h4>
           <p>
