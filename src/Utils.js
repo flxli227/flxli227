@@ -63,12 +63,12 @@ export const projectsData= [
     {
         id: 16,
         name: "Pasta or Noodles",
-        imageURL: require("./assets/Pasta or Noodles/Hero Image 2.png"),
+        imageURL: require("./assets/Pasta or Noodles/HeroImage2-ezgif.com-png-to-jpg-converter.jpg"),
         imageAlt: "Pasta or Noodle Hero Image",
         year: "2024",
         tags: ["Machine Learning", "Coding"],
         titleVideoOverride: {
-            localFileLocation: require("./assets/Pasta or Noodles/PastaOrNoodle.mp4"),
+            localFileLocation: require("./assets/Pasta or Noodles/PastaOrNoodle-ezgif.com-resize-video.mp4"),
         },
         body: "A playful machine learning tool which tells you if an image is pasta or noodles",
     },

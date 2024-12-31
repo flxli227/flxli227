@@ -276,11 +276,11 @@ function Pool2() {
             />
             <h2>Launch and reception</h2>
             <img
-                src={require("./../assets/Pool2/Steam Store.png")}
+                src={require("./../assets/Pool2/SteamStore-ezgif.com-png-to-jpg-converter.jpg")}
                 alt="Screenshot of the Steam Store"
             />
             <img
-                src={require("./../assets/Pool2/Demo and Buy.png")}
+                src={require("./../assets/Pool2/Demo and Buy-min.png")}
                 alt="Screenshot of the Steam Store download demo and buy button"
             />
             <p>

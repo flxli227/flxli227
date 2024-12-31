@@ -167,7 +167,7 @@ function MetaApplicationPage() {
             Released a full game on Steam
           </p>
           <img
-              src={require("./../../assets/Pool2/Steam Store.png")}
+              src={require("./../../assets/Pool2/SteamStore-ezgif.com-png-to-jpg-converter.jpg")}
               alt="Screenshot of the Steam Store"
           />
           <MultiColumn 
@@ -201,7 +201,7 @@ function MetaApplicationPage() {
           <p>
             <b>Tools:</b> Python, Kaggle, PyTorch, Jupyter Notebook
           </p>
-          <Video path={require("./../../assets/Pasta or Noodles/PastaOrNoodle.mp4")}/>
+          <Video path={require("./../../assets/Pasta or Noodles/PastaOrNoodle-ezgif.com-resize-video.mp4")}/>
           <h4>Overview</h4>
           <p>
             Prototyped a playful ML tool to classify images as either pasta or noodles, exploring the application of machine learning in real-world scenarios.
@@ -216,7 +216,7 @@ function MetaApplicationPage() {
               Trained a model using Pytorch with labeled images of pasta and noodles.
               <br/><br/>
               <img 
-                  src={require("./../../assets/Pasta or Noodles/DataBlock.png")}
+                  src={require("./../../assets/Pasta or Noodles/DataBlock-min.png")}
                   alt="A image of some of the training data"
               />
             </li>
@@ -234,7 +234,7 @@ function MetaApplicationPage() {
             Delivered a functional classifier and gained hands-on experience with ML workflows, including data preparation, training, and testing.
           </p>
           <img 
-              src={require("./../../assets/Pasta or Noodles/Hero Image 2.png")}
+              src={require("./../../assets/Pasta or Noodles/HeroImage2-ezgif.com-png-to-jpg-converter.jpg")}
               alt="Example of pasta and image classified"
           />
           <h4>Takeaway</h4>
@@ -540,10 +540,10 @@ function MetaApplicationPage() {
             columns = {[
               {
                 video: {
-                  url: require("./../../assets/Pasta or Noodles/PastaOrNoodle.mp4"),
+                  url: require("./../../assets/Pasta or Noodles/PastaOrNoodle-ezgif.com-resize-video.mp4"),
                 },
                 image: {
-                  url: require("./../../assets/Pasta or Noodles/Hero Image 2.png"),
+                  url: require("./../../assets/Pasta or Noodles/HeroImage2-ezgif.com-png-to-jpg-converter.jpg"),
                   alt: "A screenshot of Not-Book, the interactive learning platform",
                 },
                 title: "Pasta or Noodles",

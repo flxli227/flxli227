@@ -20,7 +20,7 @@ function PastaOrNoodles() {
                 Then I resized the images to save space and put the images in their respective pasta or noodles folders.
             </p>
             <img 
-                src={require("./../assets/Pasta or Noodles/DataBlock.png")}
+                src={require("./../assets/Pasta or Noodles/DataBlock-min.png")}
                 alt="Some of the training data used"
             />
             <h2>Training the model</h2>
@@ -38,7 +38,7 @@ function PastaOrNoodles() {
                 While testing, I found it sometimes struggled to identify Ho Fun, (a certain type of Chinese Noodle) as a noodle. So I added DuckDuckGo searches of “Ho Fun” and “Spaghetti” to the training data.
             </p>
             <img 
-                src={require("./../assets/Pasta or Noodles/HoFun Error.png")}
+                src={require("./../assets/Pasta or Noodles/HoFun Error-min.png")}
                 alt="The model classifying HoFun as a pasta"
             />
             <h3>2nd iteration</h3>
