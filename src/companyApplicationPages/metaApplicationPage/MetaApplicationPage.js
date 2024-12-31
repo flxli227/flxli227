@@ -669,7 +669,7 @@ function MetaApplicationPage() {
               Let's have a chat!
             </a>
             <br/><br/>
-            <a href="Felix Li - Meta Product Design Prototyper CV" download>
+            <a href="Felix Li - Meta Product Design Prototyper CV.pdf" download>
               Download my CV!
             </a>
             <br/><br/>
