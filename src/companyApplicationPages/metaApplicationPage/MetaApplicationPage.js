@@ -493,7 +493,7 @@ function MetaApplicationPage() {
                   alt: "The FronTiers Logo overlayed on a FronTiers page",
                 },
                 title: "FronTiers",
-                body: "Spearheaded a project from prototype to launch, generating $50,000/month in revenue.",
+                body: "Designed, led and launched a product from conception, generating $50,000/month in revenue and saving 6 staff workday per campaign.",
                 link: {
                   internalLinkTo: "/project/frontiers",
                   target: "_blank"
@@ -508,7 +508,7 @@ function MetaApplicationPage() {
                   alt: "A character created from the MyMiniFactory Customizer",
                 },
                 title: "Customizer",
-                body: "Designed and developed a web-based tool for 3D printing, achieving 50,000 downloads.",
+                body: "Designed and developed a web-based tool for customisable 3D files, achieving 50,000 downloads.",
                 link: {
                   internalLinkTo: "/project/customizer",
                   target: "_blank"
@@ -547,7 +547,7 @@ function MetaApplicationPage() {
                   alt: "A screenshot of Not-Book, the interactive learning platform",
                 },
                 title: "Pasta or Noodles",
-                body: "A playful ML tool to distinguish between pictures of Pasta or Noodles",
+                body: "Trained and launched playful ML tool to distinguish between pictures of Pasta or Noodles.",
                 link: {
                   internalLinkTo: "/project/pasta-or-noodles",
                   target: "_blank"
@@ -567,7 +567,7 @@ function MetaApplicationPage() {
                   alt: "A screenshot of Not-Book, the interactive learning platform",
                 },
                 title: "Notbook",
-                body: "An interactive learning platform where you learn by playing",
+                body: "An interactive learning platform where you learn by playing.",
                 link: {
                   internalLinkTo: "/project/notbook",
                   target: "_blank"
@@ -618,7 +618,7 @@ function MetaApplicationPage() {
                   alt: "A screenshot of the Pool 2 game",
                 },
                 title: "Pool 2",
-                body: "An indie game published on Steam, showcasing my end-to-end skills in Unity development, gameplay design, and shipping a commercial product",
+                body: "An indie game published on Steam, showcasing my end-to-end skills in Unity development, gameplay design, and shipping a commercial product.",
                 link: {
                   internalLinkTo: "/project/pool-2",
                   target: "_blank"
@@ -633,7 +633,7 @@ function MetaApplicationPage() {
                   alt: "A screenshot of Awsome per Second the game",
                 },
                 title: "Awesome Per Second",
-                body: "An Extra Credits Game Jam Entry about my experence of making my first game",
+                body: "An Extra Credits Game Jam Entry about my experence of making my first game.",
                 link: {
                   internalLinkTo: "/project/Awesome-Per-Second",
                   target: "_blank"
