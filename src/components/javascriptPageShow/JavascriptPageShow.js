@@ -12,6 +12,7 @@ import Library from '../../projectPages/Library';
 import ME2ScooterProject from '../../projectPages/ME2 Scooter Project';
 import NewSpawnBaby from '../../projectPages/New Spawn Baby';
 import Notbook from '../../projectPages/NotBook';
+import PastaOrNoodles from '../../projectPages/Pasta Or Noodles.js';
 import Pool2 from '../../projectPages/Pool 2';
 import Superform from '../../projectPages/Superform';
 import SurrealDream from '../../projectPages/Surreal Dream';
@@ -44,6 +45,8 @@ class JavascriptPageShow extends Component {
       return <NewSpawnBaby/>  
     } else if(projectName === "Notbook"){
       return <Notbook/>  
+    } else if(projectName === "Pasta or Noodles"){
+      return <PastaOrNoodles/>  
     } else if(projectName === "Pool 2"){
       return <Pool2/>  
     } else if(projectName === "Superform"){

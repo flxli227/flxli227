@@ -197,6 +197,59 @@ function MetaApplicationPage() {
           </p>
           <hr/>
 
+          <h3>Pasta vs. Noodles: Exploring ML for Image Classification</h3>
+          <p>
+            <b>Tools:</b> Python, Kaggle, PyTorch, Jupyter Notebook
+          </p>
+          <Video path={require("./../../assets/Pasta or Noodles/PastaOrNoodle.mp4")}/>
+          <h4>Overview</h4>
+          <p>
+            Prototyped a playful ML tool to classify images as either pasta or noodles, exploring the application of machine learning in real-world scenarios.
+          </p>
+          <h4>Challenge</h4>
+          <p>
+            Understanding and fine-tuning image classification models while working with a custom dataset of food images.
+          </p>
+          <h4>Process</h4>
+          <ul>
+            <li>
+              Trained a model using Pytorch with labeled images of pasta and noodles.
+              <br/><br/>
+              <img 
+                  src={require("./../../assets/Pasta or Noodles/DataBlock.png")}
+                  alt="A image of some of the training data"
+              />
+            </li>
+            <li>
+              Iteratively improved the model’s accuracy by refining the dataset
+              <br/><br/>
+              <img 
+                  src={require("./../../assets/Pasta or Noodles/Error.png")}
+                  alt="Pasta or Noodles training data"
+              />
+            </li>
+          </ul>
+          <h4>Outcome</h4>
+          <p>
+            Delivered a functional classifier and gained hands-on experience with ML workflows, including data preparation, training, and testing.
+          </p>
+          <img 
+              src={require("./../../assets/Pasta or Noodles/Hero Image 2.png")}
+              alt="Example of pasta and image classified"
+          />
+          <h4>Takeaway</h4>
+          <p>
+            Deepened my understanding of ML prototyping and identified opportunities for integrating ML tools into future AR/VR experiences.
+          </p>
+          <h4>Key skills</h4>
+          <ul>
+            <li>Protoyping with Machine Learning</li>
+          </ul>
+          <p>
+            Check out the project in more detail <Link to="/project/pasta-or-noodles" target="_blank" rel="noopener noreferrer">here</Link>!
+          </p>
+          <hr/>
+
           <h3>Library: A place where you can access the files you bought on MyMiniFactory</h3>
           <p>
             <b>Role:</b> UX/UI designer, Project Owner 
@@ -479,10 +532,29 @@ function MetaApplicationPage() {
               },
             ]}
           /> */}
-          <h3>Leveraging ML/AI Models (Coming Soon)</h3>
+          <h3>Leveraging ML/AI Models</h3>
           <p>
-            Coming Soon...
+            Projects where I prototyped with Machine Learning:
           </p>
+          <MultiColumn 
+            columns = {[
+              {
+                video: {
+                  url: require("./../../assets/Pasta or Noodles/PastaOrNoodle.mp4"),
+                },
+                image: {
+                  url: require("./../../assets/Pasta or Noodles/Hero Image 2.png"),
+                  alt: "A screenshot of Not-Book, the interactive learning platform",
+                },
+                title: "Pasta or Noodles",
+                body: "A playful ML tool to distinguish between pictures of Pasta or Noodles",
+                link: {
+                  internalLinkTo: "/project/pasta-or-noodles",
+                  target: "_blank"
+                }
+              },
+            ]}
+          />
           <h3>Interaction, Prototyping, and Design Skills</h3>
           <p>
             Examples of projects where I prototyped and designed user interactions:

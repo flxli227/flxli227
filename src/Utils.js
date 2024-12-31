@@ -52,10 +52,26 @@ export const tags=[
     //     id:11,
     //     name: "Coding",
     // },
+    {
+        id:12,
+        name: "Machine Learning",
+    },
 ]
 
 //Projects data
 export const projectsData= [
+    {
+        id: 16,
+        name: "Pasta or Noodles",
+        imageURL: require("./assets/Pasta or Noodles/Hero Image 2.png"),
+        imageAlt: "Pasta or Noodle Hero Image",
+        year: "2024",
+        tags: ["Machine Learning", "Coding"],
+        titleVideoOverride: {
+            localFileLocation: require("./assets/Pasta or Noodles/PastaOrNoodle.mp4"),
+        },
+        body: "A playful machine learning tool which tells you if an image is pasta or noodles",
+    },
     {
         id: 15,
         name: "Pool 2",
